@@ -1,0 +1,208 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ------------------------------------------------------------------ *
+ * Pantheus theme — monochrome + one whisper accent (oxblood).
+ * Raw brand tokens live in :root; shadcn's semantic tokens are remapped
+ * onto them so the primitives (Sheet, Tooltip, Button) inherit the look.
+ * Dark mode is a later token swap — structure is here, UI is not built.
+ * ------------------------------------------------------------------ */
+
+@theme inline {
+  /* Brand utilities -> Tailwind classes (bg-paper, text-ink, border-line, …) */
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-section: var(--section);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted-ink: var(--muted-ink);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-grid: var(--grid);
+  --color-accent-text: var(--accent-text);
+
+  --font-display: var(--font-manrope);
+  --font-sans: var(--font-manrope);
+  --font-heading: var(--font-manrope);
+  --font-mono: var(--font-geist-mono);
+
+  /* shadcn semantic tokens (kept so primitives keep working) */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+:root {
+  /* --- Pantheus brand tokens (hex; convert to OKLCH later if desired) --- */
+  --paper: #f5f4f0; /* warm off-white page bg */
+  --surface: #faf9f6; /* elevated surfaces / cards */
+  --section: #ecebe6; /* alternating section bands */
+  --ink: #1e1e1e; /* primary text, wordmark, solid buttons */
+  --ink-soft: #5a5954; /* secondary text */
+  --muted-ink: #8b8a84; /* captions, eyebrows, tertiary */
+  --line: #e2e1db; /* hairlines, borders */
+  --line-strong: #d2d1ca; /* active / structural rules */
+  --grid: #ecebe6; /* aura grid lines (very faint) */
+  --accent: #7a2e2e; /* whisper accent — oxblood */
+  --accent-text: #6b2626; /* darker oxblood for small accent text (AA on paper) */
+
+  /* --- shadcn semantic tokens mapped to brand --- */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--surface);
+  --card-foreground: var(--ink);
+  --popover: var(--surface);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: var(--paper);
+  --secondary: var(--section);
+  --secondary-foreground: var(--ink);
+  --muted: var(--section);
+  --muted-foreground: var(--ink-soft);
+  --accent-foreground: var(--paper);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--accent);
+  --radius: 0.25rem;
+}
+
+/* Dark mode placeholder — NOT built in v1. Flipping these vars later
+   re-themes the whole site with no markup changes. */
+.dark {
+  --paper: #161616;
+  --surface: #1e1e20;
+  --section: #1a1a1c;
+  --ink: #ececea;
+  --ink-soft: #a8a8ad;
+  --muted-ink: #6b6b70;
+  --line: #2c2c2e;
+  --line-strong: #3a3a3d;
+  --grid: #2b2b2e;
+  --accent: #b06a5a;
+  --accent-text: #c98a7a;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--accent) 18%, transparent);
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Hero aura — lit structural grid (CSS only, no WebGL). Monochrome:
+ * a faint blueprint grid with a slow brighter sweep drifting across it.
+ * ------------------------------------------------------------------ */
+.aura-grid {
+  background-image:
+    linear-gradient(to right, var(--grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(
+    ellipse 78% 62% at 50% 36%,
+    #000 26%,
+    transparent 76%
+  );
+  mask-image: radial-gradient(
+    ellipse 78% 62% at 50% 36%,
+    #000 26%,
+    transparent 76%
+  );
+}
+
+.aura-sweep {
+  background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0) 72%
+  );
+  filter: blur(6px);
+  animation: aura-drift 22s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes aura-drift {
+  0% {
+    transform: translate3d(-12%, -6%, 0) scale(1.15);
+  }
+  100% {
+    transform: translate3d(16%, 10%, 0) scale(1.4);
+  }
+}
+
+@media (max-width: 640px) {
+  .aura-sweep {
+    opacity: 0.5;
+  }
+  .aura-grid {
+    background-size: 40px 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aura-sweep {
+    animation: none;
+  }
+}
+
+/* On dark sections the full-strength white sweep reads as a harsh spotlight.
+   Dim + soften it into a quiet ambient glow so the blueprint grid carries the
+   atmosphere, matching the restraint of the light sections. */
+.dark .aura-sweep {
+  background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.12),
+    rgba(255, 255, 255, 0) 70%
+  );
+  filter: blur(20px);
+}
+
+/* Hairline underline-draw on hover/focus — oxblood whisper. */
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 1px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.link-underline:hover::after,
+.link-underline:focus-visible::after {
+  transform: scaleX(1);
+}

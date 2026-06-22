@@ -1,0 +1,81 @@
+{
+  "Meta": {
+    "title": "Pantheus — Custom ERP for Vietnamese manufacturing",
+    "description": "Custom ERP for Vietnamese manufacturing — built around how you work, running on your own ground, answering your questions."
+  },
+  "Nav": {
+    "approach": "Approach",
+    "contact": "Contact",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "Hero": {
+    "headlineLead": "Your factory doesn't <hl>fit</hl> a template.",
+    "headlineTurn": "Your ERP shouldn't either.",
+    "subhead": "Custom ERP for Vietnamese manufacturing — built around how you actually work. On your servers. Answering your questions.",
+    "cta": "Book a consultation",
+    "tagline": "The foundation your operations stand on."
+  },
+  "Problem": {
+    "heading": "Running on spreadsheets and guesswork.",
+    "body": "“How many of this model can I build right now?” With spreadsheets, that question takes hours — and the answer is already out of date. No single source of truth, no view of supplier quality, inventory lost to manual error."
+  },
+  "Pillars": {
+    "builtAroundYou": {
+      "label": "Built around you",
+      "headline": "Your process is the spec.",
+      "body": "We don't bend your factory to fit the software. We shape the software around how your factory already runs — and you own it outright, with no per-seat subscription."
+    },
+    "runsOnYourGround": {
+      "label": "Runs on your ground",
+      "headline": "Your data never leaves the building.",
+      "body": "On-premise and offline-capable. Full control, no cloud dependency, no recurring hosting fees — it keeps working when the internet doesn't."
+    },
+    "outcomes": {
+      "label": "Outcomes, not modules",
+      "headline": "Every feature ties to a number you care about.",
+      "body": "We start from your bottleneck, not a feature list — inventory loss down, stoppages avoided, working capital freed. If it doesn't move a number, we don't build it."
+    },
+    "builtForTheFloor": {
+      "label": "Built for the floor",
+      "headline": "Simple enough for everyone to actually use.",
+      "body": "Adoption is where ERP projects die. Designed for non-technical workers: minimal training, fast onboarding, clean data from day one."
+    },
+    "askYourFactory": {
+      "label": "Ask your factory",
+      "headline": "Ask in plain language. Get a real answer.",
+      "body": "AI that turns operations data into decisions. “How many can I ship this week?” “Which supplier costs me most in defects?” — answered, without reading a dashboard."
+    }
+  },
+  "Process": {
+    "heading": "How we work.",
+    "step1": {
+      "title": "Understand",
+      "body": "We study your operation and find the bottleneck that costs you most."
+    },
+    "step2": {
+      "title": "Build",
+      "body": "We ship a system that solves it, shaped around your real process."
+    },
+    "step3": {
+      "title": "Grow",
+      "body": "We extend it as you scale, on your terms."
+    }
+  },
+  "Audience": {
+    "heading": "Who it's for.",
+    "body": "Manufacturing SMEs outgrowing spreadsheets — ready for a system that fits, not a template to wrestle with."
+  },
+  "Closing": {
+    "heading": "Let's build the system your factory deserves.",
+    "subline": "No template. No lock-in. Just a system built for you.",
+    "cta": "Book a consultation"
+  },
+  "Footer": {
+    "wordmarkLine": "Pantheus — ERP for manufacturing, built around you.",
+    "tagline": "The foundation your operations stand on.",
+    "approach": "Approach",
+    "contact": "Contact",
+    "copyright": "© 2026 Pantheus"
+  }
+}
