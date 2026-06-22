@@ -13,7 +13,7 @@ export default async function Problem() {
   const rest = match?.[2] ?? body;
 
   return (
-    <section className="bg-section">
+    <section className="bg-paper">
       <div className={`${CONTAINER} py-24 sm:py-32`}>
         <div className="grid gap-10 lg:grid-cols-12">
           <Reveal className="lg:col-span-5">

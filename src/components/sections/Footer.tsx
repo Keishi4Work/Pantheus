@@ -1,6 +1,5 @@
 import { getTranslations } from "next-intl/server";
 import Wordmark from "@/components/marks/Wordmark";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const CONTAINER = "mx-auto w-full max-w-6xl px-6 sm:px-10 lg:px-16";
 
@@ -21,20 +20,17 @@ export default async function Footer() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-5 md:items-end">
-            <nav className="flex items-center gap-5 font-mono text-xs uppercase tracking-[0.12em] text-ink-soft">
-              <a href="#approach" className="link-underline transition-colors hover:text-ink">
-                {t("approach")}
-              </a>
-              <span className="text-line-strong" aria-hidden="true">
-                ·
-              </span>
-              <a href="#contact" className="link-underline transition-colors hover:text-ink">
-                {t("contact")}
-              </a>
-            </nav>
-            <LanguageSwitcher />
-          </div>
+          <nav className="flex items-center gap-5 font-mono text-xs uppercase tracking-[0.12em] text-ink-soft md:items-end">
+            <a href="#approach" className="link-underline transition-colors hover:text-ink">
+              {t("approach")}
+            </a>
+            <span className="text-line-strong" aria-hidden="true">
+              ·
+            </span>
+            <a href="#contact" className="link-underline transition-colors hover:text-ink">
+              {t("contact")}
+            </a>
+          </nav>
         </div>
 
         <div className="mt-12 border-t border-line pt-6">

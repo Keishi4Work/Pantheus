@@ -1,7 +1,8 @@
 import { getTranslations } from "next-intl/server";
 import Reveal from "@/components/Reveal";
 import LitGridAura from "@/components/aura/LitGridAura";
-import BlueprintBike from "@/components/BlueprintBike";
+import Mark from "@/components/marks/Mark";
+import TripleBarMark from "@/components/marks/TripleBarMark";
 import CTA from "@/components/CTA";
 
 const CONTAINER = "mx-auto w-full max-w-6xl px-6 sm:px-10 lg:px-16";
@@ -16,8 +17,20 @@ export default async function Closing() {
     >
       <LitGridAura />
 
-      {/* manufacturing blueprint — draws in on scroll, faint behind the CTA */}
-      <BlueprintBike className="pointer-events-none absolute top-1/2 left-[57%] hidden w-[900px] max-w-[64%] -translate-x-1/2 -translate-y-1/2 text-ink-soft opacity-[0.22] md:block" />
+      {/* monumental Λ≡ monogram — the brand foundation, an oversized watermark
+          that bleeds past the edges (faint, so the ≡ never reads as UI) */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center overflow-hidden"
+      >
+        <div className="flex translate-x-[26%] items-center gap-[1vw] text-line/60">
+          <Mark className="h-[84vw] w-auto md:h-[56vw]" />
+          <TripleBarMark
+            className="h-[60vw] w-auto md:h-[42vw]"
+            strokeWidth={0.6}
+          />
+        </div>
+      </div>
 
       <div className={`relative z-10 ${CONTAINER} py-28 sm:py-40`}>
         {/* foundation echo — bookends the hero's ground-line */}

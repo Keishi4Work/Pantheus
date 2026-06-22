@@ -93,15 +93,15 @@
 /* Dark mode placeholder — NOT built in v1. Flipping these vars later
    re-themes the whole site with no markup changes. */
 .dark {
-  --paper: #161616;
-  --surface: #1e1e20;
-  --section: #1a1a1c;
+  --paper: #0e0e10; /* strong near-black (GLM) */
+  --surface: #16161a;
+  --section: #131316;
   --ink: #ececea;
   --ink-soft: #a8a8ad;
   --muted-ink: #6b6b70;
-  --line: #2c2c2e;
+  --line: #26262a;
   --line-strong: #3a3a3d;
-  --grid: #2b2b2e;
+  --grid: #232327;
   --accent: #b06a5a;
   --accent-text: #c98a7a;
 }
@@ -175,15 +175,15 @@
 }
 
 /* On dark sections the full-strength white sweep reads as a harsh spotlight.
-   Dim + soften it into a quiet ambient glow so the blueprint grid carries the
-   atmosphere, matching the restraint of the light sections. */
+   Keep it a whisper — a low, soft glow that lets the dark breathe (classy +
+   mysterious), so the blueprint and grid carry the atmosphere instead. */
 .dark .aura-sweep {
   background: radial-gradient(
     closest-side,
-    rgba(255, 255, 255, 0.12),
-    rgba(255, 255, 255, 0) 70%
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0) 72%
   );
-  filter: blur(20px);
+  filter: blur(28px);
 }
 
 /* Hairline underline-draw on hover/focus — oxblood whisper. */

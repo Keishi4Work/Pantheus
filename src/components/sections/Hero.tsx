@@ -1,13 +1,20 @@
 import LitGridAura from "@/components/aura/LitGridAura";
+import BlueprintBike from "@/components/BlueprintBike";
 import HeroText from "@/components/HeroText";
 
 export default function Hero() {
   return (
     <section
       id="top"
-      className="relative isolate flex min-h-svh flex-col overflow-hidden bg-paper"
+      className="dark relative isolate flex min-h-svh flex-col overflow-hidden bg-paper"
     >
       <LitGridAura />
+
+      {/* engineering blueprint — draws itself in on load, faint behind the thesis */}
+      <BlueprintBike
+        trigger="load"
+        className="pointer-events-none absolute top-1/2 left-1/2 z-0 hidden w-[1100px] max-w-[94%] -translate-x-1/2 -translate-y-1/2 text-ink opacity-[0.2] md:block"
+      />
 
       {/* centered thesis */}
       <div className="relative z-10 flex flex-1 items-center">

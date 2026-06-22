@@ -5,19 +5,40 @@ import { motion, useReducedMotion } from "motion/react";
 const EASE = [0.22, 1, 0.36, 1] as const;
 
 // Technical line-drawing of an e-bike (the manufacturing example from the
-// brief) — a blueprint that draws itself in on scroll. White/grey lines with
-// mono dimension labels, sat faintly behind the closing CTA. CSS/SVG only.
-export default function BlueprintBike({ className = "" }: { className?: string }) {
+// brief) rendered as a LIVE blueprint: a faint base drawing sits always
+// visible while a brighter "draw-head" runs continuously along the structure
+// — the schematic is perpetually being (re)traced, an engineering/CAD spirit.
+// `trigger="load"` draws the base in on mount; the trace loop is always going.
+export default function BlueprintBike({
+  className = "",
+  trigger = "scroll",
+}: {
+  className?: string;
+  trigger?: "scroll" | "load";
+}) {
   const reduce = useReducedMotion();
+  const onLoad = trigger === "load";
 
+  // `whileInView` (scroll) vs `animate` (on mount) share the same target props.
+  const run = (target: object, transition: object) =>
+    onLoad
+      ? { animate: target, transition }
+      : {
+          whileInView: target,
+          viewport: { once: true, margin: "-12% 0px -12% 0px" },
+          transition,
+        };
+
+  // base entrance — each element draws itself once, then stays.
   const draw = (i: number) =>
     reduce
       ? {}
       : {
           initial: { pathLength: 0, opacity: 0 },
-          whileInView: { pathLength: 1, opacity: 1 },
-          viewport: { once: true, margin: "-12% 0px -12% 0px" },
-          transition: { duration: 1.2, delay: 0.1 + i * 0.07, ease: EASE },
+          ...run(
+            { pathLength: 1, opacity: 1 },
+            { duration: 1.2, delay: 0.1 + i * 0.07, ease: EASE },
+          ),
         };
 
   const fade = (delay: number) =>
@@ -25,10 +46,29 @@ export default function BlueprintBike({ className = "" }: { className?: string }
       ? {}
       : {
           initial: { opacity: 0 },
-          whileInView: { opacity: 1 },
-          viewport: { once: true, margin: "-12% 0px -12% 0px" },
-          transition: { duration: 0.9, delay, ease: EASE },
+          ...run({ opacity: 1 }, { duration: 0.9, delay, ease: EASE }),
         };
+
+  // perpetual draw-head: a short bright segment runs along the path forever,
+  // looping seamlessly (pathOffset 0 and 1 are the same point). Staggered so
+  // the whole schematic looks like it's continuously iterating.
+  const trace = (i: number, duration: number) => {
+    const delay = 0.3 + i * 0.16;
+    return {
+      pathLength: 0.16,
+      initial: { pathOffset: 0, opacity: 0 },
+      animate: { pathOffset: 1, opacity: 1 },
+      transition: {
+        pathOffset: {
+          repeat: Infinity,
+          duration,
+          ease: "linear" as const,
+          delay,
+        },
+        opacity: { duration: 1, delay, ease: EASE },
+      },
+    };
+  };
 
   const S = {
     fill: "none",
@@ -57,59 +97,77 @@ export default function BlueprintBike({ className = "" }: { className?: string }
 
   return (
     <svg viewBox="0 0 880 560" className={className} aria-hidden="true">
-      {/* wheels */}
-      <motion.circle cx={250} cy={370} r={120} strokeWidth={1.5} {...S} {...draw(0)} />
-      <motion.circle cx={660} cy={370} r={120} strokeWidth={1.5} {...S} {...draw(1)} />
-      <motion.circle cx={250} cy={370} r={104} strokeWidth={1} {...S} {...draw(2)} />
-      <motion.circle cx={660} cy={370} r={104} strokeWidth={1} {...S} {...draw(3)} />
-      <motion.circle cx={250} cy={370} r={7} strokeWidth={1.2} {...S} {...draw(4)} />
-      <motion.circle cx={660} cy={370} r={7} strokeWidth={1.2} {...S} {...draw(5)} />
+      {/* ---- base drawing (faint, always present) ---- */}
+      <g strokeOpacity={0.5}>
+        {/* wheels */}
+        <motion.circle cx={250} cy={370} r={120} strokeWidth={1.5} {...S} {...draw(0)} />
+        <motion.circle cx={660} cy={370} r={120} strokeWidth={1.5} {...S} {...draw(1)} />
+        <motion.circle cx={250} cy={370} r={104} strokeWidth={1} {...S} {...draw(2)} />
+        <motion.circle cx={660} cy={370} r={104} strokeWidth={1} {...S} {...draw(3)} />
+        <motion.circle cx={250} cy={370} r={7} strokeWidth={1.2} {...S} {...draw(4)} />
+        <motion.circle cx={660} cy={370} r={7} strokeWidth={1.2} {...S} {...draw(5)} />
 
-      {/* crank / chainring */}
-      <motion.circle cx={455} cy={400} r={30} strokeWidth={1.5} {...S} {...draw(6)} />
-      <motion.circle cx={455} cy={400} r={8} strokeWidth={1.2} {...S} {...draw(6)} />
+        {/* crank / chainring */}
+        <motion.circle cx={455} cy={400} r={30} strokeWidth={1.5} {...S} {...draw(6)} />
+        <motion.circle cx={455} cy={400} r={8} strokeWidth={1.2} {...S} {...draw(6)} />
 
-      {/* frame */}
-      {frame.map((d, i) => (
-        <motion.path key={i} d={d} strokeWidth={1.6} {...S} {...draw(7 + i)} />
-      ))}
+        {/* frame */}
+        {frame.map((d, i) => (
+          <motion.path key={i} d={d} strokeWidth={1.6} {...S} {...draw(7 + i)} />
+        ))}
 
-      {/* schematic spokes */}
-      <motion.g strokeWidth={0.75} {...S} {...fade(1.4)}>
-        <line x1={130} y1={370} x2={370} y2={370} />
-        <line x1={250} y1={250} x2={250} y2={490} />
-        <line x1={540} y1={370} x2={780} y2={370} />
-        <line x1={660} y1={250} x2={660} y2={490} />
-      </motion.g>
+        {/* radii — schematic spokes */}
+        <motion.g strokeWidth={0.6} {...S} {...fade(1.4)}>
+          <line x1={130} y1={370} x2={370} y2={370} />
+          <line x1={250} y1={250} x2={250} y2={490} />
+          <line x1={540} y1={370} x2={780} y2={370} />
+          <line x1={660} y1={250} x2={660} y2={490} />
+        </motion.g>
 
-      {/* battery pack (dashed) */}
-      <motion.rect
-        x={455}
-        y={309}
-        width={150}
-        height={40}
-        rx={4}
-        strokeWidth={1.3}
-        strokeDasharray="5 6"
-        transform="rotate(-43 530 329)"
-        {...S}
-        {...fade(1.3)}
-      />
+        {/* battery pack (dashed) */}
+        <motion.rect
+          x={455}
+          y={309}
+          width={150}
+          height={40}
+          rx={4}
+          strokeWidth={1.3}
+          strokeDasharray="5 6"
+          transform="rotate(-43 530 329)"
+          {...S}
+          {...fade(1.3)}
+        />
+      </g>
+
+      {/* ---- live draw-head: bright segment perpetually tracing the structure ---- */}
+      {!reduce && (
+        <g strokeWidth={1.9} {...S}>
+          <motion.circle cx={250} cy={370} r={120} {...trace(0, 5.5)} />
+          <motion.circle cx={660} cy={370} r={120} {...trace(1, 5.5)} />
+          <motion.circle cx={455} cy={400} r={30} {...trace(2, 2.6)} />
+          {frame.map((d, i) => (
+            <motion.path key={i} d={d} {...trace(3 + i, 2.6 + (i % 4) * 0.5)} />
+          ))}
+        </g>
+      )}
 
       {/* dimension lines */}
-      <motion.g strokeWidth={0.75} {...S} {...fade(1.7)}>
-        <line x1={250} y1={515} x2={660} y2={515} />
-        <line x1={250} y1={506} x2={250} y2={524} />
-        <line x1={660} y1={506} x2={660} y2={524} />
-        <line x1={800} y1={250} x2={800} y2={490} />
-        <line x1={791} y1={250} x2={809} y2={250} />
-        <line x1={791} y1={490} x2={809} y2={490} />
-        <line x1={552} y1={300} x2={576} y2={268} />
-      </motion.g>
+      <g strokeOpacity={0.5}>
+        <motion.g strokeWidth={0.6} {...S} {...fade(1.7)}>
+          <line x1={250} y1={515} x2={660} y2={515} />
+          <line x1={250} y1={506} x2={250} y2={524} />
+          <line x1={660} y1={506} x2={660} y2={524} />
+          <line x1={800} y1={250} x2={800} y2={490} />
+          <line x1={791} y1={250} x2={809} y2={250} />
+          <line x1={791} y1={490} x2={809} y2={490} />
+          <line x1={552} y1={300} x2={576} y2={268} />
+        </motion.g>
+      </g>
 
       {/* mono dimension labels */}
       <motion.g
         fill="currentColor"
+        fillOpacity={0.6}
         stroke="none"
         style={{
           fontFamily: "var(--font-geist-mono), monospace",
