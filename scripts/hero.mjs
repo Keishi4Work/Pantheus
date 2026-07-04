@@ -13,7 +13,7 @@ for (const [path, out] of [
     deviceScaleFactor: 2,
   });
   await page.goto(`${base}${path}`, { waitUntil: "networkidle" });
-  await page.waitForTimeout(2200); // let the on-load reveal finish
+  await page.waitForTimeout(4200); // let the on-load reveal + car draw finish
   await page.screenshot({ path: out });
   await page.close();
   console.log("shot", out);

@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import type { ReactNode } from "react";
+import { useHydrated } from "@/lib/useHydrated";
 
 type RevealProps = {
   children: ReactNode;
@@ -26,9 +27,12 @@ export default function Reveal({
   delay = 0,
   y = 20,
 }: RevealProps) {
-  const reduce = useReducedMotion();
+  // two-pass: SSR can't know the motion preference — the hydration render must
+  // match the server (animated variant), the static variant applies after.
+  const rm = useReducedMotion();
+  const hydrated = useHydrated();
 
-  if (reduce) {
+  if (hydrated && rm) {
     return <div className={className}>{children}</div>;
   }
 

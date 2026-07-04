@@ -1,5 +1,5 @@
 import LitGridAura from "@/components/aura/LitGridAura";
-import BlueprintBike from "@/components/BlueprintBike";
+import BlueprintCar from "@/components/BlueprintCar";
 import HeroText from "@/components/HeroText";
 
 export default function Hero() {
@@ -10,8 +10,9 @@ export default function Hero() {
     >
       <LitGridAura />
 
-      {/* engineering blueprint — draws itself in on load, faint behind the thesis */}
-      <BlueprintBike
+      {/* engineering blueprint on a loop — the EV draws in, runs, un-draws:
+          idea → execution → working, perpetually iterating behind the thesis */}
+      <BlueprintCar
         trigger="load"
         className="pointer-events-none absolute top-1/2 left-1/2 z-0 hidden w-[1100px] max-w-[94%] -translate-x-1/2 -translate-y-1/2 text-ink opacity-[0.2] md:block"
       />

@@ -3,6 +3,7 @@
 import type { ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "motion/react";
+import { useHydrated } from "@/lib/useHydrated";
 import CTA from "@/components/CTA";
 import Mark from "@/components/marks/Mark";
 
@@ -28,7 +29,10 @@ const hl = (chunks: ReactNode) => (
  */
 export default function HeroText() {
   const t = useTranslations("Hero");
-  const reduce = useReducedMotion();
+  // two-pass: SSR can't know the motion preference — the hydration render must
+  // match the server (animated variant), the static variant applies after.
+  const rm = useReducedMotion();
+  const reduce = useHydrated() && !!rm;
 
   // Two parts so the turn ("ERP cũng nên như thế.") always starts on its own
   // line — rendered as block spans inside one mask (no optical jump returns).

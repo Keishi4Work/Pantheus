@@ -1,8 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import Reveal from "@/components/Reveal";
 import LitGridAura from "@/components/aura/LitGridAura";
-import Mark from "@/components/marks/Mark";
-import TripleBarMark from "@/components/marks/TripleBarMark";
 import CTA from "@/components/CTA";
 
 const CONTAINER = "mx-auto w-full max-w-6xl px-6 sm:px-10 lg:px-16";
@@ -17,29 +15,38 @@ export default async function Closing() {
     >
       <LitGridAura />
 
-      {/* monumental Λ≡ monogram — the brand foundation, an oversized watermark
-          that bleeds past the edges (faint, so the ≡ never reads as UI) */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center overflow-hidden"
-      >
-        <div className="flex translate-x-[26%] items-center gap-[1vw] text-line/60">
-          <Mark className="h-[84vw] w-auto md:h-[56vw]" />
-          <TripleBarMark
-            className="h-[60vw] w-auto md:h-[42vw]"
-            strokeWidth={0.6}
-          />
+      {/* drawing-sheet furniture — the closing reads as the title sheet of the
+          blueprint set that began with the hero car: margin frame, center
+          marks, and a title block signed at 1:1 scale (no template — drawn
+          to the factory) */}
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0">
+        <div className="absolute inset-4 border border-line/70 sm:inset-6" />
+        <span className="absolute top-4 left-1/2 h-3 w-px -translate-x-1/2 bg-line sm:top-6" />
+        <span className="absolute bottom-4 left-1/2 h-3 w-px -translate-x-1/2 bg-line sm:bottom-6" />
+        <span className="absolute top-1/2 left-4 h-px w-3 -translate-y-1/2 bg-line sm:left-6" />
+        <span className="absolute top-1/2 right-4 h-px w-3 -translate-y-1/2 bg-line sm:right-6" />
+
+        <div className="absolute right-4 bottom-4 hidden font-mono text-[11px] tracking-[0.16em] text-muted-ink uppercase sm:right-6 sm:bottom-6 md:block">
+          <div className="divide-y divide-line/70 border border-line/70 bg-paper/60">
+            {[
+              ["project", "Pantheus ERP"],
+              ["scale", "1:1"],
+              ["rev", "A"],
+              ["sheet", "7/7"],
+            ].map(([k, v]) => (
+              <div
+                key={k}
+                className="flex items-baseline justify-between gap-10 px-4 py-1.5"
+              >
+                <span className="text-muted-ink/60">{k}</span>
+                <span>{v}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
       <div className={`relative z-10 ${CONTAINER} py-28 sm:py-40`}>
-        {/* foundation echo — bookends the hero's ground-line */}
-        <div aria-hidden="true" className="mb-14 flex flex-col gap-[3px]">
-          <span className="h-px w-full bg-line-strong" />
-          <span className="h-px w-full bg-line" />
-          <span className="h-px w-full bg-line" />
-        </div>
-
         <Reveal>
           <h2 className="max-w-[18ch] font-display text-[clamp(2.2rem,5vw,4rem)] font-extrabold leading-[1.02] tracking-[-0.03em] text-ink">
             {t("heading")}
