@@ -10,31 +10,31 @@
     "language": "Language"
   },
   "Hero": {
-    "headlineLead": "Your factory doesn't <hl>fit</hl> a template.",
-    "headlineTurn": "Your ERP shouldn't either.",
-    "subhead": "Custom ERP for Vietnamese manufacturing — built around how you actually work. On your servers. Answering your questions.",
+    "headlineLead": "Your factory is <hl>unique</hl>.",
+    "headlineTurn": "Your ERP should be too.",
+    "subhead": "Customized ERP solutions with AI-integrated applications. Built around how you actually work. Answering your questions.",
     "cta": "Book a consultation",
     "tagline": "The foundation your operations stand on."
   },
   "Problem": {
     "heading": "Running on spreadsheets and guesswork.",
-    "body": "“How many of this model can I build right now?” With spreadsheets, that question takes hours — and the answer is already out of date. No single source of truth, no view of supplier quality, inventory lost to manual error."
+    "body": "“How many products can I manufacture right now?” With spreadsheets, that question can take hours or days — and the answer is already outdated. No unified data source, no understanding of supplier quality, and inventory lost to manual data entry."
   },
   "Pillars": {
     "builtAroundYou": {
       "label": "Built around you",
       "headline": "Your process is the spec.",
-      "body": "We don't bend your factory to fit the software. We shape the software around how your factory already runs — and you own it outright, with no per-seat subscription."
+      "body": "We don't bend your factory to fit the software. We shape the software around what your factory needs and how it should run."
     },
     "runsOnYourGround": {
-      "label": "Runs on your ground",
-      "headline": "Your data never leaves the building.",
-      "body": "On-premise and offline-capable. Full control, no cloud dependency, no recurring hosting fees — it keeps working when the internet doesn't."
+      "label": "Runs on your data",
+      "headline": "Your data is invaluable.",
+      "body": "On-site and offline-capable. Full control. We deliver predictive and prescriptive analytic solutions to help your company optimize inventory, production, and forecast trends."
     },
     "outcomes": {
       "label": "Outcomes, not modules",
-      "headline": "Every feature ties to a number you care about.",
-      "body": "We start from your bottleneck, not a feature list — inventory loss down, stoppages avoided, working capital freed. If it doesn't move a number, we don't build it."
+      "headline": "Every feature is tied to a number you care about.",
+      "body": "We start from your bottleneck, not a feature list — inventory loss, mitigating production stoppages, working capital freed. If it doesn't move a number, we don't build it."
     },
     "builtForTheFloor": {
       "label": "Built for the floor",

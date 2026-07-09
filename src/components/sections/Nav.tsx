@@ -35,7 +35,7 @@ export default function Nav() {
           aria-label="Pantheus"
           className="rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
         >
-          <Wordmark className="h-[18px] w-auto" />
+          <Wordmark className="h-[22px] w-auto" />
         </Link>
 
         {/* desktop */}

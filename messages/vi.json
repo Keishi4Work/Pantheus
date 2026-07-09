@@ -12,29 +12,29 @@
   "Hero": {
     "headlineLead": "Nhà máy của bạn là <hl>độc nhất</hl>.",
     "headlineTurn": "ERP cũng nên như thế.",
-    "subhead": "ERP thiết kế riêng cho ngành sản xuất Việt Nam — xây dựng quanh cách bạn thực sự vận hành. Trên máy chủ của bạn. Trả lời câu hỏi của bạn.",
+    "subhead": "Giải pháp ERP thiết kế riêng, tích hợp ứng dụng AI. Xây dựng quanh cách bạn thực sự vận hành. Trả lời câu hỏi của bạn.",
     "cta": "Đặt lịch tư vấn",
     "tagline": "Nền tảng cho mọi vận hành."
   },
   "Problem": {
     "heading": "Vận hành bằng Excel và phỏng đoán.",
-    "body": "“Ngay bây giờ tôi sản xuất được bao nhiêu chiếc mẫu này?” Với Excel, câu hỏi đó mất hàng giờ để trả lời — và đáp án thì đã lỗi thời. Không có nguồn dữ liệu thống nhất, không nắm được chất lượng nhà cung cấp, tồn kho thất thoát vì nhập tay."
+    "body": "“Ngay bây giờ tôi sản xuất được bao nhiêu sản phẩm?” Với Excel, câu hỏi đó có thể mất hàng giờ hoặc hàng ngày để trả lời — và đáp án thì đã lỗi thời. Không có nguồn dữ liệu thống nhất, không nắm được chất lượng nhà cung cấp, và tồn kho thất thoát do nhập liệu thủ công."
   },
   "Pillars": {
     "builtAroundYou": {
       "label": "Tối ưu cho bạn",
       "headline": "Quy trình của bạn là bản thiết kế.",
-      "body": "Chúng tôi không ép nhà máy chạy theo phần mềm. Phần mềm được tạo ra theo đúng cách nhà máy bạn đang vận hành — và bạn sở hữu trọn vẹn, không phí thuê bao theo người dùng."
+      "body": "Chúng tôi không ép nhà máy chạy theo phần mềm. Phần mềm được tạo ra theo đúng nhu cầu của nhà máy và cách nó nên vận hành."
     },
     "runsOnYourGround": {
-      "label": "Trên hạ tầng của bạn",
-      "headline": "Dữ liệu không bao giờ rời khỏi nhà máy.",
-      "body": "Triển khai tại chỗ, hoạt động cả khi offline. Toàn quyền kiểm soát, không phụ thuộc cloud, không phí duy trì định kỳ — vẫn chạy khi mất mạng."
+      "label": "Chạy trên dữ liệu của bạn",
+      "headline": "Dữ liệu của bạn là vô giá.",
+      "body": "Triển khai tại chỗ, hoạt động cả khi offline. Toàn quyền kiểm soát. Chúng tôi cung cấp giải pháp phân tích dự đoán và đề xuất giúp doanh nghiệp bạn tối ưu tồn kho, sản xuất và dự báo xu hướng."
     },
     "outcomes": {
       "label": "Kết quả, không phải tính năng",
-      "headline": "Mỗi tính năng gắn với một con số bạn quan tâm.",
-      "body": "Chúng tôi bắt đầu từ điểm nghẽn của bạn, không phải từ danh sách tính năng — giảm thất thoát tồn kho, tránh ngừng sản xuất, giải phóng vốn lưu động. Không tác động đến con số nào thì không xây dựng."
+      "headline": "Mỗi tính năng đều gắn với một con số bạn quan tâm.",
+      "body": "Chúng tôi bắt đầu từ điểm nghẽn của bạn, không phải từ danh sách tính năng — thất thoát tồn kho, giảm thiểu ngừng sản xuất, giải phóng vốn lưu động. Không tác động đến con số nào thì không xây dựng."
     },
     "builtForTheFloor": {
       "label": "Dành cho người vận hành",
