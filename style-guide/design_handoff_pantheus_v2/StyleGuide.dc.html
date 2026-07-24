@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- Bản copy tham chiếu cho handoff — bản sống: templates/style-guide/StyleGuide.dc.html -->
+<helmet>
+<script src="./ds-base.js"></script>
+<style>body{margin:0;background:#F5F4F0}a{color:#6B2626;text-decoration:none}a:hover{color:#7A2E2E}::selection{background:#F0E4E1}</style>
+</helmet>
+<div style="font-family:Manrope,sans-serif;background:#F5F4F0;color:#1E1E1E;padding-bottom:96px">
+
+<header data-screen-label="Header" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="display:flex;align-items:center;gap:14px">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" style="color:#7A2E2E"><path d="M7 3.5 17.5 20.5M11.9 11.4 6 20.5" stroke="currentColor" stroke-width="2.6"></path></svg>
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">Pantheus · Design system · Đề xuất v2 · 07.2026</span>
+</div>
+<h1 style="font-weight:800;font-size:46px;letter-spacing:-.03em;line-height:1.05;margin:22px 0 14px;max-width:720px">Từ landing page thành <span style="color:#6B2626">hệ thống</span>.</h1>
+<p style="font-size:15px;line-height:1.65;color:#5A5954;max-width:620px;margin:0">Giữ nền tảng nhận diện — giấy ấm, mực đen, một accent oxblood, Manrope + Geist Mono — và mở rộng thành hệ thống đầy đủ cho ERP, báo cáo in và marketing: semantic palette, token bề mặt, bộ component dữ liệu, dark mode ngang hàng.</p>
+</header>
+
+<section data-screen-label="01 Nguyên tắc" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">01 · Nguyên tắc</div>
+<h2 style="font-weight:800;font-size:26px;letter-spacing:-.02em;margin:10px 0 24px">Bốn quy tắc không đổi</h2>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;margin-bottom:10px">R-01</div><div style="font-weight:700;font-size:15px;margin-bottom:6px">Đơn sắc trước</div><p style="font-size:13px;line-height:1.55;color:#5A5954;margin:0">Giao diện là giấy và mực. Màu chỉ xuất hiện khi mang nghĩa — trạng thái, cảnh báo, hành động.</p></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;margin-bottom:10px">R-02</div><div style="font-weight:700;font-size:15px;margin-bottom:6px">Một accent, dùng dè</div><p style="font-size:13px;line-height:1.55;color:#5A5954;margin:0">Oxblood cho tương tác và nhấn thương hiệu: focus ring, active marker, một từ nhấn. Không bao giờ fill lớn.</p></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;margin-bottom:10px">R-03</div><div style="font-weight:700;font-size:15px;margin-bottom:6px">Hairline &amp; vuông vắn</div><p style="font-size:13px;line-height:1.55;color:#5A5954;margin:0">Viền 1px thay cho bóng đổ nặng. Bo góc tối đa 10px — thương hiệu này vuông.</p></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;margin-bottom:10px">R-04</div><div style="font-weight:700;font-size:15px;margin-bottom:6px">Landing ≠ App</div><p style="font-size:13px;line-height:1.55;color:#5A5954;margin:0">Aura, grain, blueprint chỉ dành cho marketing. App dùng nền phẳng, tĩnh, tập trung vào dữ liệu.</p></div>
+</div>
+</section>
+
+<section data-screen-label="02 Màu sắc" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">02 · Màu sắc</div>
+<h2 style="font-weight:800;font-size:26px;letter-spacing:-.02em;margin:10px 0 8px">Nền tảng giữ nguyên, bổ sung semantic</h2>
+<p style="font-size:14px;line-height:1.6;color:#5A5954;max-width:620px;margin:0 0 24px">Chín token nền tảng và accent oxblood giữ nguyên giá trị hiện tại. Bổ sung: họ accent mở rộng, bốn màu semantic (cùng độ bão hoà, khác hue) và palette biểu đồ.</p>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px;margin-bottom:16px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:12px">Foundation — light</div>
+<div style="display:grid;grid-template-columns:repeat(9,1fr);gap:10px">
+<div><div style="height:44px;background:#F5F4F0;border:1px solid #E2E1DB;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">paper<br>#F5F4F0</div></div>
+<div><div style="height:44px;background:#FAF9F6;border:1px solid #E2E1DB;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">surface<br>#FAF9F6</div></div>
+<div><div style="height:44px;background:#ECEBE6;border:1px solid #E2E1DB;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">section<br>#ECEBE6</div></div>
+<div><div style="height:44px;background:#E2E1DB;border:1px solid #E2E1DB;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">line<br>#E2E1DB</div></div>
+<div><div style="height:44px;background:#D2D1CA;border:1px solid #E2E1DB;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">line-strong<br>#D2D1CA</div></div>
+<div><div style="height:44px;background:#8B8A84;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">muted-ink<br>#8B8A84</div></div>
+<div><div style="height:44px;background:#5A5954;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">ink-soft<br>#5A5954</div></div>
+<div><div style="height:44px;background:#1E1E1E;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">ink<br>#1E1E1E</div></div>
+<div><div style="height:44px;background:#7A2E2E;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#5A5954">accent<br>#7A2E2E</div></div>
+</div>
+</div>
+<div style="background:#0E0E10;border:1px solid #26262A;border-radius:6px;padding:18px;margin-bottom:24px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#6B6B70;margin-bottom:12px">Foundation — dark</div>
+<div style="display:grid;grid-template-columns:repeat(9,1fr);gap:10px">
+<div><div style="height:44px;background:#0E0E10;border:1px solid #26262A;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">paper<br>#0E0E10</div></div>
+<div><div style="height:44px;background:#16161A;border:1px solid #26262A;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">surface<br>#16161A</div></div>
+<div><div style="height:44px;background:#131316;border:1px solid #26262A;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">section<br>#131316</div></div>
+<div><div style="height:44px;background:#26262A;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">line<br>#26262A</div></div>
+<div><div style="height:44px;background:#3A3A3D;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">line-strong<br>#3A3A3D</div></div>
+<div><div style="height:44px;background:#6B6B70;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">muted-ink<br>#6B6B70</div></div>
+<div><div style="height:44px;background:#A8A8AD;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">ink-soft<br>#A8A8AD</div></div>
+<div><div style="height:44px;background:#ECECEA;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">ink<br>#ECECEA</div></div>
+<div><div style="height:44px;background:#B06A5A;border-radius:3px"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.5;margin-top:6px;color:#A8A8AD">accent<br>#B06A5A</div></div>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:1.2fr 2fr;gap:16px;margin-bottom:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:12px">Accent mở rộng — mới</div>
+<div style="display:grid;gap:8px">
+<div style="display:flex;align-items:center;gap:10px"><div style="width:36px;height:24px;background:#7A2E2E;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954">accent · #7A2E2E</span><span style="font-size:12px;color:#8B8A84">nút, marker</span></div>
+<div style="display:flex;align-items:center;gap:10px"><div style="width:36px;height:24px;background:#632424;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954">accent-strong · #632424</span><span style="font-size:12px;color:#8B8A84">hover</span></div>
+<div style="display:flex;align-items:center;gap:10px"><div style="width:36px;height:24px;background:#6B2626;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954">accent-text · #6B2626</span><span style="font-size:12px;color:#8B8A84">chữ nhấn, link</span></div>
+<div style="display:flex;align-items:center;gap:10px"><div style="width:36px;height:24px;background:#F0E4E1;border:1px solid #E2E1DB;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954">accent-wash · #F0E4E1</span><span style="font-size:12px;color:#8B8A84">selection, ring nền</span></div>
+</div>
+<p style="font-size:12.5px;line-height:1.55;color:#5A5954;margin:14px 0 0;border-top:1px solid #E2E1DB;padding-top:12px">Accent ≠ màu lỗi. Oxblood là thương hiệu và tương tác; lỗi dùng <span style="font-family:'Geist Mono',ui-monospace,monospace;color:#942F27">danger</span> sáng và bão hoà hơn.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;overflow:hidden"><div style="height:52px;background:#2E7D52;display:flex;align-items:flex-end;padding:6px 12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#F5F4F0">#2E7D52</span></div><div style="padding:12px 14px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b style="font-size:13.5px">Success</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#E7F0E8;border:1px solid #C9DECF;color:#256843">Hoàn thành</span></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.7;color:#8B8A84">text #256843 · bg #E7F0E8<br>border #C9DECF · dark #5FB183</div></div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;overflow:hidden"><div style="height:52px;background:#9A6410;display:flex;align-items:flex-end;padding:6px 12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#F5F4F0">#9A6410</span></div><div style="padding:12px 14px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b style="font-size:13.5px">Warning</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#F5EDDB;border:1px solid #E4D4AC;color:#7D520E">Chờ QC</span></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.7;color:#8B8A84">text #7D520E · bg #F5EDDB<br>border #E4D4AC · dark #CE9C4C</div></div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;overflow:hidden"><div style="height:52px;background:#B13A30;display:flex;align-items:flex-end;padding:6px 12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#F5F4F0">#B13A30</span></div><div style="padding:12px 14px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b style="font-size:13.5px">Danger</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#F7E7E4;border:1px solid #EACAC4;color:#942F27">Tạm dừng</span></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.7;color:#8B8A84">text #942F27 · bg #F7E7E4<br>border #EACAC4 · dark #D3766A</div></div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;overflow:hidden"><div style="height:52px;background:#33608D;display:flex;align-items:flex-end;padding:6px 12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#F5F4F0">#33608D</span></div><div style="padding:12px 14px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b style="font-size:13.5px">Info</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#E6EDF4;border:1px solid #C6D6E5;color:#2B5175">Đang chạy</span></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;line-height:1.7;color:#8B8A84">text #2B5175 · bg #E6EDF4<br>border #C6D6E5 · dark #6FA0CB</div></div></div>
+</div>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:16px 18px;display:flex;gap:24px;align-items:center;flex-wrap:wrap">
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84">Chart palette</span>
+<div style="display:flex;align-items:center;gap:8px"><div style="width:20px;height:20px;background:#1E1E1E;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#5A5954">c1 ink</span></div>
+<div style="display:flex;align-items:center;gap:8px"><div style="width:20px;height:20px;background:#7A2E2E;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#5A5954">c2 accent</span></div>
+<div style="display:flex;align-items:center;gap:8px"><div style="width:20px;height:20px;background:#33608D;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#5A5954">c3 steel</span></div>
+<div style="display:flex;align-items:center;gap:8px"><div style="width:20px;height:20px;background:#9A6410;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#5A5954">c4 ochre</span></div>
+<div style="display:flex;align-items:center;gap:8px"><div style="width:20px;height:20px;background:#D2D1CA;border-radius:3px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#5A5954">c5 neutral</span></div>
+<span style="font-size:12.5px;color:#8B8A84">Biểu đồ một chuỗi: neutral + accent cho điểm nhấn. Nhiều chuỗi: theo thứ tự c1→c5.</span>
+</div>
+</section>
+
+<section data-screen-label="03 Typography" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">03 · Typography</div>
+<h2 style="font-weight:800;font-size:26px;letter-spacing:-.02em;margin:10px 0 8px">Manrope nói, Geist Mono đo</h2>
+<p style="font-size:14px;line-height:1.6;color:#5A5954;max-width:620px;margin:0 0 24px">Hai font giữ nguyên — cả hai đã hỗ trợ đầy đủ dấu tiếng Việt. Quy tắc mới cho app: mọi con số dữ liệu dùng Geist Mono với <span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px">tabular-nums</span> để cột số thẳng hàng.</p>
+<div style="display:grid;grid-template-columns:1.5fr 1fr;gap:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:22px;display:grid;gap:18px">
+<div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-bottom:6px">display · 44/48 · 800 · -0.03em · chỉ marketing</div><div style="font-weight:800;font-size:44px;letter-spacing:-.03em;line-height:1.08">Sản xuất chính xác</div></div>
+<div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-bottom:6px">h1 · 26/32 · 800 · -0.02em · tiêu đề trang app</div><div style="font-weight:800;font-size:26px;letter-spacing:-.02em">Lệnh sản xuất tháng 7</div></div>
+<div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-bottom:6px">h2 · 19/26 · 700 · -0.01em · đầu mục, card</div><div style="font-weight:700;font-size:19px;letter-spacing:-.01em">Hiệu suất theo chuyền</div></div>
+<div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-bottom:6px">body · 14–15/1.6 · 400–500 · văn bản</div><div style="font-size:14.5px;line-height:1.6;color:#5A5954;max-width:480px">Đơn hàng được xưởng xác nhận trước 16:00 sẽ vào kế hoạch chạy máy của ca đêm cùng ngày.</div></div>
+<div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-bottom:6px">label · 13.5/20 · 600 · nút, form, nav</div><div style="font-weight:600;font-size:13.5px">Tạo lệnh sản xuất</div></div>
+</div>
+<div style="display:grid;gap:16px;align-content:start">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:22px;display:grid;gap:18px">
+<div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-bottom:6px">eyebrow · mono 11 · +0.18em · uppercase</div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">Phân xưởng cơ khí 02</div></div>
+<div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-bottom:6px">data · mono 13 · tabular-nums</div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:13px;line-height:1.8;font-variant-numeric:tabular-nums;color:#1E1E1E">1.240.500 ₫<br>87,40 %<br>04.800 pcs</div></div>
+<div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-bottom:6px">code / mã · mono 12.5</div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;color:#5A5954">LSX-2607 · KHO-A2-118</div></div>
+</div>
+<div style="background:#ECEBE6;border:1px solid #E2E1DB;border-radius:6px;padding:16px 18px"><p style="font-size:12.5px;line-height:1.6;color:#5A5954;margin:0"><b style="color:#1E1E1E">Kiểm tra dấu:</b> Đường ống — hoàn thiện bề mặt, độ nhám ≤ 0,8 µm. ĐỦ TIÊU CHUẨN XUẤT XƯỞNG.</p></div>
+</div>
+</div>
+</section>
+
+<section data-screen-label="04 Spacing và bề mặt" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">04 · Spacing · Radius · Elevation</div>
+<h2 style="font-weight:800;font-size:26px;letter-spacing:-.02em;margin:10px 0 24px">Thoáng, trên lưới 4px</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr 1.4fr;gap:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:14px">Spacing</div>
+<div style="display:grid;gap:9px">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;width:22px">4</span><div style="width:4px;height:12px;background:#1E1E1E"></div></div>
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;width:22px">8</span><div style="width:8px;height:12px;background:#1E1E1E"></div></div>
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;width:22px">12</span><div style="width:12px;height:12px;background:#1E1E1E"></div></div>
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;width:22px">16</span><div style="width:16px;height:12px;background:#1E1E1E"></div></div>
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;width:22px">24</span><div style="width:24px;height:12px;background:#1E1E1E"></div></div>
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;width:22px">32</span><div style="width:32px;height:12px;background:#1E1E1E"></div></div>
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;width:22px">48</span><div style="width:48px;height:12px;background:#1E1E1E"></div></div>
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84;width:22px">64</span><div style="width:64px;height:12px;background:#1E1E1E"></div></div>
+</div>
+<p style="font-size:12px;color:#8B8A84;margin:14px 0 0">Mặc định thoáng: card 16–20, giữa section 24–32.</p>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:14px">Radius</div>
+<div style="display:flex;gap:14px;flex-wrap:wrap">
+<div style="text-align:center"><div style="width:52px;height:52px;border:1px solid #D2D1CA;border-radius:2px;background:#F5F4F0"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-top:6px">2 badge</div></div>
+<div style="text-align:center"><div style="width:52px;height:52px;border:1px solid #D2D1CA;border-radius:4px;background:#F5F4F0"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-top:6px">4 control</div></div>
+<div style="text-align:center"><div style="width:52px;height:52px;border:1px solid #D2D1CA;border-radius:6px;background:#F5F4F0"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-top:6px">6 card</div></div>
+<div style="text-align:center"><div style="width:52px;height:52px;border:1px solid #D2D1CA;border-radius:10px;background:#F5F4F0"></div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84;margin-top:6px">10 modal</div></div>
+</div>
+<p style="font-size:12px;color:#8B8A84;margin:14px 0 0">Không có pill, không có tròn — trừ avatar.</p>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:14px">Elevation</div>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:14px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:12px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84">e0 · hairline</div><div style="font-size:12px;color:#5A5954;margin-top:4px">card tĩnh</div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:12px;box-shadow:0 1px 2px rgba(30,30,30,.05)"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84">e1 · 0 1 2</div><div style="font-size:12px;color:#5A5954;margin-top:4px">hover card</div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:12px;box-shadow:0 8px 24px rgba(30,30,30,.10)"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84">e2 · 0 8 24</div><div style="font-size:12px;color:#5A5954;margin-top:4px">dropdown, toast</div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:10px;padding:12px;box-shadow:0 16px 48px rgba(30,30,30,.16)"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84">e3 · 0 16 48</div><div style="font-size:12px;color:#5A5954;margin-top:4px">modal, sheet</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-screen-label="05 Logo" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">05 · Logo</div>
+<h2 style="font-weight:800;font-size:26px;letter-spacing:-.02em;margin:10px 0 8px">Dựng lại mark lambda cho kích thước nhỏ</h2>
+<p style="font-size:14px;line-height:1.6;color:#5A5954;max-width:620px;margin:0 0 24px">Wordmark giữ nguyên. Mark nhỏ được dựng lại trên lưới 24px, nét dày hơn, đầu nét vuông — rõ ở 16px (favicon, sidebar thu gọn). Chọn phương án ở bảng Tweaks để xem trong ngữ cảnh app bên dưới.</p>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px;margin-bottom:16px;display:flex;align-items:center;gap:40px;flex-wrap:wrap">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84">Hiện tại</div>
+<x-import component-from-global-scope="Pantheus.Mark" class-name="h-10 w-auto text-ink" hint-size="40px,40px"></x-import>
+<x-import component-from-global-scope="Pantheus.TripleBarMark" class-name="h-10 w-auto text-ink" hint-size="40px,40px"></x-import>
+<x-import component-from-global-scope="Pantheus.Wordmark" class-name="h-6 w-auto text-ink" hint-size="140px,24px"></x-import>
+<span style="font-size:12.5px;color:#8B8A84;max-width:300px">Nét mảnh, tối ưu cho hero lớn — xuống 16px mất chi tiết.</span>
+</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:20px">
+<div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:14px"><b style="font-size:14px">A · Nét đơn</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84">stroke 2.6 / 24</span></div>
+<div style="display:flex;align-items:flex-end;gap:22px;padding:14px 0;border-top:1px solid #E2E1DB;border-bottom:1px solid #E2E1DB">
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none"><path d="M7 3.5 17.5 20.5M11.9 11.4 6 20.5" stroke="#1E1E1E" stroke-width="2.6"></path></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M7 3.5 17.5 20.5M11.9 11.4 6 20.5" stroke="#1E1E1E" stroke-width="2.6"></path></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M7 3.5 17.5 20.5M11.9 11.4 6 20.5" stroke="#1E1E1E" stroke-width="2.6"></path></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="color:#7A2E2E"><path d="M7 3.5 17.5 20.5M11.9 11.4 6 20.5" stroke="currentColor" stroke-width="2.6"></path></svg>
+</div>
+<p style="font-size:12.5px;line-height:1.55;color:#5A5954;margin:12px 0 0">Tối giản nhất, gần với mark hiện tại. Linh hoạt mọi nền.</p>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:20px">
+<div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:14px"><b style="font-size:14px">B · Khung vuông</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84">khung 1.3 + nét 2.2</span></div>
+<div style="display:flex;align-items:flex-end;gap:22px;padding:14px 0;border-top:1px solid #E2E1DB;border-bottom:1px solid #E2E1DB">
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" stroke="#1E1E1E" stroke-width="1.3"></rect><path d="M8.6 6.5 15.9 18.5M11.95 12.1 7.9 18.5" stroke="#1E1E1E" stroke-width="2.2"></path></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" stroke="#1E1E1E" stroke-width="1.3"></rect><path d="M8.6 6.5 15.9 18.5M11.95 12.1 7.9 18.5" stroke="#1E1E1E" stroke-width="2.2"></path></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" stroke="#1E1E1E" stroke-width="1.3"></rect><path d="M8.6 6.5 15.9 18.5M11.95 12.1 7.9 18.5" stroke="#1E1E1E" stroke-width="2.2"></path></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="color:#7A2E2E"><rect x="2" y="2" width="20" height="20" stroke="currentColor" stroke-width="1.3"></rect><path d="M8.6 6.5 15.9 18.5M11.95 12.1 7.9 18.5" stroke="currentColor" stroke-width="2.2"></path></svg>
+</div>
+<p style="font-size:12.5px;line-height:1.55;color:#5A5954;margin:12px 0 0">Khung hairline gợi bản vẽ kỹ thuật. Hợp favicon, app icon.</p>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:20px">
+<div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:14px"><b style="font-size:14px">C · Chân đế</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;color:#8B8A84">nối với TripleBar</span></div>
+<div style="display:flex;align-items:flex-end;gap:22px;padding:14px 0;border-top:1px solid #E2E1DB;border-bottom:1px solid #E2E1DB">
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none"><path d="M7 2.5 17.5 19.5M11.9 10.4 6 19.5" stroke="#1E1E1E" stroke-width="2.6"></path><path d="M4.5 22.4H19.5" stroke="#1E1E1E" stroke-width="2"></path></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M7 2.5 17.5 19.5M11.9 10.4 6 19.5" stroke="#1E1E1E" stroke-width="2.6"></path><path d="M4.5 22.4H19.5" stroke="#1E1E1E" stroke-width="2"></path></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M7 2.5 17.5 19.5M11.9 10.4 6 19.5" stroke="#1E1E1E" stroke-width="2.6"></path><path d="M4.5 22.4H19.5" stroke="#1E1E1E" stroke-width="2"></path></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="color:#7A2E2E"><path d="M7 2.5 17.5 19.5M11.9 10.4 6 19.5" stroke="currentColor" stroke-width="2.6"></path><path d="M4.5 22.4H19.5" stroke="currentColor" stroke-width="2"></path></svg>
+</div>
+<p style="font-size:12.5px;line-height:1.55;color:#5A5954;margin:12px 0 0">Lambda đứng trên nền — cột trụ. Nối tiếp ngôn ngữ TripleBarMark.</p>
+</div>
+</div>
+</section>
+
+<section data-screen-label="06 Component ERP" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">06 · Component ERP</div>
+<h2 style="font-weight:800;font-size:26px;letter-spacing:-.02em;margin:10px 0 8px">Style mới trong ngữ cảnh thật</h2>
+<p style="font-size:14px;line-height:1.6;color:#5A5954;max-width:620px;margin:0 0 24px">Nền phẳng, hairline, accent chỉ ở marker và focus. Số liệu mono, thẳng cột.</p>
+<div style="border:1px solid #D2D1CA;border-radius:8px;overflow:hidden;background:#F5F4F0;display:grid;grid-template-columns:224px 1fr;box-shadow:0 1px 2px rgba(30,30,30,.05)">
+<div style="background:#FAF9F6;border-right:1px solid #E2E1DB;padding:16px 0 12px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:9px;padding:0 16px 14px;border-bottom:1px solid #E2E1DB;color:#1E1E1E">
+<sc-if value="{{ isA }}" hint-placeholder-val="{{ true }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M7 3.5 17.5 20.5M11.9 11.4 6 20.5" stroke="currentColor" stroke-width="2.6"></path></svg></sc-if>
+<sc-if value="{{ isB }}" hint-placeholder-val="{{ false }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" stroke="currentColor" stroke-width="1.3"></rect><path d="M8.6 6.5 15.9 18.5M11.95 12.1 7.9 18.5" stroke="currentColor" stroke-width="2.2"></path></svg></sc-if>
+<sc-if value="{{ isC }}" hint-placeholder-val="{{ false }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M7 2.5 17.5 19.5M11.9 10.4 6 19.5" stroke="currentColor" stroke-width="2.6"></path><path d="M4.5 22.4H19.5" stroke="currentColor" stroke-width="2"></path></svg></sc-if>
+<span style="font-weight:800;font-size:15px;letter-spacing:-.02em">Pantheus</span>
+</div>
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;padding:16px 16px 6px">Vận hành</div>
+<div style="display:flex;align-items:center;padding:7px 16px 7px 14px;font-size:13.5px;font-weight:600;color:#1E1E1E;border-left:2px solid #7A2E2E;background:#ECEBE6">Tổng quan</div>
+<div style="display:flex;align-items:center;padding:7px 16px;font-size:13.5px;font-weight:600;color:#5A5954;border-left:2px solid transparent">Lệnh sản xuất</div>
+<div style="display:flex;align-items:center;padding:7px 16px;font-size:13.5px;font-weight:600;color:#5A5954;border-left:2px solid transparent">Kế hoạch</div>
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;padding:16px 16px 6px">Kho &amp; QC</div>
+<div style="display:flex;align-items:center;justify-content:space-between;padding:7px 16px;font-size:13.5px;font-weight:600;color:#5A5954;border-left:2px solid transparent">Kho vật tư<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;padding:2px 6px;border-radius:2px;background:#F7E7E4;border:1px solid #EACAC4;color:#942F27">3</span></div>
+<div style="display:flex;align-items:center;padding:7px 16px;font-size:13.5px;font-weight:600;color:#5A5954;border-left:2px solid transparent">Chất lượng</div>
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;padding:16px 16px 6px">Phân tích</div>
+<div style="display:flex;align-items:center;padding:7px 16px;font-size:13.5px;font-weight:600;color:#5A5954;border-left:2px solid transparent">Báo cáo</div>
+<div style="display:flex;align-items:center;gap:10px;margin-top:18px;padding:12px 16px 4px;border-top:1px solid #E2E1DB"><div style="width:26px;height:26px;border-radius:50%;background:#ECEBE6;border:1px solid #D2D1CA;display:flex;align-items:center;justify-content:center;font-size:10.5px;font-weight:700;color:#5A5954">TL</div><div><div style="font-size:12.5px;font-weight:600">Trần Lâm</div><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">QUẢN ĐỐC</div></div></div>
+</div>
+<div style="background:#F5F4F0">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:11px 20px;border-bottom:1px solid #E2E1DB;background:#FAF9F6">
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#8B8A84">VẬN HÀNH <span style="color:#D2D1CA">/</span> <span style="color:#1E1E1E">TỔNG QUAN</span></span>
+<div style="display:flex;align-items:center;gap:10px">
+<div style="display:flex;align-items:center;gap:8px;border:1px solid #D2D1CA;border-radius:4px;padding:6px 10px;background:#FAF9F6;width:200px;color:#8B8A84;font-size:12.5px">⌕ Tìm lệnh, vật tư…</div>
+<button style="background:#1E1E1E;color:#F5F4F0;border:1px solid #1E1E1E;border-radius:4px;padding:7px 14px;font-family:Manrope,sans-serif;font-weight:600;font-size:12.5px;cursor:pointer">+ Lệnh mới</button>
+</div>
+</div>
+<div style="padding:20px;display:grid;gap:16px">
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:14px 16px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8B8A84;margin-bottom:8px">Lệnh đang chạy</div><div style="display:flex;align-items:baseline;gap:8px"><span style="font-weight:800;font-size:24px;letter-spacing:-.02em">128</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;padding:2px 6px;border-radius:2px;background:#E7F0E8;border:1px solid #C9DECF;color:#256843">+12</span></div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:14px 16px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8B8A84;margin-bottom:8px">OEE toàn xưởng</div><div style="display:flex;align-items:baseline;gap:8px"><span style="font-weight:800;font-size:24px;letter-spacing:-.02em">87,4<span style="font-size:14px;color:#8B8A84">%</span></span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;padding:2px 6px;border-radius:2px;background:#E7F0E8;border:1px solid #C9DECF;color:#256843">+1,8</span></div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:14px 16px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8B8A84;margin-bottom:8px">Tồn NVL</div><div style="display:flex;align-items:baseline;gap:8px"><span style="font-weight:800;font-size:24px;letter-spacing:-.02em">1.240<span style="font-size:14px;color:#8B8A84"> tấn</span></span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;padding:2px 6px;border-radius:2px;background:#F5EDDB;border:1px solid #E4D4AC;color:#7D520E">−86</span></div></div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:14px 16px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8B8A84;margin-bottom:8px">Cảnh báo QC</div><div style="display:flex;align-items:baseline;gap:8px"><span style="font-weight:800;font-size:24px;letter-spacing:-.02em">3</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;padding:2px 6px;border-radius:2px;background:#F7E7E4;border:1px solid #EACAC4;color:#942F27">+2</span></div></div>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;overflow:hidden">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:13px 16px;border-bottom:1px solid #E2E1DB"><b style="font-size:14.5px">Lệnh sản xuất</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84">248 LỆNH · TRANG 1/25</span></div>
+<div style="display:grid;grid-template-columns:96px 1.5fr 78px 86px 1fr 118px 72px;gap:12px;padding:9px 16px;border-bottom:1px solid #E2E1DB;font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8B8A84"><span>Mã</span><span>Sản phẩm</span><span>Chuyền</span><span style="text-align:right">SL</span><span>Tiến độ</span><span>Trạng thái</span><span style="text-align:right">Hạn</span></div>
+<div style="display:grid;grid-template-columns:96px 1.5fr 78px 86px 1fr 118px 72px;gap:12px;padding:12px 16px;border-bottom:1px solid #E2E1DB;font-size:13px;align-items:center"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:#5A5954">LSX-2607</span><span style="font-weight:600">Vỏ hộp số VT-40</span><span style="color:#5A5954">A2</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;text-align:right;font-variant-numeric:tabular-nums">4.800</span><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:3px;background:#ECEBE6;border-radius:2px"><div style="width:72%;height:3px;background:#1E1E1E;border-radius:2px"></div></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84">72%</span></div><span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#E6EDF4;border:1px solid #C6D6E5;color:#2B5175">Đang chạy</span></span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954;text-align:right">28/07</span></div>
+<div style="display:grid;grid-template-columns:96px 1.5fr 78px 86px 1fr 118px 72px;gap:12px;padding:12px 16px;border-bottom:1px solid #E2E1DB;font-size:13px;align-items:center"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:#5A5954">LSX-2601</span><span style="font-weight:600">Trục cam C18</span><span style="color:#5A5954">B1</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;text-align:right;font-variant-numeric:tabular-nums">1.250</span><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:3px;background:#ECEBE6;border-radius:2px"><div style="width:100%;height:3px;background:#2E7D52;border-radius:2px"></div></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84">100%</span></div><span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#E7F0E8;border:1px solid #C9DECF;color:#256843">Hoàn thành</span></span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954;text-align:right">24/07</span></div>
+<div style="display:grid;grid-template-columns:96px 1.5fr 78px 86px 1fr 118px 72px;gap:12px;padding:12px 16px;border-bottom:1px solid #E2E1DB;font-size:13px;align-items:center"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:#5A5954">LSX-2598</span><span style="font-weight:600">Bánh răng côn 35</span><span style="color:#5A5954">A1</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;text-align:right;font-variant-numeric:tabular-nums">8.200</span><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:3px;background:#ECEBE6;border-radius:2px"><div style="width:91%;height:3px;background:#1E1E1E;border-radius:2px"></div></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84">91%</span></div><span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#F5EDDB;border:1px solid #E4D4AC;color:#7D520E">Chờ QC</span></span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954;text-align:right">25/07</span></div>
+<div style="display:grid;grid-template-columns:96px 1.5fr 78px 86px 1fr 118px 72px;gap:12px;padding:12px 16px;border-bottom:1px solid #E2E1DB;font-size:13px;align-items:center"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:#5A5954">LSX-2611</span><span style="font-weight:600">Ống lót xi-lanh D90</span><span style="color:#5A5954">C3</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;text-align:right;font-variant-numeric:tabular-nums">2.400</span><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:3px;background:#ECEBE6;border-radius:2px"><div style="width:18%;height:3px;background:#B13A30;border-radius:2px"></div></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84">18%</span></div><span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#F7E7E4;border:1px solid #EACAC4;color:#942F27">Tạm dừng</span></span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954;text-align:right">30/07</span></div>
+<div style="display:grid;grid-template-columns:96px 1.5fr 78px 86px 1fr 118px 72px;gap:12px;padding:12px 16px;font-size:13px;align-items:center"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:#5A5954">LSX-2615</span><span style="font-weight:600">Vòng bi đỡ 6204</span><span style="color:#5A5954">B2</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;text-align:right;font-variant-numeric:tabular-nums">12.000</span><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:3px;background:#ECEBE6;border-radius:2px"></div><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84">0%</span></div><span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#ECEBE6;border:1px solid #D2D1CA;color:#5A5954">Nháp</span></span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:#5A5954;text-align:right">02/08</span></div>
+</div>
+<div style="display:grid;grid-template-columns:1.4fr 1fr;gap:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:16px 18px">
+<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px"><b style="font-size:14.5px">Sản lượng theo tháng</b><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84">2026 · NGHÌN PCS</span></div>
+<div style="position:relative;height:130px">
+<div style="position:absolute;left:0;right:0;top:25%;border-top:1px dashed #D2D1CA"></div>
+<div style="display:flex;align-items:flex-end;gap:9px;height:130px">
+<div style="flex:1;height:46%;background:#D2D1CA;border-radius:2px 2px 0 0"></div><div style="flex:1;height:58%;background:#D2D1CA;border-radius:2px 2px 0 0"></div><div style="flex:1;height:50%;background:#D2D1CA;border-radius:2px 2px 0 0"></div><div style="flex:1;height:64%;background:#D2D1CA;border-radius:2px 2px 0 0"></div><div style="flex:1;height:54%;background:#D2D1CA;border-radius:2px 2px 0 0"></div><div style="flex:1;height:70%;background:#D2D1CA;border-radius:2px 2px 0 0"></div><div style="flex:1;height:78%;background:#7A2E2E;border-radius:2px 2px 0 0"></div><div style="flex:1;height:62%;background:#ECEBE6;border:1px dashed #D2D1CA;border-bottom:none;border-radius:2px 2px 0 0"></div><div style="flex:1;height:66%;background:#ECEBE6;border:1px dashed #D2D1CA;border-bottom:none;border-radius:2px 2px 0 0"></div><div style="flex:1;height:70%;background:#ECEBE6;border:1px dashed #D2D1CA;border-bottom:none;border-radius:2px 2px 0 0"></div><div style="flex:1;height:74%;background:#ECEBE6;border:1px dashed #D2D1CA;border-bottom:none;border-radius:2px 2px 0 0"></div><div style="flex:1;height:82%;background:#ECEBE6;border:1px dashed #D2D1CA;border-bottom:none;border-radius:2px 2px 0 0"></div>
+</div>
+</div>
+<div style="display:flex;gap:9px;margin-top:6px">
+<span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T1</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T2</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T3</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T4</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T5</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T6</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#1E1E1E;font-weight:700">T7</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T8</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T9</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T10</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T11</span><span style="flex:1;text-align:center;font-family:'Geist Mono',ui-monospace,monospace;font-size:9.5px;color:#8B8A84">T12</span>
+</div>
+<div style="display:flex;gap:18px;margin-top:12px;border-top:1px solid #E2E1DB;padding-top:10px"><span style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:#5A5954"><span style="width:10px;height:10px;background:#D2D1CA;border-radius:2px"></span>Thực tế</span><span style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:#5A5954"><span style="width:10px;height:10px;background:#7A2E2E;border-radius:2px"></span>Tháng hiện tại</span><span style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:#5A5954"><span style="width:10px;height:10px;background:#ECEBE6;border:1px dashed #D2D1CA;border-radius:2px"></span>Kế hoạch</span><span style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:#5A5954"><span style="width:14px;border-top:1px dashed #8B8A84"></span>Mục tiêu</span></div>
+</div>
+<div style="display:grid;gap:16px;align-content:start">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:16px 18px;display:grid;gap:12px">
+<b style="font-size:14.5px">Tạo lệnh nhanh</b>
+<div><label style="display:block;font-size:12.5px;font-weight:600;margin-bottom:5px">Sản phẩm</label><div style="display:flex;justify-content:space-between;align-items:center;background:#FAF9F6;border:1px solid #D2D1CA;border-radius:4px;padding:8px 12px;font-size:13px;color:#1E1E1E">Vỏ hộp số VT-40<span style="color:#8B8A84;font-size:10px">▾</span></div></div>
+<div><label style="display:block;font-size:12.5px;font-weight:600;margin-bottom:5px">Số lượng <span style="color:#8B8A84;font-weight:400">· focus</span></label><div style="background:#FAF9F6;border:1px solid #7A2E2E;border-radius:4px;padding:8px 12px;font-family:'Geist Mono',ui-monospace,monospace;font-size:13px;box-shadow:0 0 0 3px #F0E4E1">4.800<span style="color:#8B8A84">|</span></div></div>
+<div><label style="display:block;font-size:12.5px;font-weight:600;margin-bottom:5px;color:#942F27">Hạn giao <span style="font-weight:400">· lỗi</span></label><div style="background:#FAF9F6;border:1px solid #B13A30;border-radius:4px;padding:8px 12px;font-family:'Geist Mono',ui-monospace,monospace;font-size:13px;color:#1E1E1E">21/07/2026</div><div style="font-size:11.5px;color:#942F27;margin-top:5px">Hạn giao không thể trước ngày bắt đầu.</div></div>
+<div style="display:flex;gap:8px;justify-content:flex-end;border-top:1px solid #E2E1DB;padding-top:12px"><button style="background:transparent;color:#5A5954;border:none;border-radius:4px;padding:8px 14px;font-family:Manrope,sans-serif;font-weight:600;font-size:12.5px;cursor:pointer">Hủy</button><button style="background:#1E1E1E;color:#F5F4F0;border:1px solid #1E1E1E;border-radius:4px;padding:8px 14px;font-family:Manrope,sans-serif;font-weight:600;font-size:12.5px;cursor:pointer">Tạo lệnh</button></div>
+</div>
+<div style="display:inline-flex;align-items:center;gap:10px;background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:11px 14px;box-shadow:0 8px 24px rgba(30,30,30,.10)"><span style="width:8px;height:8px;border-radius:50%;background:#2E7D52"></span><span style="font-size:13px;font-weight:600">Đã lưu lệnh LSX-2616</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#8B8A84">14:02</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:14px">Button</div>
+<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+<button style="background:#1E1E1E;color:#F5F4F0;border:1px solid #1E1E1E;border-radius:4px;padding:9px 16px;font-family:Manrope,sans-serif;font-weight:600;font-size:13.5px;cursor:pointer">Primary</button>
+<button style="background:transparent;color:#1E1E1E;border:1px solid #1E1E1E;border-radius:4px;padding:9px 16px;font-family:Manrope,sans-serif;font-weight:600;font-size:13.5px;cursor:pointer">Outline</button>
+<button style="background:transparent;color:#5A5954;border:1px solid transparent;border-radius:4px;padding:9px 16px;font-family:Manrope,sans-serif;font-weight:600;font-size:13.5px;cursor:pointer">Ghost</button>
+<button style="background:#B13A30;color:#FAF9F6;border:1px solid #B13A30;border-radius:4px;padding:9px 16px;font-family:Manrope,sans-serif;font-weight:600;font-size:13.5px;cursor:pointer">Destructive</button>
+<button style="background:#ECEBE6;color:#8B8A84;border:1px solid #ECEBE6;border-radius:4px;padding:9px 16px;font-family:Manrope,sans-serif;font-weight:600;font-size:13.5px">Disabled</button>
+</div>
+<p style="font-size:12px;color:#8B8A84;margin:14px 0 0">Primary = mực, không phải accent. Accent chỉ cho CTA thương hiệu trên trang marketing.</p>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:14px">Trạng thái sản xuất</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap">
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:4px 9px;border-radius:3px;background:#ECEBE6;border:1px solid #D2D1CA;color:#5A5954">Nháp</span>
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:4px 9px;border-radius:3px;background:#E6EDF4;border:1px solid #C6D6E5;color:#2B5175">Đang chạy</span>
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:4px 9px;border-radius:3px;background:#F5EDDB;border:1px solid #E4D4AC;color:#7D520E">Chờ QC</span>
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:4px 9px;border-radius:3px;background:#E7F0E8;border:1px solid #C9DECF;color:#256843">Hoàn thành</span>
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:4px 9px;border-radius:3px;background:#F7E7E4;border:1px solid #EACAC4;color:#942F27">Tạm dừng</span>
+<span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:4px 9px;border-radius:3px;background:#FAF9F6;border:1px solid #D2D1CA;color:#5A5954">Gia công ngoài</span>
+</div>
+<p style="font-size:12px;color:#8B8A84;margin:14px 0 0">Badge mono uppercase, radius 3, luôn có viền — không dùng màu đặc.</p>
+</div>
+</div>
+</section>
+
+<sc-if value="{{ showDark }}" hint-placeholder-val="{{ true }}">
+<section data-screen-label="07 Dark mode" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">07 · Dark mode</div>
+<h2 style="font-weight:800;font-size:26px;letter-spacing:-.02em;margin:10px 0 8px">Cùng hệ token, đảo giá trị</h2>
+<p style="font-size:14px;line-height:1.6;color:#5A5954;max-width:620px;margin:0 0 24px">Dark ngang hàng với light: accent ấm hơn (#B06A5A), semantic nâng sáng để đạt tương phản trên nền tối. Không có màu nào chỉ tồn tại ở một mode.</p>
+<div style="border:1px solid #26262A;border-radius:8px;overflow:hidden;background:#0E0E10;display:grid;grid-template-columns:200px 1fr">
+<div style="background:#16161A;border-right:1px solid #26262A;padding:16px 0;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:9px;padding:0 16px 14px;border-bottom:1px solid #26262A;color:#ECECEA">
+<sc-if value="{{ isA }}" hint-placeholder-val="{{ true }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M7 3.5 17.5 20.5M11.9 11.4 6 20.5" stroke="currentColor" stroke-width="2.6"></path></svg></sc-if>
+<sc-if value="{{ isB }}" hint-placeholder-val="{{ false }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" stroke="currentColor" stroke-width="1.3"></rect><path d="M8.6 6.5 15.9 18.5M11.95 12.1 7.9 18.5" stroke="currentColor" stroke-width="2.2"></path></svg></sc-if>
+<sc-if value="{{ isC }}" hint-placeholder-val="{{ false }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M7 2.5 17.5 19.5M11.9 10.4 6 19.5" stroke="currentColor" stroke-width="2.6"></path><path d="M4.5 22.4H19.5" stroke="currentColor" stroke-width="2"></path></svg></sc-if>
+<span style="font-weight:800;font-size:15px;letter-spacing:-.02em;color:#ECECEA">Pantheus</span>
+</div>
+<div style="display:flex;align-items:center;padding:7px 16px 7px 14px;font-size:13.5px;font-weight:600;color:#ECECEA;border-left:2px solid #B06A5A;background:#131316;margin-top:12px">Tổng quan</div>
+<div style="display:flex;align-items:center;padding:7px 16px;font-size:13.5px;font-weight:600;color:#A8A8AD;border-left:2px solid transparent">Lệnh sản xuất</div>
+<div style="display:flex;align-items:center;padding:7px 16px;font-size:13.5px;font-weight:600;color:#A8A8AD;border-left:2px solid transparent">Kho vật tư</div>
+<div style="display:flex;align-items:center;padding:7px 16px;font-size:13.5px;font-weight:600;color:#A8A8AD;border-left:2px solid transparent">Báo cáo</div>
+</div>
+<div style="padding:20px;display:grid;gap:14px;align-content:start">
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+<div style="background:#16161A;border:1px solid #26262A;border-radius:6px;padding:14px 16px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B70;margin-bottom:8px">Lệnh đang chạy</div><div style="display:flex;align-items:baseline;gap:8px"><span style="font-weight:800;font-size:24px;letter-spacing:-.02em;color:#ECECEA">128</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;padding:2px 6px;border-radius:2px;background:#16281E;border:1px solid #2C4A3A;color:#5FB183">+12</span></div></div>
+<div style="background:#16161A;border:1px solid #26262A;border-radius:6px;padding:14px 16px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B70;margin-bottom:8px">OEE toàn xưởng</div><div style="display:flex;align-items:baseline;gap:8px"><span style="font-weight:800;font-size:24px;letter-spacing:-.02em;color:#ECECEA">87,4<span style="font-size:14px;color:#6B6B70">%</span></span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;padding:2px 6px;border-radius:2px;background:#16281E;border:1px solid #2C4A3A;color:#5FB183">+1,8</span></div></div>
+<div style="background:#16161A;border:1px solid #26262A;border-radius:6px;padding:14px 16px"><div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B70;margin-bottom:8px">Cảnh báo QC</div><div style="display:flex;align-items:baseline;gap:8px"><span style="font-weight:800;font-size:24px;letter-spacing:-.02em;color:#ECECEA">3</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;padding:2px 6px;border-radius:2px;background:#2A1614;border:1px solid #5C2A24;color:#D3766A">+2</span></div></div>
+</div>
+<div style="background:#16161A;border:1px solid #26262A;border-radius:6px;overflow:hidden">
+<div style="display:grid;grid-template-columns:96px 1.5fr 90px 118px;gap:12px;padding:9px 16px;border-bottom:1px solid #26262A;font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#6B6B70"><span>Mã</span><span>Sản phẩm</span><span style="text-align:right">SL</span><span>Trạng thái</span></div>
+<div style="display:grid;grid-template-columns:96px 1.5fr 90px 118px;gap:12px;padding:11px 16px;border-bottom:1px solid #26262A;font-size:13px;align-items:center"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:#A8A8AD">LSX-2607</span><span style="font-weight:600;color:#ECECEA">Vỏ hộp số VT-40</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;text-align:right;color:#ECECEA;font-variant-numeric:tabular-nums">4.800</span><span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#14202B;border:1px solid #2A4560;color:#6FA0CB">Đang chạy</span></span></div>
+<div style="display:grid;grid-template-columns:96px 1.5fr 90px 118px;gap:12px;padding:11px 16px;font-size:13px;align-items:center"><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:#A8A8AD">LSX-2598</span><span style="font-weight:600;color:#ECECEA">Bánh răng côn 35</span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;text-align:right;color:#ECECEA;font-variant-numeric:tabular-nums">8.200</span><span><span style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:3px;background:#272013;border:1px solid #56431F;color:#CE9C4C">Chờ QC</span></span></div>
+</div>
+<div style="display:flex;gap:10px;align-items:center">
+<button style="background:#ECECEA;color:#0E0E10;border:1px solid #ECECEA;border-radius:4px;padding:8px 14px;font-family:Manrope,sans-serif;font-weight:600;font-size:12.5px;cursor:pointer">Primary</button>
+<button style="background:transparent;color:#ECECEA;border:1px solid #3A3A3D;border-radius:4px;padding:8px 14px;font-family:Manrope,sans-serif;font-weight:600;font-size:12.5px;cursor:pointer">Outline</button>
+<span style="font-size:13px;color:#C98A7A;border-bottom:1px solid #B06A5A;padding-bottom:1px">Link accent</span>
+</div>
+</div>
+</div>
+</section>
+</sc-if>
+
+<section data-screen-label="08 Áp dụng và bàn giao" style="max-width:1120px;margin:0 auto;padding:88px 40px 0">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8B8A84">08 · Áp dụng &amp; bàn giao</div>
+<h2 style="font-weight:800;font-size:26px;letter-spacing:-.02em;margin:10px 0 24px">Cái gì ở đâu</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px">
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:12px">Chỉ landing / marketing</div>
+<div style="font-size:13px;line-height:2;color:#5A5954">BlueprintCar · LitGridAura<br>Grain · Vignette · HeroText<br>CTA · link-underline · display type</div>
+<p style="font-size:12px;color:#8B8A84;margin:12px 0 0;border-top:1px solid #E2E1DB;padding-top:10px">Không mang atmosphere vào app hay báo cáo in.</p>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:12px">Dùng chung</div>
+<div style="font-size:13px;line-height:2;color:#5A5954">Token màu + semantic · type scale<br>Mark mới · Wordmark · Button<br>Sheet · Tooltip · focus ring accent</div>
+<p style="font-size:12px;color:#8B8A84;margin:12px 0 0;border-top:1px solid #E2E1DB;padding-top:10px">Một nguồn token cho web, app, print.</p>
+</div>
+<div style="background:#FAF9F6;border:1px solid #E2E1DB;border-radius:6px;padding:18px">
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:12px">Mới cho app ERP</div>
+<div style="font-size:13px;line-height:2;color:#5A5954">Sidebar nav · data table · badge<br>KPI card · form · modal · toast<br>chart palette · empty state</div>
+<p style="font-size:12px;color:#8B8A84;margin:12px 0 0;border-top:1px solid #E2E1DB;padding-top:10px">Build theo spec ở mục 06.</p>
+</div>
+</div>
+<div style="background:#1E1E1E;border-radius:8px;padding:22px 26px;margin-top:24px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap">
+<div>
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8B8A84;margin-bottom:8px">Bàn giao</div>
+<p style="font-size:13.5px;line-height:1.6;color:#ECECEA;margin:0;max-width:560px">Project này sync từ code — token và component sửa trong repo <span style="font-family:'Geist Mono',ui-monospace,monospace;color:#C98A7A">pantheus</span> (tokens.css, tailwind config, components), rồi chạy lại <span style="font-family:'Geist Mono',ui-monospace,monospace;color:#C98A7A">/design-sync</span> để cập nhật tại đây.</p>
+</div>
+<div style="font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:#6B6B70;text-align:right;line-height:1.9">21 TOKEN MỚI<br>3 PHƯƠNG ÁN MARK<br>9 NHÓM COMPONENT</div>
+</div>
+</section>
+
+<footer style="max-width:1120px;margin:64px auto 0;padding:0 40px">
+<div style="border-top:1px solid #E2E1DB;padding-top:16px;display:flex;justify-content:space-between;font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#8B8A84"><span>Pantheus design system</span><span>Đề xuất v2 · 07.2026</span></div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;logoVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;A — nét đơn&quot;,&quot;B — khung vuông&quot;,&quot;C — chân đế&quot;],&quot;default&quot;:&quot;A — nét đơn&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Logo&quot;},&quot;showDark&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Hiển thị&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const v = this.props.logoVariant ?? 'A — nét đơn';
+    return {
+      isA: v.startsWith('A'),
+      isB: v.startsWith('B'),
+      isC: v.startsWith('C'),
+      showDark: this.props.showDark ?? true
+    };
+  }
+}
+</script>
+</body>
+</html>

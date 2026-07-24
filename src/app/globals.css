@@ -23,6 +23,33 @@
   --color-line-strong: var(--line-strong);
   --color-grid: var(--grid);
   --color-accent-text: var(--accent-text);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-wash: var(--accent-wash);
+
+  /* Semantic palette (ERP) — each family: base / text / bg / border */
+  --color-success: var(--success);
+  --color-success-text: var(--success-text);
+  --color-success-bg: var(--success-bg);
+  --color-success-border: var(--success-border);
+  --color-warning: var(--warning);
+  --color-warning-text: var(--warning-text);
+  --color-warning-bg: var(--warning-bg);
+  --color-warning-border: var(--warning-border);
+  --color-danger: var(--danger);
+  --color-danger-text: var(--danger-text);
+  --color-danger-bg: var(--danger-bg);
+  --color-danger-border: var(--danger-border);
+  --color-info: var(--info);
+  --color-info-text: var(--info-text);
+  --color-info-bg: var(--info-bg);
+  --color-info-border: var(--info-border);
+
+  /* Chart palette — c1 ink · c2 accent · c3 steel · c4 ochre · c5 neutral */
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
 
   --font-display: var(--font-manrope);
   --font-sans: var(--font-manrope);
@@ -53,6 +80,12 @@
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) * 1.4);
+
+  /* Elevation — e0 = hairline border only (no shadow). Dark keeps the same
+   * shadows and leans on borders for separation (see .dark tokens). */
+  --shadow-e1: 0 1px 2px rgb(30 30 30 / 0.05);
+  --shadow-e2: 0 8px 24px rgb(30 30 30 / 0.1);
+  --shadow-e3: 0 16px 48px rgb(30 30 30 / 0.16);
 }
 
 :root {
@@ -68,6 +101,34 @@
   --grid: #ecebe6; /* aura grid lines (very faint) */
   --accent: #7a2e2e; /* whisper accent — oxblood */
   --accent-text: #6b2626; /* darker oxblood for small accent text (AA on paper) */
+  --accent-strong: #632424; /* oxblood hover */
+  --accent-wash: #f0e4e1; /* selection tint, focus-ring backing */
+
+  /* --- Semantic palette (v2, ERP): base / text / bg / border. Oxblood is
+     brand/interaction only — errors always use danger, never accent. --- */
+  --success: #2e7d52;
+  --success-text: #256843;
+  --success-bg: #e7f0e8;
+  --success-border: #c9decf;
+  --warning: #9a6410;
+  --warning-text: #7d520e;
+  --warning-bg: #f5eddb;
+  --warning-border: #e4d4ac;
+  --danger: #b13a30;
+  --danger-text: #942f27;
+  --danger-bg: #f7e7e4;
+  --danger-border: #eacac4;
+  --info: #33608d;
+  --info-text: #2b5175;
+  --info-bg: #e6edf4;
+  --info-border: #c6d6e5;
+
+  /* --- Chart palette --- */
+  --chart-1: var(--ink); /* c1 */
+  --chart-2: var(--accent); /* c2 */
+  --chart-3: #33608d; /* c3 steel */
+  --chart-4: #9a6410; /* c4 ochre */
+  --chart-5: #d2d1ca; /* c5 neutral (= line-strong) */
 
   /* --- shadcn semantic tokens mapped to brand --- */
   --background: var(--paper);
@@ -83,7 +144,7 @@
   --muted: var(--section);
   --muted-foreground: var(--ink-soft);
   --accent-foreground: var(--paper);
-  --destructive: oklch(0.577 0.245 27.325);
+  --destructive: var(--danger); /* accent ≠ error — errors always use danger */
   --border: var(--line);
   --input: var(--line);
   --ring: var(--accent);
@@ -104,6 +165,31 @@
   --grid: #232327;
   --accent: #b06a5a;
   --accent-text: #c98a7a;
+  --accent-strong: #c07a68;
+  --accent-wash: #2b1d19;
+
+  /* Semantic — lifted for contrast on dark; base and text share one value. */
+  --success: #5fb183;
+  --success-text: #5fb183;
+  --success-bg: #16281e;
+  --success-border: #2c4a3a;
+  --warning: #ce9c4c;
+  --warning-text: #ce9c4c;
+  --warning-bg: #272013;
+  --warning-border: #56431f;
+  --danger: #d3766a;
+  --danger-text: #d3766a;
+  --danger-bg: #2a1614;
+  --danger-border: #5c2a24;
+  --info: #6fa0cb;
+  --info-text: #6fa0cb;
+  --info-bg: #14202b;
+  --info-border: #2a4560;
+
+  /* Chart — c1/c2 track ink/accent (auto-flip); c3–c5 lift for dark. */
+  --chart-3: #6fa0cb;
+  --chart-4: #ce9c4c;
+  --chart-5: #3a3a3d;
 }
 
 @layer base {
