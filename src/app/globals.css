@@ -425,7 +425,64 @@
     outline-offset: 3px;
   }
 
-  /* --- home: product sheets --- */
+  /* --- home: hero. One frame tall; the copy centres in the space the
+     floor plan leaves above the bottom edge. --- */
+  .hero-home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+  }
+  .hero-copy {
+    z-index: 1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 33svh;
+  }
+  .h1.h1-hero {
+    font-size: clamp(46px, min(6vw, 9.4svh), 88px);
+  }
+  .hero-plan {
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0;
+    height: 44%;
+    perspective: 1300px;
+    perspective-origin: 50% 0;
+    pointer-events: none;
+    mask-image:
+      linear-gradient(to bottom, transparent, #000 55%),
+      linear-gradient(
+        to right,
+        transparent,
+        #000 22%,
+        #000 78%,
+        transparent
+      );
+    mask-composite: intersect;
+  }
+  .hero-plane {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: max(1900px, 132vw);
+    height: auto;
+    transform: translateX(-50%) rotateX(58deg);
+    transform-origin: 50% 0;
+    animation: plane-in 1.8s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
+  }
+  /* Dim the drawing, not the route: the route is the point. */
+  .hero-plane :is(.w-ln, .w-fn, .w-dash, .w-tx) {
+    opacity: 0.55;
+  }
+  .hero-plane .w-wall {
+    opacity: 0.4;
+  }
+
+  /* --- home: product sheets. Each sheet crops a real screen: the window
+     sits inset from the top-left and runs off the right and bottom. --- */
   .sheets {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -448,31 +505,51 @@
     border-color: var(--accent-text);
     transform: translateY(-3px);
   }
-  .sheet-top,
-  .sheet-foot {
+  .sheet-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
     color: var(--ink-soft);
   }
-  .sheet-foot {
-    border-top: 1px solid var(--line);
-    padding-top: 14px;
+  .sheet-shot {
+    height: clamp(180px, 28svh, 270px);
+    overflow: hidden;
+    padding: 22px 0 0 22px;
+    border: 1px solid var(--line);
+    background: var(--section);
+    mask-image: linear-gradient(to bottom, #000 72%, transparent);
+  }
+  .sheet-shot .app {
+    width: 620px;
+    zoom: 0.84;
   }
   .sheet-name {
     font-size: 28px;
     font-weight: 700;
     letter-spacing: -0.02em;
   }
-
-  /* --- line illustrations (home sheets + approach figures) --- */
-  .ill {
-    display: block;
-    width: 100%;
-    height: auto;
-    color: color-mix(in oklab, var(--ink) 42%, transparent);
+  .sheet-go {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto;
+    color: var(--accent-text);
+    font-size: 15px;
+    font-weight: 700;
   }
+  .sheets-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px 24px;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+
+  /* --- line illustrations (approach figures) --- */
   .pl {
     fill: none;
     stroke: currentColor;
@@ -511,15 +588,6 @@
   }
   .flow {
     animation: flow 1.4s linear infinite;
-  }
-  .draw {
-    stroke-dasharray: 1200;
-    stroke-dashoffset: 1200;
-    transition: stroke-dashoffset 1.6s ease;
-  }
-  .sheet:hover .draw,
-  .sheet:focus-visible .draw {
-    stroke-dashoffset: 0;
   }
 
   /* --- home: approach stepper --- */
@@ -686,29 +754,7 @@
     color: var(--ink-soft);
   }
 
-  /* --- home: products --- */
-  .prod {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
-    gap: 56px;
-    align-items: center;
-    padding: 72px 0;
-    border-top: 1px solid var(--line-strong);
-  }
-  .route {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-  .route span {
-    padding: 6px 8px;
-    border: 1px solid var(--line-strong);
-    background: var(--surface);
-    color: var(--ink-soft);
-    font-family: var(--font-geist-mono), monospace;
-    font-size: 10.5px;
-    letter-spacing: 0.06em;
-  }
+  /* --- office inbox mock --- */
   .ilist {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -909,10 +955,6 @@
     align-items: center;
     min-width: 560px;
     border-top: 1px solid var(--section);
-  }
-  /* The home showcase frame is ~532px wide; let its table fit without scrolling. */
-  .prod .tr {
-    min-width: 520px;
   }
   .tr.th {
     border-top: 0;
@@ -1582,7 +1624,6 @@
     }
     .sheets,
     .panel,
-    .prod,
     .split,
     .how,
     .foot-cols,
@@ -1597,9 +1638,6 @@
     .steps .d,
     .app-side {
       display: none;
-    }
-    .ilist {
-      grid-template-columns: minmax(0, 1fr);
     }
     .facts {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1678,6 +1716,12 @@
     stroke-dashoffset: -26;
   }
 }
+@keyframes plane-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(60px) rotateX(58deg);
+  }
+}
 @keyframes route {
   to {
     stroke-dashoffset: -30;
@@ -1721,6 +1765,7 @@
 /* Motion is decoration here — the tour still works as a series of stills. */
 @media (prefers-reduced-motion: reduce) {
   .aura,
+  .hero-plane,
   .flow,
   .lp,
   .orbit,
@@ -1734,10 +1779,6 @@
   .pin.walk,
   .sheet,
   .arr {
-    transition: none;
-  }
-  .draw {
-    stroke-dashoffset: 0;
     transition: none;
   }
 }

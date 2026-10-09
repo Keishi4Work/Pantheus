@@ -4,14 +4,14 @@ import Eyebrow from "@/components/Eyebrow";
 import HeroFrame from "@/components/sections/HeroFrame";
 import Closing from "@/components/sections/Closing";
 import Footer from "@/components/sections/Footer";
-import ProductSheets from "@/components/home/ProductSheets";
+import HeroPlan from "@/components/home/HeroPlan";
 import Approach from "@/components/home/Approach";
 import {
   FigLoop,
   FigProcess,
   FigRoles,
 } from "@/components/home/ApproachFigures";
-import ProductShowcase from "@/components/home/ProductShowcase";
+import ProductSheets from "@/components/home/ProductSheets";
 import AskDemo from "@/components/home/AskDemo";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -30,7 +30,7 @@ export default async function Page({ params }: Props) {
   return (
     <>
       <main className="flex-1">
-        <HeroFrame className="pb-[72px]">
+        <HeroFrame className="hero-home">
           <div className="tblock" aria-hidden="true">
             <span>Project</span>
             <span>Pantheus</span>
@@ -39,11 +39,12 @@ export default async function Page({ params }: Props) {
             <span>Rev</span>
             <span>B</span>
             <span>Sheet</span>
-            <span>1/3</span>
+            <span>01</span>
           </div>
-          <div className="wrap pt-28 max-[900px]:pt-20">
+          <HeroPlan />
+          <div className="wrap hero-copy">
             <Eyebrow>{t("hero.eyebrow")}</Eyebrow>
-            <h1 className="h1 mt-[26px] max-w-[940px]">
+            <h1 className="h1 h1-hero mt-[26px] max-w-[980px]">
               {t.rich("hero.title", {
                 acc: (c) => <span className="acc">{c}</span>,
               })}
@@ -57,7 +58,6 @@ export default async function Page({ params }: Props) {
                 {t("hero.secondary")} <span className="arr">↓</span>
               </a>
             </div>
-            <ProductSheets />
           </div>
         </HeroFrame>
 
@@ -102,14 +102,14 @@ export default async function Page({ params }: Props) {
 
         <section
           id="products"
-          className="pt-[110px] pb-10 max-[900px]:pt-[84px]"
+          className="py-[clamp(64px,11svh,110px)] max-[900px]:py-[84px]"
         >
           <div className="wrap">
             <Eyebrow>{t("products.eyebrow")}</Eyebrow>
-            <h2 className="h2 mt-[22px] mb-10 max-w-[820px]">
+            <h2 className="h2 mt-[22px] mb-[clamp(28px,5svh,48px)]">
               {t("products.title")}
             </h2>
-            <ProductShowcase />
+            <ProductSheets />
           </div>
         </section>
 

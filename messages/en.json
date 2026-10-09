@@ -35,23 +35,7 @@
       "title": "Your business is <acc>one of a kind</acc>. Your software should be too.",
       "lead": "Pantheus designs software around the way your business already runs, easy enough for everyone from managers to front-line staff. Every week brings an update, shaped by what your own users tell us.",
       "primary": "Book a consultation",
-      "secondary": "See both products"
-    },
-    "sheets": {
-      "office": {
-        "top": "Sheet 02 · Office",
-        "desc": "Tasks, projects, meetings, documents and chat, in one flow through the office day.",
-        "status": "Live",
-        "route": "One day · 7 stops"
-      },
-      "production": {
-        "top": "Sheet 03 · Factory",
-        "desc": "ERP for the factory floor: bills of materials, planning, purchasing, inventory, production orders and finished goods.",
-        "status": "Rolling out",
-        "route": "Material flow · 7 stops",
-        "materials": "MATERIALS STORE",
-        "line": "ASSEMBLY LINE"
-      }
+      "secondary": "See the products"
     },
     "problem": {
       "title": "Big software makes you change how you work. Spreadsheets can't keep up.",
@@ -155,16 +139,11 @@
     },
     "products": {
       "eyebrow": "Products",
-      "title": "Two products, built the same way: by following the work.",
+      "title": "Starting with the office and the factory.",
       "office": {
-        "top": "Sheet 02 · For office teams",
-        "desc": "Work management software designed around the actions people repeat every day. We run Pantheus itself on it.",
-        "feat": [
-          "An inbox overview: overdue, due soon and unread notifications",
-          "Delivery projects by phase and sign-off date, or kanban for development teams",
-          "Meeting minutes and documents share one editor",
-          "Pan, an AI assistant inside chat"
-        ],
+        "top": "Sheet 02 · Office",
+        "status": "Live",
+        "desc": "The office team's whole day in one place: what comes first, who it's waiting on, what each meeting decided.",
         "link": "Walk through a workday",
         "inbox": {
           "tabs": ["*Overview", "My tasks", "Calendar"],
@@ -203,15 +182,14 @@
         }
       },
       "production": {
-        "top": "Sheet 03 · For factories",
-        "desc": "ERP for small and mid-sized factories in Vietnam. It is rolling out at an electric vehicle factory, and we add new workflows every week.",
-        "feat": [
-          "Versioned bills of materials per colour; sub-assemblies like the seat have their own",
-          "Weekly material planning: calculate shortfalls, raise purchase orders per supplier",
-          "Daily production orders generate material issue slips automatically",
-          "Stock is calculated from approved documents, so nobody types a stock figure by hand"
-        ],
+        "top": "Sheet 03 · Factory",
+        "status": "Rolling out",
+        "desc": "ERP for the factory: what to buy this week, what's really in stock, and how many units your materials can build.",
         "link": "Follow the material flow"
+      },
+      "more": {
+        "text": "Need software for another part of your operation? We design it around the way you already work.",
+        "link": "Talk to Pantheus"
       }
     },
     "principles": {

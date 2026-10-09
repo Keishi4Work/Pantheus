@@ -35,23 +35,7 @@
       "title": "Doanh nghiệp của bạn là <acc>độc nhất</acc>. Phần mềm cũng nên như thế.",
       "lead": "Pantheus thiết kế phần mềm theo đúng cách doanh nghiệp bạn đang vận hành, dễ dùng cho mọi người, từ quản lý đến nhân viên. Mỗi tuần đều có bản cập nhật, làm theo góp ý của chính người dùng.",
       "primary": "Đặt lịch tư vấn",
-      "secondary": "Xem 2 sản phẩm"
-    },
-    "sheets": {
-      "office": {
-        "top": "Sheet 02 · Văn phòng",
-        "desc": "Task, dự án, cuộc họp, tài liệu và trao đổi nằm chung một luồng, xuyên suốt ngày làm việc ở văn phòng.",
-        "status": "Đang chạy",
-        "route": "Hành trình 1 ngày · 7 chặng"
-      },
-      "production": {
-        "top": "Sheet 03 · Nhà máy",
-        "desc": "ERP cho nhà máy: định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm.",
-        "status": "Đang triển khai",
-        "route": "Dòng vật tư · 7 chặng",
-        "materials": "KHO VẬT TƯ",
-        "line": "DÂY CHUYỀN"
-      }
+      "secondary": "Xem sản phẩm"
     },
     "problem": {
       "title": "Phần mềm lớn bắt bạn đổi cách làm. Excel thì không theo kịp.",
@@ -155,16 +139,11 @@
     },
     "products": {
       "eyebrow": "Sản phẩm",
-      "title": "Hai sản phẩm, cùng một cách làm: đi theo luồng việc.",
+      "title": "Bắt đầu từ văn phòng và nhà máy.",
       "office": {
-        "top": "Sheet 02 · Cho đội văn phòng",
-        "desc": "Phần mềm quản lý công việc, thiết kế quanh những thao tác lặp lại mỗi ngày. Chính đội Pantheus cũng dùng nó hằng ngày.",
-        "feat": [
-          "Inbox tóm tắt: quá hạn, đến hạn, thông báo chưa đọc",
-          "Dự án Delivery theo phase và hạn nghiệm thu, hoặc kanban cho đội phát triển",
-          "Biên bản họp và tài liệu dùng chung một trình soạn thảo",
-          "Pan, trợ lý AI nằm ngay trong khung trao đổi"
-        ],
+        "top": "Sheet 02 · Văn phòng",
+        "status": "Đang chạy",
+        "desc": "Cả ngày làm việc của đội văn phòng ở một nơi: việc nào làm trước, đang chờ ai, cuộc họp đã chốt gì.",
         "link": "Đi qua một ngày làm việc",
         "inbox": {
           "tabs": ["*Tóm tắt", "Task của tôi", "Lịch"],
@@ -209,15 +188,14 @@
         }
       },
       "production": {
-        "top": "Sheet 03 · Cho nhà máy",
-        "desc": "ERP cho nhà máy vừa và nhỏ tại Việt Nam. Hệ thống đang triển khai tại một nhà máy xe điện, mỗi tuần có thêm nghiệp vụ mới.",
-        "feat": [
-          "Định mức (BOM) có phiên bản, theo từng màu; cụm như yên xe có định mức riêng",
-          "Dự trù tuần: tính vật tư thiếu, tạo đơn mua theo nhà cung cấp",
-          "Lệnh sản xuất ngày tự sinh phiếu xuất cấp vật tư",
-          "Tồn kho tính từ chứng từ đã duyệt, không ai gõ tay số tồn"
-        ],
+        "top": "Sheet 03 · Nhà máy",
+        "status": "Đang triển khai",
+        "desc": "ERP cho nhà máy: tuần này cần mua gì, kho thật sự còn bao nhiêu, vật tư hiện có làm được bao nhiêu sản phẩm.",
         "link": "Đi theo dòng vật tư"
+      },
+      "more": {
+        "text": "Cần phần mềm cho một mảng vận hành khác? Chúng tôi thiết kế riêng, bắt đầu từ cách bạn đang làm.",
+        "link": "Trao đổi với Pantheus"
       }
     },
     "principles": {
