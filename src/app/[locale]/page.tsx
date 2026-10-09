@@ -7,9 +7,9 @@ import Footer from "@/components/sections/Footer";
 import ProductSheets from "@/components/home/ProductSheets";
 import Approach from "@/components/home/Approach";
 import {
-  FigLayers,
   FigLoop,
   FigProcess,
+  FigRoles,
 } from "@/components/home/ApproachFigures";
 import ProductShowcase from "@/components/home/ProductShowcase";
 import AskDemo from "@/components/home/AskDemo";
@@ -87,7 +87,7 @@ export default async function Page({ params }: Props) {
               figures={[
                 <FigProcess key="process" l={t.raw("approach.fig.process")} />,
                 <FigLoop key="loop" l={t.raw("approach.fig.loop")} />,
-                <FigLayers key="layers" l={t.raw("approach.fig.layers")} />,
+                <FigRoles key="roles" l={t.raw("approach.fig.roles")} />,
               ]}
               shipped={t.raw("approach.shipped")}
               labels={{

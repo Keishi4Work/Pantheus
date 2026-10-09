@@ -28,12 +28,12 @@
   "Home": {
     "meta": {
       "title": "Pantheus — Phần mềm thiết kế riêng cho cách bạn vận hành",
-      "description": "Pantheus xây phần mềm theo đúng luồng vận hành của từng doanh nghiệp, rồi đóng gói những gì đã chạy tốt thành sản phẩm: Pantheus Office cho đội văn phòng, Pantheus Production cho nhà máy."
+      "description": "Pantheus thiết kế phần mềm riêng theo cách từng doanh nghiệp vận hành, dễ dùng cho mọi vai trò và được cập nhật hằng tuần. Pantheus Office cho đội văn phòng, Pantheus Production cho nhà máy."
     },
     "hero": {
       "eyebrow": "Nền tảng cho mọi vận hành.",
       "title": "Doanh nghiệp của bạn là <acc>độc nhất</acc>. Phần mềm cũng nên như thế.",
-      "lead": "Pantheus xây phần mềm theo đúng cách từng doanh nghiệp đang vận hành, rồi đóng gói phần nào chạy tốt thành sản phẩm. Chúng tôi làm cùng AI và cập nhật phần mềm hằng tuần theo phản hồi của người dùng.",
+      "lead": "Pantheus thiết kế phần mềm theo đúng cách doanh nghiệp bạn đang vận hành, dễ dùng cho mọi người, từ quản lý đến nhân viên. Mỗi tuần đều có bản cập nhật, làm theo góp ý của chính người dùng.",
       "primary": "Đặt lịch tư vấn",
       "secondary": "Xem 2 sản phẩm"
     },
@@ -56,34 +56,34 @@
     "problem": {
       "title": "Phần mềm lớn bắt bạn đổi cách làm. Excel thì không theo kịp.",
       "quote": "“Ngay bây giờ tôi sản xuất được bao nhiêu sản phẩm?”",
-      "body": "Với Excel, câu hỏi đó mất hàng giờ, và khi có đáp án thì số liệu đã cũ. Dùng phần mềm đóng gói thì bạn phải uốn quy trình cho vừa màn hình của người khác. Pantheus làm phần mềm theo đúng cách công việc đang chạy ở chỗ bạn."
+      "body": "Với Excel, câu hỏi đó mất hàng giờ, và khi có đáp án thì số liệu đã cũ. Dùng phần mềm đóng gói thì bạn phải uốn quy trình cho vừa màn hình của người khác, và nhân viên lại quay về Excel vì khó dùng. Pantheus làm phần mềm theo đúng cách công việc đang chạy ở chỗ bạn."
     },
     "approach": {
-      "eyebrow": "Từ dịch vụ đến sản phẩm",
-      "title": "Bắt đầu từ may đo, dần thành sản phẩm.",
-      "group": "Ba bước của phương pháp",
+      "eyebrow": "Khác biệt của Pantheus",
+      "title": "Phần mềm theo đúng cách bạn làm, tốt lên mỗi tuần, và ai cũng dùng được.",
+      "group": "Ba điểm khác biệt",
       "gets": "Bạn nhận được",
-      "prev": "Bước trước",
-      "next": "Bước tiếp",
+      "prev": "Quay lại",
+      "next": "Tiếp theo",
       "steps": [
         {
           "n": "01",
-          "t": "May đo",
-          "d": "Phần mềm riêng cho từng doanh nghiệp",
+          "t": "Thiết kế riêng",
+          "d": "Theo đúng cách bạn đang làm",
           "title": "Bắt đầu từ cách bạn đang làm mỗi ngày.",
           "body": "Chúng tôi đi theo công việc thật, từ lúc vật tư về tới cổng đến lúc chứng từ lên sổ. Với mỗi sự kiện, chúng tôi hỏi đủ sáu câu: ai làm, khi nào, dùng dữ liệu gì, trạng thái đổi ra sao, ghi vào chứng từ nào và có ngoại lệ gì.",
           "get": [
             "Phần mềm theo đúng luồng vận hành của bạn",
-            "Triển khai trên hạ tầng của bạn, dữ liệu thuộc về bạn",
-            "Bắt đầu từ điểm nghẽn tốn kém nhất"
+            "Điểm khác biệt của doanh nghiệp bạn được làm riêng, không bị ép vào mẫu chung",
+            "Đúng tên gọi, mẫu phiếu và cấp duyệt doanh nghiệp bạn đang dùng"
           ]
         },
         {
           "n": "02",
-          "t": "Lặp nhanh",
-          "d": "Phản hồi hôm nay, cập nhật trong tuần",
-          "title": "Vòng phản hồi chỉ tính bằng ngày.",
-          "body": "Người dùng bấm “Gửi phản hồi” ngay trên màn hình đang mở. Chúng tôi viết spec, AI viết mã, còn kỹ sư chịu trách nhiệm về kiến trúc và kiểm thử. Mỗi thay đổi tốn ít công, nên chúng tôi nhận làm được nhiều yêu cầu hơn.",
+          "t": "Cập nhật hằng tuần",
+          "d": "Góp ý hôm nay, cập nhật trong tuần",
+          "title": "Vướng ở đâu, góp ý ngay ở đó.",
+          "body": "Người dùng bấm “Gửi phản hồi” ngay trên màn hình đang mở, không cần gọi điện hay chờ đến buổi họp. Chúng tôi sửa theo từng thay đổi nhỏ và cập nhật đều mỗi tuần, nên phần mềm theo kịp cách bạn làm, kể cả khi cách làm thay đổi.",
           "get": [
             "Nút phản hồi trên mọi màn hình",
             "Cập nhật nhỏ và đều, không phải chờ một bản lớn",
@@ -92,14 +92,14 @@
         },
         {
           "n": "03",
-          "t": "Sản phẩm hóa",
-          "d": "Cái gì chạy tốt trở thành sản phẩm",
-          "title": "Phần nào chạy tốt sẽ thành sản phẩm.",
-          "body": "Phần nào chạy tốt ở những lần triển khai đầu tiên được đóng gói thành Pantheus Office và Pantheus Production. Khách hàng đến sau bắt đầu từ một nền đã chạy thật, còn phần riêng của họ vẫn được may đo.",
+          "t": "Cho mọi vai trò",
+          "d": "Từ quản lý đến nhân viên",
+          "title": "Thiết kế cho người dùng hằng ngày, không chỉ người xem báo cáo.",
+          "body": "Người chọn mua phần mềm thường là quản lý, nhưng người dùng nó nhiều nhất là thủ kho, kế toán và nhân viên văn phòng. Chúng tôi thiết kế từng màn hình quanh những thao tác họ lặp lại mỗi ngày. Nhân viên dùng thật thì số liệu quản lý nhận được mới đáng tin.",
           "get": [
-            "Triển khai nhanh hơn trên nền đã chạy thực tế",
-            "UX được chỉnh mỗi tuần theo phản hồi của người dùng",
-            "Phần riêng của bạn vẫn là của bạn"
+            "Mỗi vai trò có màn hình theo đúng phần việc của mình",
+            "Hướng dẫn từng bước chạy ngay trên màn hình thật",
+            "Đào tạo ít, dữ liệu sạch ngay từ ngày đầu"
           ]
         }
       ],
@@ -145,12 +145,11 @@
           "weekly": "MỖI TUẦN",
           "button": "Gửi phản hồi"
         },
-        "layers": {
-          "formula": "MỖI DOANH NGHIỆP = NỀN CHUNG + PHẦN RIÊNG",
-          "you": "MAY ĐO · BẠN",
-          "a": "MAY ĐO · A",
-          "b": "MAY ĐO · B",
-          "base": "NỀN TẢNG · DỮ LIỆU · QUYỀN · CHỨNG TỪ"
+        "roles": {
+          "caption": "MỖI VAI TRÒ MỘT MÀN HÌNH RIÊNG",
+          "roles": ["GIÁM ĐỐC", "KẾ TOÁN", "THỦ KHO", "NHÂN VIÊN"],
+          "screens": ["BÁO CÁO", "CHỨNG TỪ", "PHIẾU KHO", "TASK"],
+          "base": "CHUNG MỘT NGUỒN DỮ LIỆU"
         }
       }
     },
@@ -159,7 +158,7 @@
       "title": "Hai sản phẩm, cùng một cách làm: đi theo luồng việc.",
       "office": {
         "top": "Sheet 02 · Cho đội văn phòng",
-        "desc": "Phần mềm quản lý công việc, thiết kế quanh những thao tác lặp lại mỗi ngày. Chính đội Pantheus cũng làm việc trên nó.",
+        "desc": "Phần mềm quản lý công việc, thiết kế quanh những thao tác lặp lại mỗi ngày. Chính đội Pantheus cũng dùng nó hằng ngày.",
         "feat": [
           "Inbox tóm tắt: quá hạn, đến hạn, thông báo chưa đọc",
           "Dự án Delivery theo phase và hạn nghiệm thu, hoặc kanban cho đội phát triển",
@@ -222,33 +221,28 @@
       }
     },
     "principles": {
-      "eyebrow": "Nguyên tắc",
-      "title": "Những điều không đổi, dù là may đo hay sản phẩm.",
+      "eyebrow": "Cam kết",
+      "title": "Những điều bạn luôn có khi làm cùng Pantheus.",
       "items": [
         {
-          "label": "Tối ưu cho bạn",
-          "title": "Quy trình của bạn là bản thiết kế.",
-          "body": "Doanh nghiệp không phải chạy theo phần mềm. Chúng tôi thiết kế phần mềm theo nhu cầu và cách bạn vận hành."
-        },
-        {
-          "label": "Chạy trên dữ liệu của bạn",
-          "title": "Bạn nắm toàn quyền dữ liệu.",
-          "body": "Bạn có máy chủ riêng, thiết kế để chạy ngay trong mạng nội bộ của nhà máy."
+          "label": "Triển khai linh hoạt",
+          "title": "Đặt tại doanh nghiệp hoặc trên cloud, bạn chọn.",
+          "body": "Máy chủ có thể nằm ngay trong mạng nội bộ của bạn, hoặc chạy trên cloud nếu bạn không muốn tự lo hạ tầng. Cách nào thì dữ liệu cũng thuộc về bạn."
         },
         {
           "label": "Đo bằng kết quả",
           "title": "Mỗi tính năng gắn với một con số bạn quan tâm.",
-          "body": "Chúng tôi bắt đầu từ điểm nghẽn như thất thoát tồn kho, dây chuyền phải dừng hay vốn lưu động. Tính năng không làm thay đổi con số nào thì chúng tôi không làm."
+          "body": "Ví dụ thất thoát tồn kho, số lần dây chuyền phải dừng, hay số ngày một đề nghị mua hàng nằm chờ duyệt. Tính năng không làm thay đổi con số nào thì chúng tôi không làm."
         },
         {
-          "label": "Dành cho người vận hành",
-          "title": "Đủ đơn giản để ai cũng dùng được.",
-          "body": "Phần lớn dự án ERP thất bại vì nhân viên không chịu dùng. Hướng dẫn chạy ngay trên màn hình thật, nên đào tạo ít mà dữ liệu vẫn sạch từ ngày đầu."
+          "label": "Có mặt tại chỗ",
+          "title": "Đội triển khai làm việc ngay tại chỗ bạn.",
+          "body": "Chúng tôi đến tận nơi để khảo sát, ngồi cùng đội bạn trong những ngày đầu dùng phần mềm và hướng dẫn từng người trên màn hình thật."
         },
         {
           "label": "Phát triển cùng AI",
           "title": "Sẵn sàng thay đổi khi bạn thay đổi.",
-          "body": "AI giúp chúng tôi viết mã nhanh hơn, còn kỹ sư chịu trách nhiệm về kiến trúc và chất lượng. Thay đổi quy trình không còn là dự án kéo dài nửa năm."
+          "body": "AI giúp chúng tôi viết mã nhanh hơn, còn kỹ sư chịu trách nhiệm về kiến trúc và kiểm thử. Nhờ vậy mỗi thay đổi tốn ít công, và chúng tôi nhận làm được nhiều yêu cầu hơn."
         }
       ]
     },
@@ -300,26 +294,26 @@
       ]
     },
     "how": {
-      "eyebrow": "Cách chúng tôi làm việc",
-      "title": "Ba bước, bắt đầu từ một điểm nghẽn.",
+      "eyebrow": "Bắt đầu thế nào",
+      "title": "Bắt đầu nhỏ, từ một điểm nghẽn.",
       "steps": [
         {
-          "t": "Thấu hiểu",
-          "b": "Chúng tôi đi theo công việc thật, nói chuyện với từng vai trò và tìm ra điểm nghẽn tốn kém nhất."
+          "t": "Khảo sát tại chỗ",
+          "b": "Chúng tôi đi theo công việc thật, nói chuyện với từng vai trò và cùng bạn chỉ ra chỗ đang tốn kém nhất."
         },
         {
-          "t": "Xây dựng",
-          "b": "Giải quyết điểm nghẽn đó trước, trên nền sản phẩm có sẵn, và may đo những phần riêng của bạn."
+          "t": "Gỡ điểm nghẽn đầu tiên",
+          "b": "Phần mềm được làm cho đúng chỗ đó trước. Bạn thấy kết quả trên công việc thật rồi mới quyết định làm tiếp."
         },
         {
-          "t": "Mở rộng",
-          "b": "Thêm nghiệp vụ khi doanh nghiệp lớn lên, theo nhịp do bạn quyết định."
+          "t": "Mở rộng theo nhịp của bạn",
+          "b": "Thêm nghiệp vụ khi doanh nghiệp cần, theo thứ tự bạn chọn. Không phải cam kết một dự án lớn ngay từ đầu."
         }
       ]
     },
     "closing": {
       "heading": "Cùng làm một phần mềm vừa với cách bạn vận hành.",
-      "lead": "Bước đầu là một buổi chúng tôi đến xem bạn đang vận hành ra sao. Không có khuôn mẫu áp sẵn, và bạn không bị ràng buộc.",
+      "lead": "Bước đầu là một buổi tư vấn về cách bạn đang vận hành. Không có khuôn mẫu áp sẵn, và bạn không bị ràng buộc.",
       "primary": "Đặt lịch tư vấn",
       "secondary": "Xem Pantheus Office"
     }
@@ -330,16 +324,16 @@
       "description": "Task, dự án, cuộc họp, tài liệu, trao đổi và đề nghị mua hàng trong cùng một nơi, kèm trợ lý AI Pan."
     },
     "hero": {
-      "eyebrow": "Pantheus Office · Sheet 02/03",
+      "eyebrow": "Pantheus Office · Sheet 02",
       "title": "Một ngày làm việc, một <acc>luồng</acc>.",
       "lead": "Task, dự án, cuộc họp, tài liệu và trao đổi trong cùng một nơi. Từng màn hình được thiết kế quanh những thao tác mọi người làm nhiều lần mỗi ngày.",
       "primary": "Dùng thử Office",
       "secondary": "Đi qua một ngày",
       "facts": [
-        { "k": "Trạng thái", "v": "Đang chạy hằng ngày" },
-        { "k": "Truy cập", "v": "Trình duyệt, cài được như ứng dụng" },
-        { "k": "Tìm mọi thứ", "v": "Ctrl K" },
-        { "k": "Ngôn ngữ", "v": "Tiếng Việt và tiếng Anh" }
+        { "k": "Thay cho", "v": "Nhóm chat, Excel, email xin duyệt" },
+        { "k": "Trợ lý AI", "v": "Pan soạn task từ tin nhắn" },
+        { "k": "Cập nhật", "v": "Hằng tuần, theo góp ý người dùng" },
+        { "k": "Đang dùng", "v": "10 dự án của chính Pantheus" }
       ]
     },
     "stops": [
@@ -353,7 +347,7 @@
         "specs": [
           ["Chặng", "7 khu vực"],
           ["Dành cho", "Đội văn phòng, đội dự án"],
-          ["Truy cập", "Trình duyệt, điện thoại"]
+          ["Kết quả", "Ai cũng biết việc đang ở đâu"]
         ],
         "hots": []
       },
@@ -385,7 +379,7 @@
         "time": "09:00",
         "short": "Cuộc họp",
         "title": "Biên bản viết ngay trong trang cuộc họp.",
-        "desc": "Ghi biên bản bằng chính trình soạn thảo của Tài liệu. Office tự lưu thời lượng và danh sách người dự, còn biên bản thì tìm lại được như mọi tài liệu khác.",
+        "desc": "Ai dự, họp bao lâu, đã chốt những gì: Office lưu cả ba trên cùng một trang.",
         "screen": "Cuộc họp · Danh sách",
         "specs": [
           ["Ai", "Người chủ trì, thư ký"],
@@ -394,8 +388,8 @@
         ],
         "hots": [
           {
-            "t": "Gõ / để chèn",
-            "b": "Chèn tiêu đề, danh sách, bảng, ảnh bằng lệnh gạch chéo. Gõ @ để nhắc tên đồng nghiệp ngay trong biên bản."
+            "t": "Tra lại ai đã quyết gì",
+            "b": "Biên bản lưu như mọi tài liệu, nên tháng sau vẫn tìm ra quyết định được chốt ở buổi họp nào."
           },
           {
             "t": "Họp video ngay trong Office",
@@ -421,8 +415,8 @@
             "b": "Ba tầng trên cùng một Gantt, gập mở từng phase. Hạn nghiệm thu là một mốc riêng, có cảnh báo khi trễ."
           },
           {
-            "t": "Ba loại dự án",
-            "b": "Delivery theo phase cho dự án giao khách, Phát triển theo kanban, Chung cho việc vận hành. Mỗi loại có cách hiển thị riêng."
+            "t": "Mỗi kiểu dự án một cách xem",
+            "b": "Dự án giao khách đi theo phase, đội phát triển dùng kanban, việc vận hành hằng ngày có loại riêng. Không ai phải ép việc của mình vào một khuôn chung."
           }
         ]
       },
@@ -441,7 +435,7 @@
         "hots": [
           {
             "t": "Prompt cho coding agent",
-            "b": "Viết yêu cầu một lần, người đọc hiểu mà agent cũng chạy được. Có thể dán ảnh và đính kèm tệp đến 25 MB."
+            "b": "Viết yêu cầu một lần, người đọc hiểu mà agent cũng chạy được, không phải soạn lại cho từng bên."
           },
           {
             "t": "Cột Review",
@@ -468,7 +462,7 @@
           },
           {
             "t": "Nhóm và nhắn riêng",
-            "b": "Có trả lời trích dẫn, thả cảm xúc, đính kèm tệp, đủ để bạn không cần thêm ứng dụng chat nào khác."
+            "b": "Mỗi phòng ban một nhóm, như kế toán hay đội sản phẩm, nên tin của bên nào không trôi mất trong một nhóm chat chung."
           }
         ]
       },
@@ -477,7 +471,7 @@
         "time": "16:30",
         "short": "Tài liệu",
         "title": "Tài liệu của cả đội, gắn thẻ theo chủ đề.",
-        "desc": "Mỗi lúc chỉ một người sửa, ai cũng bình luận được trên từng đoạn, có lịch sử phiên bản và xuất ra Word, PDF. Thẻ chủ đề có tối đa 3 cấp để duyệt theo dạng cây.",
+        "desc": "Tài liệu của đội nằm một chỗ, gắn thẻ theo chủ đề và duyệt theo dạng cây. Ai cũng bình luận được trên từng đoạn, có lịch sử phiên bản, và xuất ra Word hay PDF khi cần gửi ra ngoài.",
         "screen": "Tài liệu · Cây chủ đề",
         "specs": [
           ["Ai", "Cả đội"],
@@ -487,7 +481,7 @@
         "hots": [
           {
             "t": "Thẻ chủ đề 3 cấp",
-            "b": "Duyệt theo cây, từ /internal xuống /internal/product… Mỗi thẻ là một đường dẫn."
+            "b": "Xếp tài liệu theo cây chủ đề như nội bộ, sản phẩm, khách hàng, để người mới vào cũng tự tìm được thứ mình cần."
           },
           {
             "t": "Đính kèm tập trung",
@@ -771,31 +765,31 @@
     },
     "cards": {
       "eyebrow": "Chi tiết nhỏ",
-      "title": "Những thao tác nhỏ, làm hàng trăm lần mỗi tuần.",
+      "title": "Những chi tiết khiến cả đội chịu dùng mỗi ngày.",
       "items": [
         {
-          "t": "Ctrl K để tìm mọi thứ",
-          "b": "Một ô tìm kiếm cho task, cuộc họp, tài liệu, tệp, đề nghị mua hàng và thành viên, khỏi phải nhớ thứ gì nằm ở menu nào."
+          "t": "Hết cảnh hỏi “gửi chưa nhỉ?”",
+          "b": "Mỗi đề nghị mua hàng hiện rõ đang ở bước nào và chờ ai, từ lúc chờ duyệt đến khi quyết toán."
         },
         {
-          "t": "Biết có việc mới mà không cần mở lại",
-          "b": "Số tin chưa đọc hiện ngay trên tiêu đề tab trình duyệt, và thông báo đẩy về điện thoại."
+          "t": "Chưa có hóa đơn, chưa thành “đã mua”",
+          "b": "Đề nghị chỉ được đánh dấu đã mua khi đã gắn hóa đơn VAT hoặc chứng từ chuyển khoản, nên kế toán không phải đi đòi lại sau."
         },
         {
-          "t": "Đặt lịch làm việc",
-          "b": "Biến task thành khối giờ trên lịch cá nhân, không làm thay đổi hạn của task."
+          "t": "Trễ nghiệm thu, cả đội cùng thấy",
+          "b": "Hạn nghiệm thu là một mốc riêng trên Gantt và được cảnh báo ngay khi trễ, thay vì nằm im trong một file kế hoạch."
         },
         {
-          "t": "Biên bản là tài liệu",
-          "b": "Ghi họp bằng cùng trình soạn thảo, gõ / để chèn, @ để nhắc. Tìm lại như mọi tài liệu khác."
+          "t": "Họp xong là có biên bản",
+          "b": "Vào cuộc gọi video từ trang cuộc họp, Office tự ghi nhận người dự. Biên bản viết ngay trên trang đó và tìm lại được như mọi tài liệu."
         },
         {
-          "t": "Ba loại dự án",
-          "b": "Delivery theo phase và nghiệm thu, Phát triển theo kanban, Chung cho việc vận hành."
+          "t": "Pan soạn, bạn xác nhận",
+          "b": "Nhờ Pan biến một tin nhắn thành task: Pan điền sẵn tên, dự án và hạn, nhưng chỉ tạo khi bạn xác nhận."
         },
         {
-          "t": "Prompt cho AI trong task",
-          "b": "Việc liên quan đến code có khối prompt cho coding agent. Viết một lần, cả người lẫn agent đều đọc được."
+          "t": "Giữ giờ làm mà không dời hạn",
+          "b": "Kéo task vào lịch cá nhân để giữ một khối giờ cho nó. Hạn của task vẫn nằm nguyên chỗ cũ."
         }
       ]
     },
@@ -804,11 +798,15 @@
       "title": "Pantheus được xây trên Pantheus Office.",
       "body": "Các dự án của Pantheus, từ ERP cho nhà máy đến chính Office, đều được quản lý trên Office. Hôm nay vướng chỗ nào thì thường trong tuần đã có bản sửa.",
       "stats": [
-        { "k": "Delivery", "v": "3", "l": "dự án giao khách theo phase" },
-        { "k": "Phát triển", "v": "4", "l": "sản phẩm theo kanban" },
-        { "k": "Chung", "v": "3", "l": "luồng vận hành" }
+        { "k": "Dự án", "v": "10", "l": "đang quản lý trên Office" },
+        { "k": "Giao khách", "v": "3", "l": "dự án triển khai cho khách hàng" },
+        {
+          "k": "Bản gần nhất",
+          "v": "08/10",
+          "l": "Gantt và tab Tài liệu cho dự án Delivery"
+        }
       ],
-      "note": "Số dự án đang chạy trong Office của Pantheus · 10/2026"
+      "note": "Số liệu từ Office của chính Pantheus · 10/2026"
     },
     "closing": {
       "heading": "Đưa cả ngày làm việc của đội bạn về một nơi.",
@@ -823,15 +821,15 @@
       "description": "Định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm trên một dòng dữ liệu. Đang triển khai tại một nhà máy xe điện."
     },
     "hero": {
-      "eyebrow": "Pantheus Production · Sheet 03/03",
+      "eyebrow": "Pantheus Production · Sheet 03",
       "title": "<acc>Một dòng dữ liệu</acc> từ lúc vật tư về cổng đến khi thành phẩm nhập kho.",
       "lead": "ERP cho nhà máy vừa và nhỏ tại Việt Nam: định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm. Hiện đang triển khai tại một nhà máy xe điện và được bổ sung nghiệp vụ hằng tuần.",
       "primary": "Đặt lịch tư vấn",
       "secondary": "Đi theo dòng vật tư",
       "facts": [
-        { "k": "Trạng thái", "v": "Đang triển khai tại nhà máy xe điện" },
-        { "k": "Triển khai", "v": "Máy chủ riêng của nhà máy" },
-        { "k": "Chứng từ", "v": "Duyệt, lưu vết, in A4" },
+        { "k": "Trạng thái", "v": "Triển khai tại nhà máy xe điện" },
+        { "k": "Triển khai", "v": "Máy chủ tại nhà máy hoặc cloud" },
+        { "k": "Số tồn", "v": "Từ phiếu đã duyệt, không gõ tay" },
         { "k": "Làm quen", "v": "Hướng dẫn trên màn hình thật" }
       ]
     },
@@ -845,7 +843,7 @@
         "screen": "Tổng quan: việc cần xử lý hôm nay",
         "specs": [
           ["Chặng", "7 khu vực"],
-          ["Triển khai", "Máy chủ riêng của nhà máy"],
+          ["Triển khai", "Tại nhà máy hoặc cloud"],
           ["Đang triển khai", "Nhà máy xe điện"]
         ],
         "hots": [
@@ -1320,8 +1318,8 @@
           "b": "Mỗi phiếu ghi lại ai tạo, ai duyệt hoặc từ chối, vào lúc nào. Lỡ duyệt nhầm thì quản lý hủy kèm lý do, hệ thống ghi đảo, không sửa đè lên bản gốc."
         },
         {
-          "t": "In A4 theo mẫu",
-          "b": "Phiếu nhập, phiếu xuất, đơn mua in khổ A4 để ký tay khi quy trình của bạn vẫn cần chữ ký."
+          "t": "Phiếu xuất tự điền sẵn",
+          "b": "Từ lệnh sản xuất ngày, hệ thống sinh phiếu xuất với vật tư và số lượng theo định mức. Thủ kho chỉ việc soạn hàng và duyệt, không phải gõ lại từng dòng."
         },
         {
           "t": "Mang tên nhà máy bạn",
@@ -1330,18 +1328,18 @@
       ]
     },
     "deploy": {
-      "eyebrow": "Chạy trên dữ liệu của bạn",
-      "title": "Máy chủ riêng cho nhà máy. Dữ liệu nằm trong tay bạn.",
+      "eyebrow": "Triển khai linh hoạt",
+      "title": "Máy chủ tại nhà máy hoặc trên cloud. Dữ liệu luôn trong tay bạn.",
       "items": [
         {
           "k": "Máy chủ",
-          "t": "Riêng cho nhà máy",
-          "b": "Mỗi pháp nhân một cơ sở dữ liệu riêng. Thiết kế để chạy trong mạng nội bộ của nhà máy."
+          "t": "Tại nhà máy hoặc cloud",
+          "b": "Đặt máy chủ trong mạng nội bộ của nhà máy, hoặc chạy trên cloud nếu bạn không muốn tự lo hạ tầng. Mỗi pháp nhân một cơ sở dữ liệu riêng."
         },
         {
-          "k": "Cập nhật",
-          "t": "Đóng gói sẵn",
-          "b": "Bản cập nhật được build và kiểm thử trước; máy chủ chỉ việc chạy."
+          "k": "Mất internet",
+          "t": "Xưởng vẫn chạy",
+          "b": "Khi máy chủ đặt tại nhà máy, kho và dây chuyền vẫn làm việc bình thường dù đường truyền internet bị gián đoạn."
         },
         {
           "k": "Sao lưu",
@@ -1359,9 +1357,9 @@
           "b": "Hai người cùng sửa một phiếu thì người lưu sau sẽ nhận cảnh báo, thay vì âm thầm ghi đè lên bản của người kia."
         },
         {
-          "k": "Truy cập",
-          "t": "Trình duyệt",
-          "b": "Dùng trên máy tính và điện thoại qua trình duyệt, cài được như ứng dụng."
+          "k": "Cập nhật",
+          "t": "Không phải tự cài",
+          "b": "Mỗi bản cập nhật được build và kiểm thử trước khi tới máy chủ của bạn, nên nhận bản mới mỗi tuần mà không tốn công cài đặt."
         }
       ]
     },

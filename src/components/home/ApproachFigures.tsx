@@ -114,39 +114,44 @@ export function FigLoop({
   );
 }
 
-/** Fig. 03 — every business is the shared base plus its own tailored part. */
-export function FigLayers({
+/** Fig. 03 — every role gets its own screens over the same data. */
+export function FigRoles({
   l,
 }: {
-  l: Record<"formula" | "you" | "a" | "b" | "base", string>;
+  l: { caption: string; roles: string[]; screens: string[]; base: string };
 }) {
+  const last = l.roles.length - 1;
   return (
     <svg viewBox="0 0 480 360" aria-hidden="true">
       <text className="ptx" x="40" y="62">
-        {l.formula}
+        {l.caption}
       </text>
-      <g className="float">
-        <rect className="pa-fill" x="300" y="96" width="140" height="56" />
-        <text className="ptx-a" x="370" y="128" textAnchor="middle">
-          {l.you}
-        </text>
-      </g>
-      <rect className="pa" x="40" y="96" width="120" height="56" />
-      <text className="ptx" x="100" y="128" textAnchor="middle">
-        {l.a}
-      </text>
-      <rect className="pa" x="170" y="96" width="120" height="56" />
-      <text className="ptx" x="230" y="128" textAnchor="middle">
-        {l.b}
-      </text>
-      <rect className="pf" x="40" y="166" width="195" height="64" />
-      <text className="ptx" x="137" y="202" textAnchor="middle">
-        OFFICE
-      </text>
-      <rect className="pf" x="245" y="166" width="195" height="64" />
-      <text className="ptx" x="342" y="202" textAnchor="middle">
-        PRODUCTION
-      </text>
+      {l.roles.map((role, k) => {
+        const x = 40 + k * 102;
+        return (
+          <g key={role}>
+            {k === last ? (
+              <g className="float">
+                <rect className="pa-fill" x={x} y="96" width="94" height="56" />
+                <text className="ptx-a" x={x + 47} y="128" textAnchor="middle">
+                  {role}
+                </text>
+              </g>
+            ) : (
+              <>
+                <rect className="pa" x={x} y="96" width="94" height="56" />
+                <text className="ptx" x={x + 47} y="128" textAnchor="middle">
+                  {role}
+                </text>
+              </>
+            )}
+            <rect className="pf" x={x} y="166" width="94" height="64" />
+            <text className="ptx" x={x + 47} y="202" textAnchor="middle">
+              {l.screens[k]}
+            </text>
+          </g>
+        );
+      })}
       <rect className="pl2" x="40" y="244" width="400" height="56" />
       <text className="ptx" x="240" y="276" textAnchor="middle">
         {l.base}

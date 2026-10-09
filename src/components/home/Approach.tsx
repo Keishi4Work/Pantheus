@@ -13,9 +13,9 @@ type Step = {
 };
 
 /**
- * The three-step model (tailor, iterate, productise). The figure for each
- * step is drawn on the server and handed in; the second step also lists what
- * actually shipped recently, as proof of the weekly loop.
+ * The three differentiators (tailored, weekly updates, every role). The figure
+ * for each step is drawn on the server and handed in; the second step also
+ * lists what actually shipped recently, as proof of the weekly loop.
  */
 export default function Approach({
   steps,

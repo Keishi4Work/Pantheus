@@ -28,12 +28,12 @@
   "Home": {
     "meta": {
       "title": "Pantheus — Software designed around the way you operate",
-      "description": "Pantheus builds software around each business's real workflow, then packages what works into products: Pantheus Office for office teams and Pantheus Production for factories."
+      "description": "Pantheus designs software around the way each business runs, easy for every role and updated every week. Pantheus Office for office teams, Pantheus Production for factories."
     },
     "hero": {
       "eyebrow": "The foundation for every operation.",
       "title": "Your business is <acc>one of a kind</acc>. Your software should be too.",
-      "lead": "Pantheus builds software around the way each business actually runs, then turns what works into products. We build with AI and update the software every week from user feedback.",
+      "lead": "Pantheus designs software around the way your business already runs, easy enough for everyone from managers to front-line staff. Every week brings an update, shaped by what your own users tell us.",
       "primary": "Book a consultation",
       "secondary": "See both products"
     },
@@ -56,34 +56,34 @@
     "problem": {
       "title": "Big software makes you change how you work. Spreadsheets can't keep up.",
       "quote": "“How many units can we build right now?”",
-      "body": "With spreadsheets, that question takes hours, and the answer is stale by the time it reaches you. Packaged software makes you bend your process to fit someone else's screens. Pantheus builds the software from the way your work already flows."
+      "body": "With spreadsheets, that question takes hours, and the answer is stale by the time it reaches you. Packaged software makes you bend your process to fit someone else's screens, and staff drift back to spreadsheets because it's hard to use. Pantheus builds the software from the way your work already flows."
     },
     "approach": {
-      "eyebrow": "From service to product",
-      "title": "Start tailored. Grow into a product.",
-      "group": "The three steps of the approach",
+      "eyebrow": "What's different",
+      "title": "Built around how you work. Better every week. Easy for every role.",
+      "group": "What sets Pantheus apart",
       "gets": "What you get",
-      "prev": "Previous step",
-      "next": "Next step",
+      "prev": "Previous",
+      "next": "Next",
       "steps": [
         {
           "n": "01",
           "t": "Tailored",
-          "d": "Software built for one business",
+          "d": "Built around how you work today",
           "title": "We start from how you work today.",
           "body": "We follow the work as it really happens, from the moment materials arrive at the gate to the moment a document is posted to the ledger. For every event we ask the same six questions: who does it, when, with what data, how the status changes, which document records it, and what the exceptions are.",
           "get": [
             "Software that fits the way you already work",
-            "Runs on your infrastructure; your data stays yours",
-            "We start with your most expensive bottleneck"
+            "What makes your business different is built in, not forced into a template",
+            "Your own names, forms and approval levels, exactly as you use them"
           ]
         },
         {
           "n": "02",
-          "t": "Fast loops",
+          "t": "Weekly updates",
           "d": "Feedback today, an update this week",
-          "title": "A feedback loop measured in days.",
-          "body": "Users press “Send feedback” on the screen they're using. We write the spec, AI writes the code, and our engineers own the architecture and the tests. That keeps each change cheap, so we can say yes to more of them.",
+          "title": "Hit a snag? Say so right there.",
+          "body": "Users press “Send feedback” on the screen they're using, with no call to make and no meeting to wait for. We ship small changes every week, so the software keeps up with how you work, even when the way you work changes.",
           "get": [
             "A feedback button on every screen",
             "Small, regular updates instead of one big release",
@@ -92,14 +92,14 @@
         },
         {
           "n": "03",
-          "t": "Productized",
-          "d": "What works becomes a product",
-          "title": "What works becomes a product.",
-          "body": "The parts that worked well in the first deployments are packaged into Pantheus Office and Pantheus Production. New customers start from a base that already runs in production, and we still tailor everything specific to them.",
+          "t": "For every role",
+          "d": "From managers to front-line staff",
+          "title": "Designed for the people doing the work, not only the ones reading reports.",
+          "body": "Managers usually choose the software, but storekeepers, accountants and office staff use it the most. We design each screen around the actions they repeat every day. When staff actually use it, the numbers managers see can be trusted.",
           "get": [
-            "Faster rollout on a proven base",
-            "Screens improved every week from user feedback",
-            "What's specific to you stays yours"
+            "Each role gets screens built around its own work",
+            "Step-by-step guides that run on the real screens",
+            "Short training, clean data from day one"
           ]
         }
       ],
@@ -145,12 +145,11 @@
           "weekly": "EVERY WEEK",
           "button": "Send feedback"
         },
-        "layers": {
-          "formula": "EVERY BUSINESS = SHARED BASE + YOUR OWN LAYER",
-          "you": "TAILORED · YOU",
-          "a": "TAILORED · A",
-          "b": "TAILORED · B",
-          "base": "PLATFORM · DATA · PERMISSIONS · DOCUMENTS"
+        "roles": {
+          "caption": "EVERY ROLE GETS ITS OWN SCREENS",
+          "roles": ["MANAGER", "ACCOUNTANT", "STOREKEEPER", "STAFF"],
+          "screens": ["REPORTS", "DOCUMENTS", "STOCK SLIPS", "TASKS"],
+          "base": "ONE SHARED SET OF DATA"
         }
       }
     },
@@ -216,33 +215,28 @@
       }
     },
     "principles": {
-      "eyebrow": "Principles",
-      "title": "What doesn't change, tailored or productized.",
+      "eyebrow": "Commitments",
+      "title": "What you can count on with Pantheus.",
       "items": [
         {
-          "label": "Optimized for you",
-          "title": "Your process is the blueprint.",
-          "body": "Your business shouldn't have to run the software's way. We design the software around what you need and how you operate."
-        },
-        {
-          "label": "Runs on your data",
-          "title": "Your data stays under your control.",
-          "body": "You get a dedicated server, designed to run on the factory's local network."
+          "label": "Deploy your way",
+          "title": "On your premises or in the cloud. Your choice.",
+          "body": "Run the server inside your own network, or in the cloud if you'd rather not manage infrastructure. Either way, the data is yours."
         },
         {
           "label": "Measured by outcomes",
           "title": "Every feature is tied to a number you care about.",
-          "body": "We start from the bottleneck: inventory loss, line stoppages, working capital. If it doesn't move a number, we don't build it."
+          "body": "Think inventory loss, line stoppages, or the days a purchase request sits waiting for approval. If a feature doesn't move a number, we don't build it."
         },
         {
-          "label": "Built for operators",
-          "title": "Simple enough for everyone to use.",
-          "body": "Most ERP projects fail because people don't adopt them. Our guides run on the real screens, so training stays short and the data is clean from day one."
+          "label": "On site",
+          "title": "Our team works on site with yours.",
+          "body": "We come to you to map the work, sit with your team through the first days on the new software, and walk each person through the real screens."
         },
         {
           "label": "Built with AI",
           "title": "Ready to change when you do.",
-          "body": "AI helps us write code faster, and our engineers stay responsible for the architecture and the quality. Changing a process is no longer a six-month project."
+          "body": "AI helps us write code faster, and our engineers stay responsible for the architecture and the tests. That keeps each change cheap, so we can say yes to more of them."
         }
       ]
     },
@@ -294,26 +288,26 @@
       ]
     },
     "how": {
-      "eyebrow": "How we work",
-      "title": "Three steps, starting from one bottleneck.",
+      "eyebrow": "How to start",
+      "title": "Start small, with one bottleneck.",
       "steps": [
         {
-          "t": "Understand",
-          "b": "We follow the work as it happens, talk to every role, and find the most expensive bottleneck."
+          "t": "Survey on site",
+          "b": "We follow the work as it happens, talk to every role, and agree with you on where it's costing the most."
         },
         {
-          "t": "Build",
-          "b": "We solve that bottleneck first, on top of an existing product, and tailor the parts that are specific to you."
+          "t": "Fix the first bottleneck",
+          "b": "We build for that one place first. You see the result in your real work before deciding what comes next."
         },
         {
-          "t": "Expand",
-          "b": "We add workflows as you grow, at the pace you set."
+          "t": "Grow at your pace",
+          "b": "Add workflows when the business needs them, in the order you choose. No big project to commit to up front."
         }
       ]
     },
     "closing": {
       "heading": "Let's build software that fits how you work.",
-      "lead": "We start with a visit to see how you operate today. There's no template to fit into and no lock-in.",
+      "lead": "It starts with one conversation about how you operate today. There's no template to fit into and no lock-in.",
       "primary": "Book a consultation",
       "secondary": "See Pantheus Office"
     }
@@ -324,16 +318,16 @@
       "description": "Tasks, projects, meetings, documents, chat and purchase requests in one place, plus Pan, an AI assistant."
     },
     "hero": {
-      "eyebrow": "Pantheus Office · Sheet 02/03",
+      "eyebrow": "Pantheus Office · Sheet 02",
       "title": "One workday, one <acc>flow</acc>.",
       "lead": "Tasks, projects, meetings, documents and chat in one place. Every screen is designed around the things people do many times a day.",
       "primary": "Try Office",
       "secondary": "Walk through a day",
       "facts": [
-        { "k": "Status", "v": "In daily use" },
-        { "k": "Access", "v": "Browser, installable as an app" },
-        { "k": "Find anything", "v": "Ctrl K" },
-        { "k": "Languages", "v": "Vietnamese and English" }
+        { "k": "Replaces", "v": "Group chats, spreadsheets, approval emails" },
+        { "k": "AI assistant", "v": "Pan drafts tasks from messages" },
+        { "k": "Updates", "v": "Weekly, shaped by user feedback" },
+        { "k": "In use", "v": "On 10 of Pantheus's own projects" }
       ]
     },
     "stops": [
@@ -347,7 +341,7 @@
         "specs": [
           ["Stops", "7 areas"],
           ["For", "Office teams, project teams"],
-          ["Access", "Browser, phone"]
+          ["Outcome", "Everyone sees where work stands"]
         ],
         "hots": []
       },
@@ -379,7 +373,7 @@
         "time": "09:00",
         "short": "Meetings",
         "title": "Minutes written right on the meeting page.",
-        "desc": "Take minutes in the same editor as Documents. Office records the duration and who attended, and you can search minutes like any other document.",
+        "desc": "Who attended, how long it ran, what was decided: Office keeps all three on one page.",
         "screen": "Meetings · List",
         "specs": [
           ["Who", "Chair, note-taker"],
@@ -388,8 +382,8 @@
         ],
         "hots": [
           {
-            "t": "Type / to insert",
-            "b": "Insert headings, lists, tables and images with slash commands, and type @ to mention a colleague in the minutes."
+            "t": "Look up who decided what",
+            "b": "Minutes are saved like any document, so a month later you can still find which meeting settled a decision."
           },
           {
             "t": "Video calls inside Office",
@@ -415,8 +409,8 @@
             "b": "Three levels on one Gantt chart, each phase collapsible. The sign-off date is its own milestone, flagged when late."
           },
           {
-            "t": "Three project types",
-            "b": "Delivery by phase for client work, Development on kanban, General for running the business. Each type has its own view."
+            "t": "A view for each kind of project",
+            "b": "Client projects run by phase, development teams use kanban, and day-to-day operations get a type of their own. Nobody has to force their work into one template."
           }
         ]
       },
@@ -435,7 +429,7 @@
         "hots": [
           {
             "t": "A prompt for the coding agent",
-            "b": "Write the request once, in a form people can read and an agent can run. You can paste images and attach files up to 25 MB."
+            "b": "Write the request once, in a form people can read and an agent can run, instead of writing it twice."
           },
           {
             "t": "The Review column",
@@ -462,7 +456,7 @@
           },
           {
             "t": "Groups and direct messages",
-            "b": "Quoted replies, reactions and attachments cover enough that you won't need another chat app."
+            "b": "Each department has its own group, such as accounting or the product team, so nothing gets buried in one big chat."
           }
         ]
       },
@@ -471,7 +465,7 @@
         "time": "16:30",
         "short": "Documents",
         "title": "The team's documents, tagged by topic.",
-        "desc": "One person edits at a time. You can comment on each paragraph, see the version history and export to Word or PDF. Topic tags go up to three levels deep, so you can browse them as a tree.",
+        "desc": "The team's documents in one place, tagged by topic and browsable as a tree. Anyone can comment on a paragraph, with version history and export to Word or PDF when something has to go out.",
         "screen": "Documents · Tag tree",
         "specs": [
           ["Who", "The whole team"],
@@ -481,7 +475,7 @@
         "hots": [
           {
             "t": "Three-level topic tags",
-            "b": "Browse as a tree: /internal, then /internal/product, and so on. Each tag is a path."
+            "b": "Arrange documents in a topic tree, such as internal, product or client, so even a new hire can find things on their own."
           },
           {
             "t": "All attachments in one place",
@@ -764,31 +758,31 @@
     },
     "cards": {
       "eyebrow": "The small things",
-      "title": "Small actions, done hundreds of times a week.",
+      "title": "The details that keep the whole team using it every day.",
       "items": [
         {
-          "t": "Ctrl K to find anything",
-          "b": "One search box covers tasks, meetings, documents, files, purchase requests and members, so you don't need to remember which menu something lives in."
+          "t": "No more “did I send it?”",
+          "b": "Every purchase request shows which stage it's at and who it's waiting on, from approval through to settlement."
         },
         {
-          "t": "Know there's something new without reopening",
-          "b": "The unread count shows in the browser tab title, and push notifications reach your phone."
+          "t": "No invoice, no “bought”",
+          "b": "A request can only be marked as bought once the VAT invoice or proof of transfer is attached, so accounting doesn't have to chase it later."
         },
         {
-          "t": "Time blocking",
-          "b": "Turn a task into a block of time on your calendar without touching its due date."
+          "t": "A late sign-off, seen by everyone",
+          "b": "The sign-off date is its own milestone on the Gantt chart and is flagged the moment it slips, instead of sitting quietly in a plan file."
         },
         {
-          "t": "Minutes are documents",
-          "b": "Take minutes in the same editor: / to insert, @ to mention. Find them again like any other document."
+          "t": "Minutes come with the meeting",
+          "b": "Join the video call from the meeting page and Office records who attended. The minutes are written on the same page and can be searched like any document."
         },
         {
-          "t": "Three project types",
-          "b": "Delivery by phase and sign-off, Development on kanban, General for running the business."
+          "t": "Pan drafts, you confirm",
+          "b": "Ask Pan to turn a message into a task. It fills in the title, project and due date, and nothing is created until you confirm."
         },
         {
-          "t": "AI prompts inside tasks",
-          "b": "Coding work carries a prompt block for the coding agent. You write it once, and both people and the agent can read it."
+          "t": "Block time without moving the deadline",
+          "b": "Drag a task onto your calendar to set aside time for it. The task's due date stays exactly where it was."
         }
       ]
     },
@@ -797,11 +791,15 @@
       "title": "Pantheus is built on Pantheus Office.",
       "body": "We run Pantheus's own projects in Office, from the factory ERP to Office itself. When something gets in our way, it is usually fixed within the week.",
       "stats": [
-        { "k": "Delivery", "v": "3", "l": "client projects by phase" },
-        { "k": "Development", "v": "4", "l": "products on kanban" },
-        { "k": "General", "v": "3", "l": "operating streams" }
+        { "k": "Projects", "v": "10", "l": "run on Office today" },
+        { "k": "Client work", "v": "3", "l": "projects delivered to clients" },
+        {
+          "k": "Latest update",
+          "v": "Oct 8",
+          "l": "Gantt and Documents tab for Delivery projects"
+        }
       ],
-      "note": "Active projects in Pantheus's own Office · Oct 2026"
+      "note": "From Pantheus's own Office · Oct 2026"
     },
     "closing": {
       "heading": "Bring your team's whole workday into one place.",
@@ -816,15 +814,15 @@
       "description": "Bills of materials, planning, purchasing, inventory, production orders and finished goods on one flow of data. Rolling out at an electric vehicle factory."
     },
     "hero": {
-      "eyebrow": "Pantheus Production · Sheet 03/03",
+      "eyebrow": "Pantheus Production · Sheet 03",
       "title": "<acc>One flow of data</acc> from materials at the gate to finished goods in stock.",
       "lead": "ERP for small and mid-sized factories in Vietnam: bills of materials, planning, purchasing, inventory, production orders and finished goods. It is rolling out at an electric vehicle factory, and new workflows are added every week.",
       "primary": "Book a consultation",
       "secondary": "Follow the material flow",
       "facts": [
         { "k": "Status", "v": "Rolling out at an EV factory" },
-        { "k": "Deployment", "v": "The factory's own server" },
-        { "k": "Documents", "v": "Approved, audited, printed on A4" },
+        { "k": "Deployment", "v": "Your factory's server or the cloud" },
+        { "k": "Stock", "v": "Computed from approved slips" },
         { "k": "Onboarding", "v": "Guides on the real screens" }
       ]
     },
@@ -838,7 +836,7 @@
         "screen": "Overview: what needs handling today",
         "specs": [
           ["Stops", "7 areas"],
-          ["Deployment", "The factory's own server"],
+          ["Deployment", "At the factory or in the cloud"],
           ["Rolling out at", "An EV factory"]
         ],
         "hots": [
@@ -1338,8 +1336,8 @@
           "b": "Every slip records who created it, who approved or rejected it, and when. If a slip is approved by mistake, a manager cancels it with a reason and the system posts a reversing entry, so nothing is overwritten."
         },
         {
-          "t": "A4 print templates",
-          "b": "Goods receipts, issue slips and purchase orders print on A4 for signing by hand when your process still needs signatures."
+          "t": "Pre-filled issue slips",
+          "b": "A daily production order generates its issue slip, with materials and quantities taken from the bill of materials. The storekeeper just picks and approves, with no lines to retype."
         },
         {
           "t": "Carries your factory's name",
@@ -1348,18 +1346,18 @@
       ]
     },
     "deploy": {
-      "eyebrow": "Runs on your data",
-      "title": "A dedicated server for your factory. Your data stays in your hands.",
+      "eyebrow": "Deploy your way",
+      "title": "On your factory's server or in the cloud. Your data stays in your hands.",
       "items": [
         {
           "k": "Server",
-          "t": "Dedicated to the factory",
-          "b": "One database per legal entity. Designed to run on the factory's local network."
+          "t": "At the factory or in the cloud",
+          "b": "Run the server on the factory's local network, or in the cloud if you'd rather not manage infrastructure. Each legal entity gets its own database."
         },
         {
-          "k": "Updates",
-          "t": "Pre-packaged",
-          "b": "Updates are built and tested ahead of time; the server just runs them."
+          "k": "Internet outage",
+          "t": "The floor keeps running",
+          "b": "With the server at the factory, the warehouse and the line keep working even when the internet connection drops."
         },
         {
           "k": "Backups",
@@ -1377,9 +1375,9 @@
           "b": "If two people edit the same slip, whoever saves second gets a warning instead of silently overwriting the first."
         },
         {
-          "k": "Access",
-          "t": "Browser",
-          "b": "Use it on desktop and phone through the browser, installable as an app."
+          "k": "Updates",
+          "t": "Nothing to install",
+          "b": "Each update is built and tested before it reaches your server, so a new version every week costs you no installation work."
         }
       ]
     },
