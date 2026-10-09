@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import Wordmark from "@/components/marks/Wordmark";
 import TripleBarMark from "@/components/marks/TripleBarMark";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -15,72 +15,91 @@ import {
 } from "@/components/ui/sheet";
 
 /**
- * Fixed nav with `mix-blend-difference`: a single white wordmark auto-inverts
- * (black over the light sections, white over the dark ones) as the page scrolls
- * under it. Always transparent — no scrolled background needed.
+ * Sits at the top of every page's dark hero (not fixed): the hero already
+ * frames it, so it needs no scrolled state. Under 900px the links fold into a
+ * sheet; the language switch stays visible.
  */
 export default function Nav() {
   const t = useTranslations("Nav");
+  const pathname = usePathname();
 
-  const links = [
-    { href: "#approach", label: t("approach") },
-    { href: "#contact", label: t("contact") },
-  ];
+  const pages = [
+    { href: "/office", label: "Office" },
+    { href: "/production", label: "Production" },
+  ] as const;
+  const approach = { pathname: "/", hash: "approach" };
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 mix-blend-difference">
-      <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-6 text-white sm:px-10 lg:px-16">
-        <Link
-          href="/"
-          aria-label="Pantheus"
-          className="rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
-        >
-          <Wordmark className="h-[22px] w-auto" />
+    <header className="relative z-10 border-b border-line">
+      <div className="wrap flex min-h-[68px] items-center justify-between gap-7">
+        <Link href="/" aria-label={t("home")} className="nav-link text-ink">
+          <Wordmark className="h-[21px] w-auto" />
         </Link>
 
-        {/* desktop */}
-        <nav className="hidden items-center gap-8 md:flex">
-          {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="font-mono text-xs uppercase tracking-[0.12em] text-white/70 transition-opacity hover:text-white focus-visible:underline focus-visible:underline-offset-4 focus-visible:outline-none"
+        <nav
+          aria-label={t("main")}
+          className="mono hidden items-center gap-[26px] min-[901px]:flex"
+        >
+          {pages.map((p) => (
+            <Link
+              key={p.href}
+              href={p.href}
+              aria-current={pathname === p.href ? "page" : undefined}
+              className="nav-link"
             >
-              {l.label}
-            </a>
+              {p.label}
+            </Link>
           ))}
-          <span className="h-4 w-px bg-white/30" aria-hidden="true" />
-          <LanguageSwitcher tone="blend" />
+          <Link href={approach} className="nav-link">
+            {t("approach")}
+          </Link>
+          <a href="#contact" className="nav-link">
+            {t("contact")}
+          </a>
+          <LanguageSwitcher />
         </nav>
 
-        {/* mobile */}
-        <div className="flex items-center gap-5 md:hidden">
-          <LanguageSwitcher tone="blend" />
+        <div className="flex items-center gap-3 min-[901px]:hidden">
+          <LanguageSwitcher />
           <Sheet>
             <SheetTrigger
               aria-label={t("menu")}
-              className="flex h-10 w-10 items-center justify-center rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              className="flex h-11 w-11 items-center justify-center text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-text"
             >
               <TripleBarMark className="h-6 w-6" strokeWidth={2} />
             </SheetTrigger>
-            {/* Sheet content renders in a portal — outside the blend layer */}
-            <SheetContent side="right" className="bg-paper">
+            <SheetContent side="right" className="light bg-paper text-ink">
               <SheetHeader>
-                <SheetTitle className="font-display tracking-[-0.01em] text-ink">
-                  Pantheus
-                </SheetTitle>
+                <SheetTitle className="text-ink">Pantheus</SheetTitle>
               </SheetHeader>
-              <nav className="flex flex-col px-4">
-                {links.map((l) => (
-                  <SheetClose asChild key={l.href}>
-                    <a
-                      href={l.href}
-                      className="border-b border-line py-4 font-display text-xl text-ink"
+              <nav aria-label={t("main")} className="flex flex-col px-4">
+                {pages.map((p) => (
+                  <SheetClose asChild key={p.href}>
+                    <Link
+                      href={p.href}
+                      aria-current={pathname === p.href ? "page" : undefined}
+                      className="border-b border-line py-4 text-xl font-semibold"
                     >
-                      {l.label}
-                    </a>
+                      Pantheus {p.label}
+                    </Link>
                   </SheetClose>
                 ))}
+                <SheetClose asChild>
+                  <Link
+                    href={approach}
+                    className="border-b border-line py-4 text-xl font-semibold"
+                  >
+                    {t("approach")}
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <a
+                    href="#contact"
+                    className="border-b border-line py-4 text-xl font-semibold"
+                  >
+                    {t("contact")}
+                  </a>
+                </SheetClose>
               </nav>
             </SheetContent>
           </Sheet>

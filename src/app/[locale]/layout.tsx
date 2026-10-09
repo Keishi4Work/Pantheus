@@ -1,8 +1,7 @@
-import type { Metadata } from "next";
 import { Manrope, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import SmoothScroll from "@/components/SmoothScroll";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -24,19 +23,6 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Meta" });
-  return {
-    title: t("title"),
-    description: t("description"),
-  };
-}
-
 export default async function LocaleLayout({
   children,
   params,
@@ -49,6 +35,9 @@ export default async function LocaleLayout({
 
   // Enable static rendering for this locale.
   setRequestLocale(locale);
+  // Pages render server-side; only the nav (language switcher, menu) needs
+  // messages on the client, so ship just that namespace.
+  const messages = await getMessages();
 
   return (
     <html
@@ -56,7 +45,7 @@ export default async function LocaleLayout({
       className={`${manrope.variable} ${geistMono.variable} h-full`}
     >
       <body className="min-h-full flex flex-col">
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={{ Nav: messages.Nav }}>
           <TooltipProvider delayDuration={150}>
             <SmoothScroll>{children}</SmoothScroll>
           </TooltipProvider>

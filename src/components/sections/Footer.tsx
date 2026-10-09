@@ -1,42 +1,33 @@
 import { getTranslations } from "next-intl/server";
-import Wordmark from "@/components/marks/Wordmark";
-
-const CONTAINER = "mx-auto w-full max-w-6xl px-6 sm:px-10 lg:px-16";
+import { Link } from "@/i18n/navigation";
 
 export default async function Footer() {
   const t = await getTranslations("Footer");
 
   return (
-    <footer className="dark border-t border-line bg-paper">
-      <div className={`${CONTAINER} py-14 sm:py-16`}>
-        <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
-          <div className="max-w-sm">
-            <Wordmark className="h-5 w-auto text-ink" />
-            <p className="mt-5 font-sans text-sm leading-relaxed text-ink-soft">
-              {t("wordmarkLine")}
-            </p>
-            <p className="mt-3 font-mono text-xs uppercase tracking-[0.14em] text-muted-ink">
-              {t("tagline")}
-            </p>
+    <footer className="dark border-t border-line bg-paper pt-14 pb-10 text-ink">
+      <div className="wrap">
+        <div className="foot-cols">
+          <div className="flex flex-col gap-3.5">
+            <span className="mono acc">Pantheus</span>
+            <p className="body">{t("tagline")}</p>
+            <span className="mono text-ink-soft">{t("motto")}</span>
           </div>
-
-          <nav className="flex items-center gap-5 font-mono text-xs uppercase tracking-[0.12em] text-ink-soft md:items-end">
-            <a href="#approach" className="link-underline transition-colors hover:text-ink">
+          <nav aria-label={t("products")}>
+            <div className="mono mb-2 text-ink-soft">{t("products")}</div>
+            <Link href="/office">Pantheus Office</Link>
+            <Link href="/production">Pantheus Production</Link>
+          </nav>
+          <nav aria-label={t("company")}>
+            <div className="mono mb-2 text-ink-soft">{t("company")}</div>
+            <Link href={{ pathname: "/", hash: "approach" }}>
               {t("approach")}
-            </a>
-            <span className="text-line-strong" aria-hidden="true">
-              ·
-            </span>
-            <a href="#contact" className="link-underline transition-colors hover:text-ink">
-              {t("contact")}
-            </a>
+            </Link>
+            <a href="#contact">{t("contact")}</a>
           </nav>
         </div>
-
-        <div className="mt-12 border-t border-line pt-6">
-          <p className="font-mono text-xs uppercase tracking-[0.14em] text-muted-ink">
-            {t("copyright")}
-          </p>
+        <div className="mono mt-12 border-t border-line pt-5 text-ink-soft">
+          © 2026 Pantheus
         </div>
       </div>
     </footer>

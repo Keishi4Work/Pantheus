@@ -1,81 +1,1436 @@
 {
-  "Meta": {
-    "title": "Pantheus — Custom ERP for Vietnamese manufacturing",
-    "description": "Custom ERP for Vietnamese manufacturing — built around how you work, running on your own ground, answering your questions."
-  },
   "Nav": {
+    "home": "Pantheus — Home",
+    "main": "Main navigation",
     "approach": "Approach",
     "contact": "Contact",
     "menu": "Menu",
     "language": "Language"
   },
-  "Hero": {
-    "headlineLead": "Your factory is <hl>unique</hl>.",
-    "headlineTurn": "Your ERP should be too.",
-    "subhead": "Customized ERP solutions with AI-integrated applications. Built around how you actually work. Answering your questions.",
-    "cta": "Book a consultation",
-    "tagline": "The foundation your operations stand on."
-  },
-  "Problem": {
-    "heading": "Running on spreadsheets and guesswork.",
-    "body": "“How many products can I manufacture right now?” With spreadsheets, that question can take hours or days — and the answer is already outdated. No unified data source, no understanding of supplier quality, and inventory lost to manual data entry."
-  },
-  "Pillars": {
-    "builtAroundYou": {
-      "label": "Built around you",
-      "headline": "Your process is the spec.",
-      "body": "We don't bend your factory to fit the software. We shape the software around what your factory needs and how it should run."
-    },
-    "runsOnYourGround": {
-      "label": "Runs on your data",
-      "headline": "Your data is invaluable.",
-      "body": "On-site and offline-capable. Full control. We deliver predictive and prescriptive analytic solutions to help your company optimize inventory, production, and forecast trends."
-    },
-    "outcomes": {
-      "label": "Outcomes, not modules",
-      "headline": "Every feature is tied to a number you care about.",
-      "body": "We start from your bottleneck, not a feature list — inventory loss, mitigating production stoppages, working capital freed. If it doesn't move a number, we don't build it."
-    },
-    "builtForTheFloor": {
-      "label": "Built for the floor",
-      "headline": "Simple enough for everyone to actually use.",
-      "body": "Adoption is where ERP projects die. Designed for non-technical workers: minimal training, fast onboarding, clean data from day one."
-    },
-    "askYourFactory": {
-      "label": "Ask your factory",
-      "headline": "Ask in plain language. Get a real answer.",
-      "body": "AI that turns operations data into decisions. “How many can I ship this week?” “Which supplier costs me most in defects?” — answered, without reading a dashboard."
-    }
-  },
-  "Process": {
-    "heading": "How we work.",
-    "step1": {
-      "title": "Understand",
-      "body": "We study your operation and find the bottleneck that costs you most."
-    },
-    "step2": {
-      "title": "Build",
-      "body": "We ship a system that solves it, shaped around your real process."
-    },
-    "step3": {
-      "title": "Grow",
-      "body": "We extend it as you scale, on your terms."
-    }
-  },
-  "Audience": {
-    "heading": "Who it's for.",
-    "body": "Manufacturing SMEs outgrowing spreadsheets — ready for a system that fits, not a template to wrestle with."
-  },
-  "Closing": {
-    "heading": "Let's build the system your factory deserves.",
-    "subline": "No template. No lock-in. Just a system built for you.",
-    "cta": "Book a consultation"
-  },
   "Footer": {
-    "wordmarkLine": "Pantheus — ERP for manufacturing, built around you.",
-    "tagline": "The foundation your operations stand on.",
+    "tagline": "Software designed around the way you operate.",
+    "motto": "The foundation for every operation.",
+    "products": "Products",
+    "company": "Company",
     "approach": "Approach",
-    "contact": "Contact",
-    "copyright": "© 2026 Pantheus"
+    "contact": "Contact"
+  },
+  "Common": {
+    "tour": {
+      "prev": "Previous stop",
+      "close": "Close",
+      "detail": "Detail",
+      "next": "Next:",
+      "hintDetail": "Detail points",
+      "hintZones": "Areas"
+    }
+  },
+  "Home": {
+    "meta": {
+      "title": "Pantheus — Software designed around the way you operate",
+      "description": "Pantheus builds software around each business's real workflow, then packages what works into products: Pantheus Office for office teams and Pantheus Production for factories."
+    },
+    "hero": {
+      "eyebrow": "The foundation for every operation.",
+      "title": "Your business is <acc>one of a kind</acc>. Your software should be too.",
+      "lead": "Pantheus builds software around the way each business actually runs — then packages what works into products. Built with AI, improved on weekly feedback.",
+      "primary": "Book a consultation",
+      "secondary": "See both products"
+    },
+    "sheets": {
+      "office": {
+        "top": "Sheet 02 · Office",
+        "desc": "Tasks, projects, meetings, documents and chat — one flow for the whole office day.",
+        "status": "Live",
+        "route": "One day · 7 stops"
+      },
+      "production": {
+        "top": "Sheet 03 · Factory",
+        "desc": "ERP for the factory floor: bills of materials, planning, purchasing, inventory, production orders and finished goods.",
+        "status": "Rolling out",
+        "route": "Material flow · 7 stops",
+        "materials": "MATERIALS STORE",
+        "line": "ASSEMBLY LINE"
+      }
+    },
+    "problem": {
+      "title": "Big software makes you change how you work. Spreadsheets can't keep up.",
+      "quote": "“How many units can we build right now?”",
+      "body": "With spreadsheets, that question takes hours — and the answer is stale by the time it reaches you. With packaged software, you bend your process to fit someone else's screens. Pantheus takes a third path: software drawn from the way your work actually flows."
+    },
+    "approach": {
+      "eyebrow": "From service to product",
+      "title": "Start tailored. Grow into a product.",
+      "group": "The three steps of the approach",
+      "gets": "What you get",
+      "prev": "Previous step",
+      "next": "Next step",
+      "steps": [
+        {
+          "n": "01",
+          "t": "Tailored",
+          "d": "Software built for one business",
+          "title": "Start from how you actually operate.",
+          "body": "We follow the real flow of work — from the moment materials arrive at the gate to the moment a document hits the ledger. Every event gets the same six questions: who does it, when, what data, how the status changes, which document, and what the exceptions are.",
+          "get": [
+            "Software that follows your actual workflow",
+            "Runs on your infrastructure; your data stays yours",
+            "We start with your most expensive bottleneck"
+          ]
+        },
+        {
+          "n": "02",
+          "t": "Fast loops",
+          "d": "Feedback today, an update this week",
+          "title": "A feedback loop measured in days, not quarters.",
+          "body": "People press “Send feedback” on the screen they're using. We write the spec, AI writes the code, engineers own the architecture and the tests. Change becomes cheap enough to say “yes” more often.",
+          "get": [
+            "A feedback button on every screen",
+            "Small, steady updates — no waiting for a “big release”",
+            "Changing a process is no longer a six-month project"
+          ]
+        },
+        {
+          "n": "03",
+          "t": "Productized",
+          "d": "What works becomes a product",
+          "title": "What works becomes a product.",
+          "body": "What worked well in the first deployments is packaged into Pantheus Office and Pantheus Production. Later customers start from a base that already runs in production — and everything else is still tailored.",
+          "get": [
+            "Faster rollout on a proven base",
+            "UX refined through weekly feedback",
+            "What's specific to you stays yours"
+          ]
+        }
+      ],
+      "shipped": {
+        "title": "Recently shipped in Pantheus Office",
+        "items": [
+          {
+            "date": "2026-10-08",
+            "label": "Oct 8",
+            "text": "Gantt timeline for Delivery projects"
+          },
+          {
+            "date": "2026-10-08",
+            "label": "Oct 8",
+            "text": "Documents tab in Delivery projects, with file versions and zip download"
+          },
+          {
+            "date": "2026-10-03",
+            "label": "Oct 3",
+            "text": "Meeting minutes written right on the meeting page"
+          }
+        ]
+      },
+      "fig": {
+        "process": {
+          "receive": "RECEIVE",
+          "check": "INSPECT",
+          "store": "PUT AWAY",
+          "issue": "ISSUE",
+          "assemble": "ASSEMBLE",
+          "finished": "FINISHED",
+          "ship": "SHIP",
+          "returns": "RETURN",
+          "exception": "← exception",
+          "caption": "YOUR PROCESS · REV A"
+        },
+        "loop": {
+          "feedback": "FEEDBACK",
+          "spec": "SPEC",
+          "build": "AI + ENGINEERS",
+          "update": "UPDATE",
+          "loop": "REPEAT",
+          "weekly": "EVERY WEEK",
+          "button": "Send feedback"
+        },
+        "layers": {
+          "formula": "EVERY BUSINESS = SHARED BASE + YOUR OWN LAYER",
+          "you": "TAILORED · YOU",
+          "a": "TAILORED · A",
+          "b": "TAILORED · B",
+          "base": "PLATFORM · DATA · PERMISSIONS · DOCUMENTS"
+        }
+      }
+    },
+    "products": {
+      "eyebrow": "Products",
+      "title": "Two products, one way of thinking: follow the work.",
+      "office": {
+        "top": "Sheet 02 · For office teams",
+        "desc": "Work management software whose UX is honed on everyday actions. We use it to build Pantheus itself.",
+        "feat": [
+          "An inbox overview: overdue, due soon and unread notifications",
+          "Delivery projects by phase and sign-off date, or kanban for development teams",
+          "Meeting minutes and documents share one editor",
+          "Pan — an AI assistant right inside chat"
+        ],
+        "link": "Walk through a workday",
+        "inbox": {
+          "tabs": ["*Overview", "My tasks", "Calendar"],
+          "groups": [
+            {
+              "head": "Overdue (3)",
+              "action": "View all",
+              "items": [
+                {
+                  "t": "Integrate UI controls",
+                  "s": "Pantheus Office",
+                  "due": "Overdue · Oct 4"
+                },
+                {
+                  "t": "Update per client request",
+                  "s": "Internal project",
+                  "due": "Overdue · Oct 5"
+                },
+                {
+                  "t": "Final sign-off",
+                  "s": "Delivery project · Sign-off",
+                  "due": "Overdue · Oct 8"
+                }
+              ]
+            },
+            {
+              "head": "Unread (18)",
+              "action": "Mark as read",
+              "items": [
+                { "t": "Sign-off is 1 day overdue", "s": "13 hours ago" },
+                { "t": "“Final sign-off” moved to 10:00", "s": "Yesterday" },
+                { "t": "Completed “Research on MISA review”", "s": "Yesterday" }
+              ]
+            }
+          ]
+        }
+      },
+      "production": {
+        "top": "Sheet 03 · For factories",
+        "desc": "ERP for small and mid-sized factories in Vietnam. Rolling out at an electric vehicle factory, with new workflows added every week.",
+        "feat": [
+          "Versioned bills of materials per colour; sub-assemblies like the seat have their own",
+          "Weekly material planning: calculate shortfalls, raise purchase orders per supplier",
+          "Daily production orders generate material issue slips automatically",
+          "Stock is derived from approved documents — no hand-typed numbers"
+        ],
+        "link": "Follow the material flow"
+      }
+    },
+    "principles": {
+      "eyebrow": "Principles",
+      "title": "What doesn't change, tailored or productized.",
+      "items": [
+        {
+          "label": "Optimized for you",
+          "title": "Your process is the blueprint.",
+          "body": "We don't force your business to run the software's way. The software is drawn from your needs and the way you operate."
+        },
+        {
+          "label": "Runs on your data",
+          "title": "Your data is priceless.",
+          "body": "A dedicated server, designed to run on the factory's local network. You keep full control of your data."
+        },
+        {
+          "label": "Outcomes, not features",
+          "title": "Every feature is tied to a number you care about.",
+          "body": "We start from the bottleneck: inventory loss, line stoppages, working capital. If it doesn't move a number, we don't build it."
+        },
+        {
+          "label": "Built for operators",
+          "title": "Simple enough for everyone to use.",
+          "body": "Most ERP projects fail at adoption. Guides run on the real screens: minimal training, clean data from day one."
+        },
+        {
+          "label": "Built with AI",
+          "title": "Ready to change when you do.",
+          "body": "AI helps us write code faster; engineers own the architecture and the quality. Changing a process is no longer a six-month project."
+        }
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI in the product",
+      "title": "Ask in plain language. Get real answers.",
+      "body": "AI reads your own operating data — documents, plans, tasks — instead of making you read dashboards. Pan is live in Pantheus Office; asking the factory in plain language is on the Production roadmap.",
+      "group": "Sample questions",
+      "who": "Pan · AI assistant",
+      "sample": "Illustration",
+      "placeholder": "Ask about the factory, projects, stock…",
+      "qs": [
+        {
+          "q": "What materials do we need to buy this week?",
+          "p": "Production · Planning",
+          "a": "The week 41 plan was calculated at 08:12. After stock on hand and incoming deliveries, two materials still need buying:",
+          "lines": [
+            { "k": "Front disc brake assembly", "v": "buy 12 sets" },
+            { "k": "E1 seat · black", "v": "buy 8 units" },
+            { "k": "E1 frame", "v": "covered by 30 sets incoming" }
+          ],
+          "tail": "Brakes are 32 sets short, but order DMH-2610-0045 has 20 on the way, so only 12 more are needed.",
+          "refs": ["Week 41 plan", "DMH-2610-0045"]
+        },
+        {
+          "q": "Which project is late on sign-off?",
+          "p": "Office",
+          "a": "One project is late: “ERP rollout — Client A” is 1 day past its sign-off date.",
+          "lines": [
+            { "k": "Sign-off step", "v": "1 day overdue" },
+            { "k": "Final sign-off", "v": "due Oct 8" },
+            { "k": "Handover", "v": "starts Oct 12" }
+          ],
+          "tail": "The sign-off meeting has moved to Oct 10, 10:00.",
+          "refs": ["Delivery project", "ERP rollout — Client A"]
+        },
+        {
+          "q": "Turn Huy's message into a task for me.",
+          "p": "Office · Chat",
+          "a": "I've drafted a task from Huy's message. It's only created once you confirm:",
+          "lines": [
+            { "k": "Title", "v": "Prepare the demo for Client A" },
+            { "k": "Project", "v": "ERP rollout — Client A" },
+            { "k": "Due", "v": "Oct 10" }
+          ],
+          "tail": "Confirm to create it, or edit it first.",
+          "refs": ["Direct message · Huy", "Delivery project"]
+        }
+      ]
+    },
+    "how": {
+      "eyebrow": "How we work",
+      "title": "Three steps, starting from one bottleneck.",
+      "steps": [
+        {
+          "t": "Understand",
+          "b": "Walk the real flow of work, interview every role, and find the most expensive bottleneck."
+        },
+        {
+          "t": "Build",
+          "b": "Deploy a system that solves that bottleneck on top of an existing product, tailoring what's specific to you."
+        },
+        {
+          "t": "Expand",
+          "b": "Add workflows as you grow — at your pace and on your terms, not on a vendor's roadmap."
+        }
+      ]
+    },
+    "closing": {
+      "heading": "Let's build the system your business deserves.",
+      "lead": "No templates. No lock-in. We start by coming to see how you operate today.",
+      "primary": "Book a consultation",
+      "secondary": "See Pantheus Office"
+    }
+  },
+  "Office": {
+    "meta": {
+      "title": "Pantheus Office — One workday, one flow",
+      "description": "Tasks, projects, meetings, documents, chat and purchase requests in one place, with Pan — an AI assistant."
+    },
+    "hero": {
+      "eyebrow": "Pantheus Office · Sheet 02/03",
+      "title": "One workday, one <acc>flow</acc>.",
+      "lead": "Tasks, projects, meetings, documents and chat in one place. Every screen is honed on everyday actions — not for the demo.",
+      "primary": "Try Office",
+      "secondary": "Walk through a day",
+      "facts": [
+        { "k": "Status", "v": "In daily use" },
+        { "k": "Access", "v": "Browser, installable as an app" },
+        { "k": "Find anything", "v": "Ctrl K" },
+        { "k": "Languages", "v": "Vietnamese and English" }
+      ]
+    },
+    "stops": [
+      {
+        "n": "00",
+        "time": "All day",
+        "short": "Overview",
+        "title": "One office, one flow of work.",
+        "desc": "Click any area, or follow the route — from switching on in the morning to settling purchase requests at the end of the day.",
+        "screen": "Inbox — where every day starts",
+        "specs": [
+          ["Stops", "7 areas"],
+          ["For", "Office teams, project teams"],
+          ["Access", "Browser, phone"]
+        ],
+        "hots": []
+      },
+      {
+        "n": "01",
+        "time": "08:30",
+        "short": "Inbox",
+        "title": "Know what comes first the moment you log in.",
+        "desc": "The inbox gathers what needs you: overdue work, work due today and tomorrow, and unread notifications.",
+        "screen": "Inbox · Overview",
+        "specs": [
+          ["Who", "Everyone"],
+          ["Screens", "Overview · My tasks · Calendar"],
+          ["Outcome", "Today's priorities, in order"]
+        ],
+        "hots": [
+          {
+            "t": "Morning overview",
+            "b": "Overdue work comes first, with its project and how many days late. No digging through projects to find what you owe."
+          },
+          {
+            "t": "Time blocking",
+            "b": "Drag a task onto your calendar as a block of time. Scheduling it doesn't change the task's start or due date."
+          }
+        ]
+      },
+      {
+        "n": "02",
+        "time": "09:00",
+        "short": "Meetings",
+        "title": "Minutes written right on the meeting page.",
+        "desc": "Take minutes in the same editor as Documents. Duration and attendance are recorded; minutes are searchable like any other document.",
+        "screen": "Meetings · List",
+        "specs": [
+          ["Who", "Chair, note-taker"],
+          ["Document", "Meeting minutes"],
+          ["Outcome", "Decisions have a home"]
+        ],
+        "hots": [
+          {
+            "t": "Type / to insert",
+            "b": "Headings, lists, tables, images — inserted with slash commands. Type @ to mention a colleague right in the minutes."
+          },
+          {
+            "t": "Video calls inside Office",
+            "b": "Join the video call from the meeting page; attendance is recorded automatically. Meeting in person? Add an offline meeting and still keep minutes."
+          }
+        ]
+      },
+      {
+        "n": "03",
+        "time": "10:00",
+        "short": "Projects",
+        "title": "Delivery projects run by phase and sign-off date.",
+        "desc": "Phases, steps and tasks on one Gantt chart. Sign-off dates sit on the timeline; a day late and the whole team sees it.",
+        "screen": "Projects · Gantt by phase",
+        "specs": [
+          ["Who", "Project lead"],
+          ["Screens", "Gantt · Project documents"],
+          ["Outcome", "Know which phase is slipping, and why"]
+        ],
+        "hots": [
+          {
+            "t": "Phases, steps, tasks",
+            "b": "Three levels on one Gantt chart, each phase collapsible. The sign-off date is its own milestone, flagged when late."
+          },
+          {
+            "t": "Three project types",
+            "b": "Delivery by phase for client work, Development on kanban, General for running the business — each with its own view."
+          }
+        ]
+      },
+      {
+        "n": "04",
+        "time": "13:30",
+        "short": "Tasks",
+        "title": "The description and the AI prompt in one task.",
+        "desc": "Coding work carries extra fields for developers and a Prompt block for a coding agent. The kanban has a Review column so AI work always passes human eyes.",
+        "screen": "Development project · Kanban",
+        "specs": [
+          ["Who", "Developers, PMs"],
+          ["Screens", "Kanban · Task detail"],
+          ["Outcome", "Assign work to people and AI alike"]
+        ],
+        "hots": [
+          {
+            "t": "A prompt for the coding agent",
+            "b": "Write the request once: people can read it, an agent can run it. Paste images, attach files up to 25 MB."
+          },
+          {
+            "t": "The Review column",
+            "b": "To do, Doing, Review, Done — AI work stops at Review so a person checks it before it's done."
+          }
+        ]
+      },
+      {
+        "n": "05",
+        "time": "15:00",
+        "short": "Chat",
+        "title": "Group chat — and ask Pan.",
+        "desc": "Groups and direct messages sit next to the work. Pan, the AI assistant, lives in the conversation list like a colleague.",
+        "screen": "Chat",
+        "specs": [
+          ["Who", "The whole team"],
+          ["Screens", "Groups · Direct messages · Pan"],
+          ["Outcome", "Less app-switching"]
+        ],
+        "hots": [
+          {
+            "t": "Pan — AI assistant",
+            "b": "Ask about your work, projects and documents in Vietnamese or English. Pan also drafts tasks from messages — created only once you confirm."
+          },
+          {
+            "t": "Groups and direct messages",
+            "b": "Quoted replies, reactions, attachments — enough that you don't need another chat app."
+          }
+        ]
+      },
+      {
+        "n": "06",
+        "time": "16:30",
+        "short": "Documents",
+        "title": "The team's documents, tagged by topic.",
+        "desc": "One editor at a time, comments on each paragraph, version history, export to Word and PDF. Topic tags go up to 3 levels deep so you can browse them as a tree.",
+        "screen": "Documents · Tag tree",
+        "specs": [
+          ["Who", "The whole team"],
+          ["Screens", "Documents · Attachments"],
+          ["Outcome", "One home for what the team knows"]
+        ],
+        "hots": [
+          {
+            "t": "Three-level topic tags",
+            "b": "Browse as a tree: /internal, then /internal/product… Tags are paths, not a flat list."
+          },
+          {
+            "t": "All attachments in one place",
+            "b": "Files from tasks, chat and documents land in one library, with previews for images, PDFs and video."
+          }
+        ]
+      },
+      {
+        "n": "07",
+        "time": "17:30",
+        "short": "Purchasing",
+        "title": "Request, approve, reimburse, settle — no email.",
+        "desc": "Every request moves through clear stages: awaiting approval, awaiting purchase, awaiting transfer, awaiting settlement, recognized — or sent back for changes.",
+        "screen": "Finance · Purchase requests",
+        "specs": [
+          ["Who", "Requester, manager, accountant"],
+          ["Document", "Purchase request"],
+          ["Outcome", "Know where the money is"]
+        ],
+        "hots": [
+          {
+            "t": "Clear stages",
+            "b": "No more “did I send it?” — everyone sees which stage a request is at and who it's waiting on."
+          },
+          {
+            "t": "Invoice and proof of transfer",
+            "b": "Attach the VAT invoice and the proof of transfer right on the request; at least one is required before it can be marked as bought."
+          }
+        ]
+      }
+    ],
+    "apps": {
+      "inbox": {
+        "crumb": "Inbox",
+        "title": "Inbox",
+        "chips": [],
+        "tabs": ["*Overview", "My tasks", "Calendar"],
+        "callout": "3 overdue · 1 due tomorrow · 18 unread notifications",
+        "head": ["Task", "Project", "Due", "Status"],
+        "rows": [
+          [
+            "Integrate UI controls",
+            "Pantheus Office",
+            "num:Oct 4",
+            "bad:Overdue"
+          ],
+          [
+            "Update per client request",
+            "Internal project",
+            "num:Oct 5",
+            "bad:Overdue"
+          ],
+          [
+            "Final sign-off",
+            "ERP rollout — Client A",
+            "num:Oct 8",
+            "bad:Overdue"
+          ],
+          [
+            "Review issue-slip spec",
+            "Pantheus Production",
+            "num:Oct 10",
+            "warn:Tomorrow"
+          ]
+        ]
+      },
+      "meet": {
+        "crumb": "Meetings",
+        "title": "Meetings",
+        "chips": [{ "t": "11 meetings", "c": "mute" }],
+        "tabs": ["*List", "Calendar"],
+        "callout": "",
+        "head": ["Meeting", "Starts", "Duration", "r:Attendees", "Minutes"],
+        "rows": [
+          ["Daily Oct 10", "num:Oct 10 09:00", "—", "num:5", "mute:Upcoming"],
+          ["Client demo", "num:Oct 9 16:30", "45 min", "num:3", "warn:Draft"],
+          [
+            "Catch-up Oct 7",
+            "num:Oct 7 15:04",
+            "2 h 41 min",
+            "num:2",
+            "ok:Done"
+          ],
+          [
+            "Weekly Meeting Oct 4",
+            "num:Oct 4 13:00",
+            "1 h 8 min",
+            "num:4",
+            "ok:Done"
+          ]
+        ]
+      },
+      "proj": {
+        "crumb": "Projects › ERP rollout — Client A",
+        "title": "ERP rollout — Client A",
+        "chips": [
+          { "t": "Delivery", "c": "info" },
+          { "t": "1 day overdue", "c": "bad" }
+        ],
+        "tabs": ["*Work", "Timeline", "Documents"],
+        "callout": "9/12 tasks · 2/4 phases signed off",
+        "head": ["Phase / step", "Start", "End", "Progress"],
+        "rows": [
+          ["1 · Discovery", "num:Oct 1", "num:Oct 1", "ok:Signed off"],
+          ["2 · Plan and contract", "num:Oct 1", "num:Oct 1", "ok:Signed off"],
+          [
+            "3 · Phase 1 rollout",
+            "num:Sep 29",
+            "num:Oct 9",
+            "warn:In progress"
+          ],
+          ["   └ Sign-off", "num:Sep 29", "num:Oct 8", "bad:Overdue"],
+          ["4 · Handover", "num:Oct 12", "num:Oct 16", "mute:To do"]
+        ]
+      },
+      "task": {
+        "crumb": "Projects › Pantheus Office",
+        "title": "Pantheus Office",
+        "chips": [{ "t": "Development", "c": "info" }],
+        "tabs": ["*Board", "Table"],
+        "callout": "10 open · 1 overdue",
+        "head": ["Task", "Type", "Status", "Priority"],
+        "rows": [
+          ["Integrate UI controls", "New feature", "mute:To do", "High"],
+          ["Fix Code Reviewer findings", "Issue", "warn:Doing", "Urgent"],
+          [
+            "Redesign Delivery from feedback",
+            "Enhancement",
+            "info:Review",
+            "Normal"
+          ],
+          ["Optimize project UX", "Enhancement", "ok:Done", "Normal"]
+        ]
+      },
+      "chat": {
+        "crumb": "Chat",
+        "title": "Chat",
+        "chips": [],
+        "tabs": ["*All", "Groups", "Direct messages"],
+        "callout": "",
+        "head": ["Channel", "Last message", "Time", "r:Unread"],
+        "rows": [
+          [
+            "code:λ Pan · AI",
+            "Here are your 3 overdue tasks for today…",
+            "num:08:31",
+            "num:—"
+          ],
+          ["# Core", "Build 1.4 is on staging", "num:10:12", "num:2"],
+          [
+            "# Finance & Accounting",
+            "VPS request approved",
+            "Yesterday",
+            "num:—"
+          ],
+          [
+            "Direct · Huy",
+            "What time is the demo tomorrow?",
+            "Yesterday",
+            "num:1"
+          ]
+        ]
+      },
+      "docs": {
+        "crumb": "Documents",
+        "title": "Documents",
+        "chips": [{ "t": "16 documents", "c": "mute" }],
+        "tabs": ["*Tag tree", "All"],
+        "callout": "/external · 6 documents    /internal · 10 documents",
+        "head": ["Name", "Topic", "Edited by", "Edited", "r:Comments"],
+        "rows": [
+          [
+            "Digital Office process",
+            "code:/internal/product",
+            "Lan",
+            "Yesterday",
+            "num:1"
+          ],
+          [
+            "Competitor analysis",
+            "code:/internal/research",
+            "Huy",
+            "Yesterday",
+            "num:—"
+          ],
+          [
+            "Meeting minutes Oct 4",
+            "code:/internal/meeting",
+            "Lan",
+            "num:Oct 4",
+            "num:2"
+          ],
+          [
+            "Client A requirements",
+            "code:/external/client",
+            "Huy",
+            "num:Oct 2",
+            "num:—"
+          ]
+        ]
+      },
+      "pr": {
+        "crumb": "Finance & accounting › Purchase orders",
+        "title": "Purchase orders",
+        "chips": [],
+        "tabs": ["*All", "Mine"],
+        "callout": "",
+        "head": ["Item", "Status", "Requester", "r:Price"],
+        "rows": [
+          [
+            "AI tool renewal · Oct 2026",
+            "info:Awaiting purchase",
+            "Lan",
+            "num:6,009,000 VND"
+          ],
+          ["VPS, 3 months", "warn:Awaiting approval", "Huy", "num:670,700 VND"],
+          [
+            "27-inch monitor",
+            "info:Awaiting transfer",
+            "Lan",
+            "num:5,290,000 VND"
+          ],
+          ["500 GB SSD", "bad:Sent back", "Lan", "num:1,390,000 VND"],
+          ["Domain name, 1 year", "ok:Recognized", "Huy", "num:1,075,000 VND"]
+        ]
+      }
+    },
+    "nav": [
+      {
+        "g": "WORK",
+        "items": [
+          { "t": "Inbox", "on": ["inbox"] },
+          { "t": "Projects", "on": ["proj", "task"] }
+        ]
+      },
+      {
+        "g": "PEOPLE",
+        "items": [
+          { "t": "Chat", "on": ["chat"] },
+          { "t": "Meetings", "on": ["meet"] }
+        ]
+      },
+      {
+        "g": "LIBRARY",
+        "items": [{ "t": "Documents", "on": ["docs"] }, { "t": "Attachments" }]
+      },
+      {
+        "g": "FINANCE & ACCOUNTING",
+        "items": [{ "t": "Purchase orders", "on": ["pr"] }]
+      }
+    ],
+    "plan": {
+      "accounting": "ACCOUNTING",
+      "chat": "CHAT",
+      "desks": "DESKS",
+      "dev": "DEVELOPMENT",
+      "docs": "DOCUMENTS",
+      "entrance": "ENTRANCE",
+      "meeting": "MEETING ROOM",
+      "projects": "PROJECTS"
+    },
+    "brand": {
+      "kbd": "Search… Ctrl K"
+    },
+    "tour": {
+      "eyebrow": "The route",
+      "title": "A day with Pantheus Office.",
+      "body": "Follow the dotted line from switching on to heading home. Click a number on the plan to jump to an area, click + for details.",
+      "tabs": "Stops through the day",
+      "route": "Dotted line: the day's route",
+      "start": "Start the workday",
+      "end": "Back to overview",
+      "screenEyebrow": "In the software",
+      "screenNote": "The screen below follows the stop you pick above. The data is illustrative.",
+      "tags": {
+        "run": "Live",
+        "soon": "Coming soon",
+        "plan": "Planned"
+      }
+    },
+    "cards": {
+      "eyebrow": "The small things",
+      "title": "Small actions, done hundreds of times a week.",
+      "items": [
+        {
+          "t": "Ctrl K to find anything",
+          "b": "Tasks, meetings, documents, files, purchase requests and members — one search box, no need to remember which menu."
+        },
+        {
+          "t": "Know there's something new without reopening",
+          "b": "The unread count shows in the browser tab title, and push notifications reach your phone."
+        },
+        {
+          "t": "Time blocking",
+          "b": "Turn a task into a block of time on your calendar without touching its due date."
+        },
+        {
+          "t": "Minutes are documents",
+          "b": "Take minutes in the same editor: / to insert, @ to mention. Find them again like any other document."
+        },
+        {
+          "t": "Three project types",
+          "b": "Delivery by phase and sign-off, Development on kanban, General for running the business."
+        },
+        {
+          "t": "AI prompts inside tasks",
+          "b": "Coding work carries a prompt block for the coding agent — written once, read by people and machines alike."
+        }
+      ]
+    },
+    "dogfood": {
+      "eyebrow": "We use it ourselves",
+      "title": "Pantheus is built on Pantheus Office.",
+      "body": "Pantheus's own projects — from the factory ERP to Office itself — are run in Office. What gets in our way today is usually fixed within the week.",
+      "stats": [
+        { "k": "Delivery", "v": "3", "l": "client projects by phase" },
+        { "k": "Development", "v": "4", "l": "products on kanban" },
+        { "k": "General", "v": "3", "l": "operating streams" }
+      ],
+      "note": "Active projects in Pantheus's own Office · Oct 2026"
+    },
+    "closing": {
+      "heading": "Bring your team's whole workday into one place.",
+      "lead": "Start with one team and one project. We sit with your team for the first week.",
+      "primary": "Try Office",
+      "secondary": "See Pantheus Production"
+    }
+  },
+  "Production": {
+    "meta": {
+      "title": "Pantheus Production — ERP for small and mid-sized factories",
+      "description": "Bills of materials, planning, purchasing, inventory, production orders and finished goods on one flow of data. Rolling out at an electric vehicle factory."
+    },
+    "hero": {
+      "eyebrow": "Pantheus Production · Sheet 03/03",
+      "title": "From materials at the gate to finished goods in stock — <acc>one flow of data</acc>.",
+      "lead": "ERP for small and mid-sized factories in Vietnam: bills of materials, planning, purchasing, inventory, production orders and finished goods. Rolling out at an electric vehicle factory — with new workflows added every week.",
+      "primary": "Book a consultation",
+      "secondary": "Follow the material flow",
+      "facts": [
+        { "k": "Status", "v": "Rolling out at an EV factory" },
+        { "k": "Deployment", "v": "The factory's own server" },
+        { "k": "Documents", "v": "Approved, audited, printed on A4" },
+        { "k": "Onboarding", "v": "Guides on the real screens" }
+      ]
+    },
+    "stops": [
+      {
+        "n": "00",
+        "place": "Whole factory",
+        "short": "Overview",
+        "title": "One factory, one flow of data.",
+        "desc": "The dotted line is the material flow: from the truck at the gate, through the store, onto the line, into a finished product. Every step creates a document — and the software follows exactly those steps.",
+        "screen": "Overview — what needs handling today",
+        "specs": [
+          ["Stops", "7 areas"],
+          ["Deployment", "The factory's own server"],
+          ["Rolling out at", "An EV factory"]
+        ],
+        "hots": [
+          {
+            "t": "Operations overview",
+            "b": "The start-of-day screen: slips awaiting approval, today's orders short on materials, materials to buy. Each tile opens exactly the list to work through."
+          }
+        ]
+      },
+      {
+        "n": "01",
+        "place": "Engineering",
+        "short": "BOM",
+        "title": "Versioned bills of materials, per colour.",
+        "desc": "Set up materials, colours and the bill of materials (BOM) for each product. Sub-assemblies like the seat have their own BOM. Every change goes through a draft — the active version is never overwritten.",
+        "screen": "Products & BOMs",
+        "specs": [
+          ["Who", "Engineering, master data"],
+          ["Document", "BOM v1 · v2 (draft)"],
+          ["Outcome", "Material needs right for every colour"]
+        ],
+        "hots": [
+          {
+            "t": "BOM versions",
+            "b": "Edit a draft, activate it when it's ready. Change history is kept; export to Excel any time."
+          },
+          {
+            "t": "BOM per colour",
+            "b": "Each colour of a product has its own materials list. A sub-assembly like the seat is a product with a BOM of its own."
+          }
+        ]
+      },
+      {
+        "n": "02",
+        "place": "Planning office",
+        "short": "Planning",
+        "title": "From weekly output to a list of materials to buy.",
+        "desc": "Enter the planned output for the week. The system multiplies out the BOM, subtracts stock and incoming deliveries, and shows what needs buying.",
+        "screen": "Production planning · Weekly plan",
+        "specs": [
+          ["Who", "Planning, purchasing"],
+          ["Document", "Weekly plan"],
+          ["Outcome", "A buy list, ready to order"]
+        ],
+        "hots": [
+          {
+            "t": "Shortfall in one click",
+            "b": "Press “Calculate shortfall”: no VLOOKUP, no waiting for someone to sign off the numbers. Raise purchase orders straight from the result."
+          },
+          {
+            "t": "Capacity check",
+            "b": "See how many units current stock can build, and which material is the constraint — before locking in the plan."
+          }
+        ]
+      },
+      {
+        "n": "03",
+        "place": "Receiving gate",
+        "short": "Purchasing",
+        "title": "Orders per supplier, receipts tied to the order.",
+        "desc": "Split the buy list into one order per supplier. When the truck arrives, the storekeeper creates a goods receipt against the order — the order knows how much has arrived and how much is still due.",
+        "screen": "Purchase orders",
+        "specs": [
+          ["Who", "Purchasing, storekeeper"],
+          ["Document", "Purchase order (DMH) · Goods receipt (PNK)"],
+          ["Outcome", "Every delivery matched to its order"]
+        ],
+        "hots": [
+          {
+            "t": "One order, many receipts",
+            "b": "Receive in parts across several receipts; the order shows received against ordered."
+          },
+          {
+            "t": "Approval and receiving kept apart",
+            "b": "Approving an order and receiving it are separate statuses. Receiving has three levels: not received, receiving, fully received — no single “status” column doing everything."
+          }
+        ]
+      },
+      {
+        "n": "04",
+        "place": "Materials store",
+        "short": "Inventory",
+        "title": "Stock is a ledger, not a cell you type into.",
+        "desc": "Every stock figure is derived from approved receipts, issue slips and stock counts. When numbers drift, count and approve an adjustment — with a trail.",
+        "screen": "Inventory",
+        "specs": [
+          ["Who", "Storekeeper, store manager"],
+          ["Document", "Goods receipt · Issue slip · Stock count"],
+          ["Outcome", "Correct stock, traceable to why"]
+        ],
+        "hots": [
+          {
+            "t": "Approve, then post",
+            "b": "Draft, awaiting approval, approved: only approved slips change stock. Approved by mistake? A manager cancels it with a reason, and the system posts a reversing entry."
+          },
+          {
+            "t": "Stock counts",
+            "b": "Create a stock count, enter what was actually counted, approve to adjust stock. Quickly filter materials below minimum or negative."
+          }
+        ]
+      },
+      {
+        "n": "05",
+        "place": "Assembly line",
+        "short": "Production order",
+        "title": "One production order, issue slips generated for you.",
+        "desc": "Operations creates the day's order; the system calculates materials from the BOM and generates the issue slips. The storekeeper just picks and approves.",
+        "screen": "Daily production order",
+        "specs": [
+          ["Who", "Operations, storekeeper"],
+          ["Document", "Daily production order · Issue slip"],
+          ["Outcome", "The right materials, in full, on time"]
+        ],
+        "hots": [
+          {
+            "t": "Generate issue slips",
+            "b": "One “Generate issue slip” button: materials and quantities pre-filled from each order line's BOM."
+          },
+          {
+            "t": "Tracked per line",
+            "b": "Each order line knows whether its issue slip is draft, awaiting approval or approved — and whether finished goods have been received."
+          }
+        ]
+      },
+      {
+        "n": "06",
+        "place": "Finished goods store",
+        "short": "Finished goods",
+        "title": "Finished goods received from the production order.",
+        "desc": "Completed products go into stock on a finished goods receipt tied to the order. Finished stock by code and colour, traceable to every receipt.",
+        "screen": "Finished goods stock",
+        "specs": [
+          ["Who", "Finished goods storekeeper"],
+          ["Document", "Finished goods receipt"],
+          ["Outcome", "Know exactly how many vehicles are in stock"]
+        ],
+        "hots": [
+          {
+            "t": "Finished goods stock",
+            "b": "Stock by code, colour and unit — calculated from approved documents."
+          },
+          {
+            "t": "Stock ledger",
+            "b": "Double-click a row to open its stock ledger: every receipt and issue that changed the stock of that code."
+          }
+        ]
+      },
+      {
+        "n": "07",
+        "place": "Warranty",
+        "short": "Warranty",
+        "title": "Warranty looked up by VIN.",
+        "desc": "Customers or dealers check warranty by VIN; defects are logged by material and supplier. This part is still planned.",
+        "screen": "Warranty · Lookup (sketch)",
+        "specs": [
+          ["Who", "Technicians, dealers"],
+          ["Document", "Warranty slip"],
+          ["Outcome", "Know which supplier causes defects"]
+        ],
+        "hots": [
+          {
+            "t": "Public lookup page",
+            "b": "A public page: enter the VIN and see the warranty end date — no call centre needed."
+          },
+          {
+            "t": "Material defects by supplier",
+            "b": "Group defects by material and supplier, as evidence for returns and supplier choice."
+          }
+        ]
+      }
+    ],
+    "apps": {
+      "home": {
+        "crumb": "Overview",
+        "title": "Overview",
+        "chips": [],
+        "tabs": ["*Today Oct 9", "Purchasing", "This week"],
+        "callout": "To handle: approve 4 goods receipts · approve 2 issue slips · 1 order today short on materials · buy 2 materials",
+        "head": ["Product", "r:Planned", "r:Received", "Next step"],
+        "rows": [
+          [
+            "E1 electric motorbike · Burgundy",
+            "num:8",
+            "num:10",
+            "ok:Over-received +2"
+          ],
+          [
+            "E1 electric motorbike · Matte black",
+            "num:6",
+            "num:—",
+            "warn:Issue slip awaiting approval"
+          ],
+          ["S2 e-bike · White", "num:12", "num:—", "mute:Submit issue slip"],
+          ["E1 seat assembly", "num:20", "num:—", "mute:Generate issue slip"]
+        ]
+      },
+      "bom": {
+        "crumb": "Master data › Products & BOMs",
+        "title": "E1 electric motorbike",
+        "chips": [
+          { "t": "SPXE-E1", "c": "mute" },
+          { "t": "Active", "c": "ok" }
+        ],
+        "tabs": ["*Lines", "Colours", "History"],
+        "callout": "v1 active · v2 draft · E1 seat assembly has its own BOM",
+        "head": ["r:#", "Material", "Colour", "r:Qty", "Unit"],
+        "rows": [
+          ["num:1", "E1 frame", "Burgundy", "num:1", "set"],
+          ["num:2", "E1 seat assembly", "—", "num:1", "assy"],
+          ["num:3", "Front disc brake assembly", "—", "num:1", "set"],
+          ["num:4", "M6×20 bolt", "—", "num:8", "pc"],
+          ["num:5", "E1 body panel", "Burgundy", "num:1", "set"]
+        ]
+      },
+      "plan": {
+        "crumb": "Production › Production planning",
+        "title": "Week 41 plan",
+        "chips": [{ "t": "Oct 5 – Oct 11", "c": "mute" }],
+        "tabs": ["*Weekly plan", "Capacity check"],
+        "callout": "Shortfall calculated at 08:12 · 2 materials to buy",
+        "head": [
+          "Material",
+          "r:Need",
+          "r:Stock",
+          "r:Short",
+          "r:Incoming",
+          "r:To buy"
+        ],
+        "rows": [
+          [
+            "Front disc brake assembly",
+            "num:60",
+            "num:28",
+            "neg:32",
+            "num:20",
+            "neg:12"
+          ],
+          ["E1 seat · black", "num:18", "num:10", "neg:8", "num:0", "neg:8"],
+          ["M6×20 bolt", "num:480", "num:520", "num:0", "num:0", "num:0"],
+          ["E1 frame", "num:48", "num:30", "neg:18", "num:30", "num:0"]
+        ]
+      },
+      "po": {
+        "crumb": "Purchasing › Purchase orders",
+        "title": "DMH-2610-0045",
+        "chips": [
+          { "t": "Approved", "c": "ok" },
+          { "t": "Receiving", "c": "warn" }
+        ],
+        "tabs": ["*Lines", "Linked receipts", "History"],
+        "callout": "1 of 2 lines fully received",
+        "head": [
+          "Material code",
+          "Material",
+          "r:Ordered",
+          "r:Received",
+          "r:Due"
+        ],
+        "rows": [
+          ["code:LK-0006", "M6×20 bolt", "num:500", "num:500", "num:0"],
+          [
+            "code:PH-0112",
+            "Front disc brake assembly",
+            "num:20",
+            "num:0",
+            "num:20"
+          ]
+        ]
+      },
+      "stock": {
+        "crumb": "Inventory › Stock",
+        "title": "Stock",
+        "chips": [],
+        "tabs": ["*Current stock", "Stock counts"],
+        "callout": "Production store · 1 material below minimum",
+        "head": [
+          "Material code",
+          "Name",
+          "Store",
+          "Unit",
+          "r:Stock",
+          "r:Minimum"
+        ],
+        "rows": [
+          [
+            "code:PH-0112",
+            "Front disc brake assembly",
+            "Production store",
+            "set",
+            "neg:28",
+            "num:40"
+          ],
+          [
+            "code:LK-0006",
+            "M6×20 bolt",
+            "Production store",
+            "pc",
+            "num:520",
+            "num:300"
+          ],
+          [
+            "code:YE-0203",
+            "E1 seat · black",
+            "Production store",
+            "pc",
+            "num:10",
+            "num:10"
+          ],
+          [
+            "code:KH-0187",
+            "E1 frame",
+            "Production store",
+            "set",
+            "num:30",
+            "num:10"
+          ]
+        ]
+      },
+      "mo": {
+        "crumb": "Production › Daily production orders",
+        "title": "Production order · Oct 9, 2026",
+        "chips": [{ "t": "4 lines", "c": "info" }],
+        "tabs": ["*Order", "History"],
+        "callout": "Production store stock is as of now — approving a slip re-checks stock.",
+        "head": ["Product", "Colour", "r:Qty", "Issue slip", "Status"],
+        "rows": [
+          [
+            "E1 electric motorbike",
+            "Burgundy",
+            "num:10",
+            "code:PXK-2610-0228",
+            "ok:Approved"
+          ],
+          [
+            "E1 electric motorbike",
+            "Matte black",
+            "num:6",
+            "code:PXK-2610-0229",
+            "warn:Pending"
+          ],
+          ["S2 e-bike", "White", "num:12", "code:PXK-2610-0230", "mute:Draft"],
+          ["E1 seat assembly", "—", "num:20", "—", "mute:Not created"]
+        ]
+      },
+      "fg": {
+        "crumb": "Finished goods › Finished goods stock",
+        "title": "Finished goods stock",
+        "chips": [],
+        "tabs": ["*Current stock", "Stock ledger"],
+        "callout": "From approved documents · double-click a row to open its stock ledger",
+        "head": ["Product code", "Product", "Colour", "Unit", "r:Stock"],
+        "rows": [
+          [
+            "code:XE-E1-RED",
+            "E1 electric motorbike",
+            "Burgundy",
+            "unit",
+            "num:15"
+          ],
+          [
+            "code:XE-E1-BLK",
+            "E1 electric motorbike",
+            "Matte black",
+            "unit",
+            "num:9"
+          ],
+          ["code:XE-S2-WHT", "S2 e-bike", "White", "unit", "num:22"],
+          ["code:CY-E1", "E1 seat assembly", "—", "assy", "num:40"]
+        ]
+      },
+      "war": {
+        "crumb": "Warranty › Lookup",
+        "title": "Warranty lookup",
+        "chips": [{ "t": "Planned", "c": "mute" }],
+        "tabs": ["*By VIN", "Material defects"],
+        "callout": "Sketch — enter the VIN or scan the barcode on the frame",
+        "head": ["VIN", "Product", "Sold", "Expires", "Status"],
+        "rows": [
+          [
+            "code:RLV1E1······0458",
+            "E1 electric motorbike · Burgundy",
+            "num:Jun 12, 2026",
+            "num:Jun 12, 2028",
+            "ok:Under warranty"
+          ],
+          [
+            "code:RLV1S2······0112",
+            "S2 e-bike · White",
+            "num:Feb 3, 2025",
+            "num:Feb 3, 2026",
+            "mute:Expired"
+          ]
+        ]
+      }
+    },
+    "nav": [
+      {
+        "g": "OVERVIEW",
+        "items": [{ "t": "Overview", "on": ["home"] }, { "t": "Guides" }]
+      },
+      {
+        "g": "PRODUCTION",
+        "items": [
+          { "t": "Production planning", "on": ["plan"] },
+          { "t": "Daily production orders", "on": ["mo"] }
+        ]
+      },
+      {
+        "g": "INVENTORY",
+        "items": [
+          { "t": "Goods receipts" },
+          { "t": "Issue slips" },
+          { "t": "Stock counts" },
+          { "t": "Stock", "on": ["stock"] }
+        ]
+      },
+      {
+        "g": "PURCHASING",
+        "items": [
+          { "t": "Suppliers" },
+          { "t": "Purchase orders", "on": ["po"] },
+          { "t": "Material defects", "soon": "planned" }
+        ]
+      },
+      {
+        "g": "MASTER DATA",
+        "items": [
+          { "t": "Materials" },
+          { "t": "Products & BOMs", "on": ["bom"] },
+          { "t": "Catalogue settings" }
+        ]
+      },
+      {
+        "g": "FINISHED GOODS",
+        "items": [
+          { "t": "Finished goods stock", "on": ["fg"] },
+          { "t": "Warranty", "on": ["war"], "soon": "planned" }
+        ]
+      },
+      {
+        "g": "SYSTEM",
+        "items": [{ "t": "Reports", "soon": "planned" }]
+      }
+    ],
+    "plan": {
+      "count": "STOCK COUNT",
+      "engineering": "ENGINEERING",
+      "finished": "FINISHED GOODS",
+      "issue": "ISSUE",
+      "line": "ASSEMBLY LINE",
+      "materials": "MATERIALS STORE",
+      "operations": "OPERATIONS",
+      "planning": "PLANNING · PURCHASING",
+      "qc": "QC",
+      "receiving": "RECEIVING",
+      "truck": "TRUCK",
+      "warranty": "WARRANTY"
+    },
+    "brand": {
+      "name": "Your factory",
+      "kbd": "Viewing as: Operations"
+    },
+    "tour": {
+      "eyebrow": "The route",
+      "title": "Follow the material flow.",
+      "body": "Every physical step in the factory creates a document — and the software follows exactly those steps. Click a number to jump to an area, click + for details.",
+      "tabs": "Stops along the material flow",
+      "route": "Dotted line: the material flow",
+      "start": "Start from the BOM",
+      "end": "Back to the full view",
+      "screenEyebrow": "In the software",
+      "screenNote": "The screen below follows the stop you pick above. The data is illustrative; the name and logo are your factory's.",
+      "tags": {
+        "run": "Available",
+        "soon": "Coming soon",
+        "plan": "Planned"
+      }
+    },
+    "cards": {
+      "eyebrow": "Built for operators",
+      "title": "Storekeepers shouldn't need an 80-page manual.",
+      "items": [
+        {
+          "t": "Guides on the real screens",
+          "b": "Walkthroughs by job — production orders and issue slips, planning and purchase orders, stock counts — that run step by step on the screen you're using."
+        },
+        {
+          "t": "View as another role",
+          "b": "Admins see the system exactly as operations or a storekeeper sees it — support without guesswork."
+        },
+        {
+          "t": "Feedback from every screen",
+          "b": "A “Send feedback” button in the corner. Say it at the moment and in the place you got stuck — and see it fixed in the next loop."
+        },
+        {
+          "t": "Documents with history",
+          "b": "Every slip records who created it, who approved or rejected it, and when. Approved by mistake? A manager cancels it with a reason and the system posts a reversal — nothing is overwritten."
+        },
+        {
+          "t": "A4 print templates",
+          "b": "Goods receipts, issue slips and purchase orders print on A4 for signing by hand when your process still needs signatures."
+        },
+        {
+          "t": "Carries your factory's name",
+          "b": "The software carries your factory's name and logo. Pantheus appears only in one “Powered by” line."
+        }
+      ]
+    },
+    "deploy": {
+      "eyebrow": "Runs on your data",
+      "title": "A dedicated server for your factory. Your data stays in your hands.",
+      "items": [
+        {
+          "k": "Server",
+          "t": "Dedicated to the factory",
+          "b": "One database per legal entity. Designed to run on the factory's local network."
+        },
+        {
+          "k": "Updates",
+          "t": "Pre-packaged",
+          "b": "Updates are built and tested ahead of time; the server just runs them."
+        },
+        {
+          "k": "Backups",
+          "t": "Daily",
+          "b": "Automatic backups every day, with the last 30 days kept."
+        },
+        {
+          "k": "Data",
+          "t": "Excel export",
+          "b": "Export any list to Excel at any time — your data is never locked inside the software."
+        },
+        {
+          "k": "Concurrent edits",
+          "t": "No overwrites",
+          "b": "If two people edit the same slip, whoever saves second is warned — nothing is silently overwritten."
+        },
+        {
+          "k": "Access",
+          "t": "Browser",
+          "b": "Use it on desktop and phone through the browser, installable as an app."
+        }
+      ]
+    },
+    "roadmap": {
+      "eyebrow": "Still building",
+      "title": "An open roadmap, updated against a real factory.",
+      "body": "Priorities are set by our customers' bottlenecks, not by a feature list.",
+      "items": [
+        {
+          "t": "Factory rollout",
+          "b": "Bring the system into daily operation at the first electric vehicle factory, together with the store and operations teams.",
+          "tag": "Coming soon",
+          "tone": "info"
+        },
+        {
+          "t": "Barcodes & VIN",
+          "b": "Print labels and scan them when finished goods are received; open a vehicle's production order from its VIN.",
+          "tag": "Planned",
+          "tone": "mute"
+        },
+        {
+          "t": "Warranty by VIN",
+          "b": "A public lookup page, warranty slips, and replacement parts deducted straight from stock.",
+          "tag": "Planned",
+          "tone": "mute"
+        },
+        {
+          "t": "Material defects · suppliers",
+          "b": "Group defects by material and supplier, as evidence for returns and supplier reviews.",
+          "tag": "Planned",
+          "tone": "mute"
+        },
+        {
+          "t": "Management reports",
+          "b": "Stock movement by period, output by order, material consumption against the BOM.",
+          "tag": "Planned",
+          "tone": "mute"
+        },
+        {
+          "t": "Ask the factory with AI",
+          "b": "Ask in plain language: what do we need to buy this week, which supplier causes the most defects.",
+          "tag": "Planned",
+          "tone": "mute"
+        }
+      ]
+    },
+    "closing": {
+      "heading": "Start with your factory's most expensive bottleneck.",
+      "lead": "One walk along the material flow with your team. Then we propose what to build first, and what can wait.",
+      "primary": "Book a consultation",
+      "secondary": "See Pantheus Office"
+    }
   }
 }

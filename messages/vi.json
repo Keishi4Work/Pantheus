@@ -1,81 +1,1418 @@
 {
-  "Meta": {
-    "title": "Pantheus — ERP thiết kế riêng cho ngành sản xuất Việt Nam",
-    "description": "ERP thiết kế riêng cho ngành sản xuất Việt Nam — xây dựng quanh cách bạn vận hành, chạy trên hạ tầng của bạn, trả lời câu hỏi của bạn."
-  },
   "Nav": {
+    "home": "Pantheus — Trang chủ",
+    "main": "Điều hướng chính",
     "approach": "Phương pháp",
     "contact": "Liên hệ",
     "menu": "Menu",
     "language": "Ngôn ngữ"
   },
-  "Hero": {
-    "headlineLead": "Nhà máy của bạn là <hl>độc nhất</hl>.",
-    "headlineTurn": "ERP cũng nên như thế.",
-    "subhead": "Giải pháp ERP thiết kế riêng, tích hợp ứng dụng AI. Xây dựng quanh cách bạn thực sự vận hành. Trả lời câu hỏi của bạn.",
-    "cta": "Đặt lịch tư vấn",
-    "tagline": "Nền tảng cho mọi vận hành."
-  },
-  "Problem": {
-    "heading": "Vận hành bằng Excel và phỏng đoán.",
-    "body": "“Ngay bây giờ tôi sản xuất được bao nhiêu sản phẩm?” Với Excel, câu hỏi đó có thể mất hàng giờ hoặc hàng ngày để trả lời — và đáp án thì đã lỗi thời. Không có nguồn dữ liệu thống nhất, không nắm được chất lượng nhà cung cấp, và tồn kho thất thoát do nhập liệu thủ công."
-  },
-  "Pillars": {
-    "builtAroundYou": {
-      "label": "Tối ưu cho bạn",
-      "headline": "Quy trình của bạn là bản thiết kế.",
-      "body": "Chúng tôi không ép nhà máy chạy theo phần mềm. Phần mềm được tạo ra theo đúng nhu cầu của nhà máy và cách nó nên vận hành."
-    },
-    "runsOnYourGround": {
-      "label": "Chạy trên dữ liệu của bạn",
-      "headline": "Dữ liệu của bạn là vô giá.",
-      "body": "Triển khai tại chỗ, hoạt động cả khi offline. Toàn quyền kiểm soát. Chúng tôi cung cấp giải pháp phân tích dự đoán và đề xuất giúp doanh nghiệp bạn tối ưu tồn kho, sản xuất và dự báo xu hướng."
-    },
-    "outcomes": {
-      "label": "Kết quả, không phải tính năng",
-      "headline": "Mỗi tính năng đều gắn với một con số bạn quan tâm.",
-      "body": "Chúng tôi bắt đầu từ điểm nghẽn của bạn, không phải từ danh sách tính năng — thất thoát tồn kho, giảm thiểu ngừng sản xuất, giải phóng vốn lưu động. Không tác động đến con số nào thì không xây dựng."
-    },
-    "builtForTheFloor": {
-      "label": "Dành cho người vận hành",
-      "headline": "Đủ đơn giản để ai cũng dùng được.",
-      "body": "Phần lớn dự án ERP thất bại ở khâu áp dụng. Thiết kế cho người không rành công nghệ: đào tạo tối thiểu, làm quen nhanh, dữ liệu sạch ngay từ ngày đầu."
-    },
-    "askYourFactory": {
-      "label": "Hỏi nhà máy của bạn",
-      "headline": "Hỏi bằng ngôn ngữ thường ngày. Nhận câu trả lời thật.",
-      "body": "AI biến dữ liệu vận hành thành quyết định. “Tuần này tôi giao được bao nhiêu?” “Nhà cung cấp nào gây thiệt hại nhiều nhất vì lỗi?” — có ngay câu trả lời, không cần đọc dashboard."
-    }
-  },
-  "Process": {
-    "heading": "Cách chúng tôi làm việc.",
-    "step1": {
-      "title": "Thấu hiểu",
-      "body": "Tìm hiểu vận hành của bạn và xác định điểm nghẽn tốn kém nhất."
-    },
-    "step2": {
-      "title": "Xây dựng",
-      "body": "Triển khai hệ thống giải quyết điểm nghẽn đó, thiết kế theo đúng quy trình thực tế của bạn."
-    },
-    "step3": {
-      "title": "Mở rộng",
-      "body": "Phát triển tiếp cùng bạn khi quy mô lớn dần, theo điều kiện của bạn."
-    }
-  },
-  "Audience": {
-    "heading": "Dành cho ai.",
-    "body": "Doanh nghiệp sản xuất vừa và nhỏ đã vượt khỏi giới hạn của Excel — cần một hệ thống vừa vặn, không phải một khuôn mẫu phải gồng mình thích nghi."
-  },
-  "Closing": {
-    "heading": "Cùng xây hệ thống mà nhà máy của bạn xứng đáng có.",
-    "subline": "Không khuôn mẫu. Không ràng buộc. Chỉ một hệ thống dành riêng cho bạn.",
-    "cta": "Đặt lịch tư vấn"
-  },
   "Footer": {
-    "wordmarkLine": "Pantheus — ERP cho ngành sản xuất, thiết kế riêng cho bạn.",
-    "tagline": "Nền tảng cho mọi vận hành.",
+    "tagline": "Phần mềm thiết kế riêng cho cách bạn vận hành.",
+    "motto": "Nền tảng cho mọi vận hành.",
+    "products": "Sản phẩm",
+    "company": "Công ty",
     "approach": "Phương pháp",
-    "contact": "Liên hệ",
-    "copyright": "© 2026 Pantheus"
+    "contact": "Liên hệ"
+  },
+  "Common": {
+    "tour": {
+      "prev": "Chặng trước",
+      "close": "Đóng",
+      "detail": "Chi tiết",
+      "next": "Chặng tiếp:",
+      "hintDetail": "Điểm chi tiết",
+      "hintZones": "Khu vực"
+    }
+  },
+  "Home": {
+    "meta": {
+      "title": "Pantheus — Phần mềm thiết kế riêng cho cách bạn vận hành",
+      "description": "Pantheus xây phần mềm theo đúng luồng vận hành của từng doanh nghiệp, rồi đóng gói những gì đã chạy tốt thành sản phẩm: Pantheus Office cho đội văn phòng, Pantheus Production cho nhà máy."
+    },
+    "hero": {
+      "eyebrow": "Nền tảng cho mọi vận hành.",
+      "title": "Doanh nghiệp của bạn là <acc>độc nhất</acc>. Phần mềm cũng nên như thế.",
+      "lead": "Pantheus xây phần mềm theo đúng luồng vận hành của từng doanh nghiệp — rồi đóng gói những gì đã chạy tốt thành sản phẩm. Phát triển cùng AI, cải tiến theo phản hồi mỗi tuần.",
+      "primary": "Đặt lịch tư vấn",
+      "secondary": "Xem 2 sản phẩm"
+    },
+    "sheets": {
+      "office": {
+        "top": "Sheet 02 · Văn phòng",
+        "desc": "Task, dự án, cuộc họp, tài liệu và trao đổi — một luồng cho cả ngày làm việc của văn phòng.",
+        "status": "Đang chạy",
+        "route": "Hành trình 1 ngày · 7 chặng"
+      },
+      "production": {
+        "top": "Sheet 03 · Nhà máy",
+        "desc": "ERP cho nhà máy: định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm.",
+        "status": "Đang triển khai",
+        "route": "Dòng vật tư · 7 chặng",
+        "materials": "KHO VẬT TƯ",
+        "line": "DÂY CHUYỀN"
+      }
+    },
+    "problem": {
+      "title": "Phần mềm lớn bắt bạn đổi cách làm. Excel thì không theo kịp.",
+      "quote": "“Ngay bây giờ tôi sản xuất được bao nhiêu sản phẩm?”",
+      "body": "Với Excel, câu hỏi đó mất hàng giờ — và đáp án đã lỗi thời khi đến tay bạn. Với phần mềm đóng gói, bạn phải uốn quy trình theo màn hình của người khác. Pantheus đi con đường thứ ba: phần mềm được vẽ theo luồng việc thật của bạn."
+    },
+    "approach": {
+      "eyebrow": "Từ dịch vụ đến sản phẩm",
+      "title": "Bắt đầu bằng may đo. Lớn lên thành sản phẩm.",
+      "group": "Ba bước của phương pháp",
+      "gets": "Bạn nhận được",
+      "prev": "Bước trước",
+      "next": "Bước tiếp",
+      "steps": [
+        {
+          "n": "01",
+          "t": "May đo",
+          "d": "Phần mềm riêng cho từng doanh nghiệp",
+          "title": "Bắt đầu từ cách bạn thực sự vận hành.",
+          "body": "Chúng tôi đi theo dòng công việc thật — từ lúc vật tư về cổng đến lúc chứng từ lên sổ. Mỗi sự kiện được hỏi đủ sáu câu: ai làm, khi nào, dữ liệu gì, trạng thái đổi ra sao, chứng từ nào, ngoại lệ là gì.",
+          "get": [
+            "Phần mềm theo đúng luồng vận hành của bạn",
+            "Triển khai trên hạ tầng của bạn, dữ liệu thuộc về bạn",
+            "Bắt đầu từ điểm nghẽn tốn kém nhất"
+          ]
+        },
+        {
+          "n": "02",
+          "t": "Lặp nhanh",
+          "d": "Phản hồi hôm nay, cập nhật trong tuần",
+          "title": "Vòng phản hồi tính bằng ngày, không phải quý.",
+          "body": "Người dùng bấm “Gửi phản hồi” ngay trên màn hình đang dùng. Chúng tôi viết spec, AI viết mã, kỹ sư giữ kiến trúc và kiểm thử. Chi phí thay đổi đủ thấp để nói “có” thường xuyên hơn.",
+          "get": [
+            "Nút phản hồi trên mọi màn hình",
+            "Bản cập nhật nhỏ, đều đặn — không chờ “phiên bản lớn”",
+            "Thay đổi quy trình không còn là dự án nửa năm"
+          ]
+        },
+        {
+          "n": "03",
+          "t": "Sản phẩm hóa",
+          "d": "Cái gì chạy tốt trở thành sản phẩm",
+          "title": "Cái gì chạy tốt, trở thành sản phẩm.",
+          "body": "Những gì chạy tốt ở các lần triển khai đầu được đóng gói thành Pantheus Office và Pantheus Production. Khách hàng sau bắt đầu từ một nền đã chạy thực tế — phần còn lại vẫn được may đo.",
+          "get": [
+            "Triển khai nhanh hơn trên nền đã chạy thực tế",
+            "UX được mài qua phản hồi hằng tuần",
+            "Phần riêng của bạn vẫn là của bạn"
+          ]
+        }
+      ],
+      "shipped": {
+        "title": "Vừa giao trên Pantheus Office",
+        "items": [
+          {
+            "date": "2026-10-08",
+            "label": "08/10",
+            "text": "Timeline Gantt cho dự án Delivery"
+          },
+          {
+            "date": "2026-10-08",
+            "label": "08/10",
+            "text": "Tab Tài liệu trong dự án Delivery, có phiên bản tệp và tải zip"
+          },
+          {
+            "date": "2026-10-03",
+            "label": "03/10",
+            "text": "Biên bản họp soạn ngay trong trang cuộc họp"
+          }
+        ]
+      },
+      "fig": {
+        "process": {
+          "receive": "NHẬN HÀNG",
+          "check": "KIỂM TRA",
+          "store": "NHẬP KHO",
+          "issue": "CẤP PHÁT",
+          "assemble": "LẮP RÁP",
+          "finished": "THÀNH PHẨM",
+          "ship": "XUẤT XƯỞNG",
+          "returns": "TRẢ HÀNG",
+          "exception": "← ngoại lệ",
+          "caption": "QUY TRÌNH CỦA BẠN · REV A"
+        },
+        "loop": {
+          "feedback": "PHẢN HỒI",
+          "spec": "SPEC",
+          "build": "AI + KỸ SƯ",
+          "update": "CẬP NHẬT",
+          "loop": "LẶP LẠI",
+          "weekly": "MỖI TUẦN",
+          "button": "Gửi phản hồi"
+        },
+        "layers": {
+          "formula": "MỖI DOANH NGHIỆP = NỀN CHUNG + PHẦN RIÊNG",
+          "you": "MAY ĐO · BẠN",
+          "a": "MAY ĐO · A",
+          "b": "MAY ĐO · B",
+          "base": "NỀN TẢNG · DỮ LIỆU · QUYỀN · CHỨNG TỪ"
+        }
+      }
+    },
+    "products": {
+      "eyebrow": "Sản phẩm",
+      "title": "Hai sản phẩm, cùng một cách nghĩ: đi theo luồng việc.",
+      "office": {
+        "top": "Sheet 02 · Cho đội văn phòng",
+        "desc": "Phần mềm quản lý công việc với UX được mài theo từng thao tác hằng ngày. Chúng tôi dùng chính nó để xây Pantheus.",
+        "feat": [
+          "Inbox tóm tắt: quá hạn, đến hạn, thông báo chưa đọc",
+          "Dự án Delivery theo phase và hạn nghiệm thu, hoặc kanban cho đội phát triển",
+          "Biên bản họp và tài liệu dùng chung một trình soạn thảo",
+          "Pan — trợ lý AI ngay trong khung trao đổi"
+        ],
+        "link": "Đi qua một ngày làm việc",
+        "inbox": {
+          "tabs": ["*Tóm tắt", "Task của tôi", "Lịch"],
+          "groups": [
+            {
+              "head": "Quá hạn (3)",
+              "action": "Xem tất cả",
+              "items": [
+                {
+                  "t": "Tích hợp điều khiển UI",
+                  "s": "Pantheus Office",
+                  "due": "Quá hạn · 04/10"
+                },
+                {
+                  "t": "Cập nhật theo yêu cầu khách",
+                  "s": "Dự án nội bộ",
+                  "due": "Quá hạn · 05/10"
+                },
+                {
+                  "t": "Chốt nghiệm thu",
+                  "s": "Dự án Delivery · Nghiệm thu",
+                  "due": "Quá hạn · 08/10"
+                }
+              ]
+            },
+            {
+              "head": "Chưa đọc (18)",
+              "action": "Đánh dấu đã đọc",
+              "items": [
+                { "t": "Nghiệm thu đang trễ hạn 1 ngày", "s": "13 giờ trước" },
+                {
+                  "t": "Lịch “Chốt nghiệm thu” đã đổi sang 10:00",
+                  "s": "Hôm qua"
+                },
+                {
+                  "t": "Đã hoàn thành “Research on MISA review”",
+                  "s": "Hôm qua"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "production": {
+        "top": "Sheet 03 · Cho nhà máy",
+        "desc": "ERP cho nhà máy vừa và nhỏ tại Việt Nam. Đang triển khai tại một nhà máy xe điện, và tiếp tục được xây thêm nghiệp vụ mỗi tuần.",
+        "feat": [
+          "Định mức (BOM) có phiên bản, theo từng màu; cụm như yên xe có định mức riêng",
+          "Dự trù tuần: tính vật tư thiếu, tạo đơn mua theo nhà cung cấp",
+          "Lệnh sản xuất ngày tự sinh phiếu xuất cấp vật tư",
+          "Tồn kho suy ra từ chứng từ đã duyệt — không có ô nhập tay"
+        ],
+        "link": "Đi theo dòng vật tư"
+      }
+    },
+    "principles": {
+      "eyebrow": "Nguyên tắc",
+      "title": "Những điều không đổi, dù là may đo hay sản phẩm.",
+      "items": [
+        {
+          "label": "Tối ưu cho bạn",
+          "title": "Quy trình của bạn là bản thiết kế.",
+          "body": "Không ép doanh nghiệp chạy theo phần mềm. Phần mềm được vẽ theo nhu cầu và cách bạn vận hành."
+        },
+        {
+          "label": "Chạy trên dữ liệu của bạn",
+          "title": "Dữ liệu của bạn là vô giá.",
+          "body": "Máy chủ riêng, thiết kế để chạy trong mạng nội bộ nhà máy. Toàn quyền kiểm soát dữ liệu."
+        },
+        {
+          "label": "Kết quả, không phải tính năng",
+          "title": "Mỗi tính năng gắn với một con số bạn quan tâm.",
+          "body": "Bắt đầu từ điểm nghẽn: thất thoát tồn kho, ngừng sản xuất, vốn lưu động. Không tác động đến con số nào thì không xây."
+        },
+        {
+          "label": "Dành cho người vận hành",
+          "title": "Đủ đơn giản để ai cũng dùng được.",
+          "body": "Phần lớn dự án ERP thất bại ở khâu áp dụng. Hướng dẫn chạy ngay trên màn hình thật: đào tạo tối thiểu, dữ liệu sạch từ ngày đầu."
+        },
+        {
+          "label": "Phát triển cùng AI",
+          "title": "Sẵn sàng thay đổi khi bạn thay đổi.",
+          "body": "AI giúp chúng tôi viết mã nhanh hơn; kỹ sư giữ kiến trúc và chất lượng. Thay đổi quy trình không còn là dự án nửa năm."
+        }
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI trong sản phẩm",
+      "title": "Hỏi bằng ngôn ngữ thường ngày. Nhận câu trả lời thật.",
+      "body": "AI đọc chính dữ liệu vận hành của bạn — chứng từ, kế hoạch, công việc — thay vì bắt bạn đọc dashboard. Pan đã có trong Pantheus Office; hỏi nhà máy bằng AI nằm trong lộ trình của Production.",
+      "group": "Câu hỏi mẫu",
+      "who": "Pan · trợ lý AI",
+      "sample": "Minh họa",
+      "placeholder": "Hỏi về nhà máy, dự án, kho…",
+      "qs": [
+        {
+          "q": "Tuần này cần mua thêm vật tư nào?",
+          "p": "Production · Kế hoạch",
+          "a": "Dự trù tuần 41 đã tính thiếu lúc 08:12. Sau khi trừ tồn kho và hàng đang về, còn hai vật tư cần mua:",
+          "lines": [
+            { "k": "Cụm phanh đĩa trước", "v": "cần mua 12 bộ" },
+            { "k": "Yên xe E1 · đen", "v": "cần mua 8 cái" },
+            { "k": "Khung sườn E1", "v": "đủ, nhờ 30 bộ đang về" }
+          ],
+          "tail": "Phanh thiếu 32 bộ, nhưng đơn DMH-2610-0045 đang về 20 bộ nên chỉ cần mua thêm 12.",
+          "refs": ["Dự trù tuần 41", "DMH-2610-0045"]
+        },
+        {
+          "q": "Dự án nào đang trễ hạn nghiệm thu?",
+          "p": "Office",
+          "a": "Một dự án đang trễ: “Triển khai ERP — Khách hàng A” quá hạn nghiệm thu 1 ngày.",
+          "lines": [
+            { "k": "Bước Nghiệm thu", "v": "trễ hạn 1 ngày" },
+            { "k": "Chốt nghiệm thu", "v": "hạn 08/10" },
+            { "k": "Bàn giao", "v": "bắt đầu 12/10" }
+          ],
+          "tail": "Lịch họp chốt nghiệm thu đã dời sang 10/10, 10:00.",
+          "refs": ["Dự án Delivery", "Triển khai ERP — Khách hàng A"]
+        },
+        {
+          "q": "Tạo task từ tin nhắn của Huy giúp mình.",
+          "p": "Office · Trao đổi",
+          "a": "Đã soạn sẵn một task từ tin nhắn của Huy. Task chỉ được tạo khi bạn xác nhận:",
+          "lines": [
+            { "k": "Tên", "v": "Chuẩn bị demo cho khách hàng A" },
+            { "k": "Dự án", "v": "Triển khai ERP — Khách hàng A" },
+            { "k": "Hạn", "v": "10/10" }
+          ],
+          "tail": "Bấm xác nhận để tạo, hoặc sửa lại trước khi tạo.",
+          "refs": ["Nhắn riêng · Huy", "Dự án Delivery"]
+        }
+      ]
+    },
+    "how": {
+      "eyebrow": "Cách chúng tôi làm việc",
+      "title": "Ba bước, bắt đầu từ một điểm nghẽn.",
+      "steps": [
+        {
+          "t": "Thấu hiểu",
+          "b": "Đi theo dòng công việc thật, phỏng vấn từng vai trò, xác định điểm nghẽn tốn kém nhất."
+        },
+        {
+          "t": "Xây dựng",
+          "b": "Triển khai hệ thống giải quyết điểm nghẽn đó trên nền sản phẩm sẵn có, may đo phần riêng của bạn."
+        },
+        {
+          "t": "Mở rộng",
+          "b": "Thêm nghiệp vụ khi bạn lớn lên — theo nhịp và điều kiện của bạn, không theo lộ trình của nhà cung cấp."
+        }
+      ]
+    },
+    "closing": {
+      "heading": "Cùng xây hệ thống mà doanh nghiệp của bạn xứng đáng có.",
+      "lead": "Không khuôn mẫu. Không ràng buộc. Bắt đầu bằng một buổi đi xem cách bạn đang vận hành.",
+      "primary": "Đặt lịch tư vấn",
+      "secondary": "Xem Pantheus Office"
+    }
+  },
+  "Office": {
+    "meta": {
+      "title": "Pantheus Office — Một ngày làm việc, một luồng",
+      "description": "Task, dự án, cuộc họp, tài liệu, trao đổi và đề nghị mua hàng trong cùng một nơi, kèm Pan — trợ lý AI."
+    },
+    "hero": {
+      "eyebrow": "Pantheus Office · Sheet 02/03",
+      "title": "Một ngày làm việc, một <acc>luồng</acc>.",
+      "lead": "Task, dự án, cuộc họp, tài liệu và trao đổi trong cùng một nơi. Mỗi màn hình được mài theo thao tác hằng ngày — không phải cho buổi demo.",
+      "primary": "Dùng thử Office",
+      "secondary": "Đi qua một ngày",
+      "facts": [
+        { "k": "Trạng thái", "v": "Đang chạy hằng ngày" },
+        { "k": "Truy cập", "v": "Trình duyệt, cài được như ứng dụng" },
+        { "k": "Tìm mọi thứ", "v": "Ctrl K" },
+        { "k": "Ngôn ngữ", "v": "Tiếng Việt và tiếng Anh" }
+      ]
+    },
+    "stops": [
+      {
+        "n": "00",
+        "time": "Cả ngày",
+        "short": "Tổng quan",
+        "title": "Một văn phòng, một luồng việc.",
+        "desc": "Bấm vào từng khu vực, hoặc đi theo thứ tự — từ lúc mở máy buổi sáng đến lúc chốt đề nghị mua hàng cuối ngày.",
+        "screen": "Inbox — nơi mỗi ngày bắt đầu",
+        "specs": [
+          ["Chặng", "7 khu vực"],
+          ["Dành cho", "Đội văn phòng, đội dự án"],
+          ["Truy cập", "Trình duyệt, điện thoại"]
+        ],
+        "hots": []
+      },
+      {
+        "n": "01",
+        "time": "08:30",
+        "short": "Inbox",
+        "title": "Mở máy là biết việc nào cần làm trước.",
+        "desc": "Inbox gom những gì cần bạn: việc quá hạn, việc đến hạn hôm nay và ngày mai, thông báo chưa đọc.",
+        "screen": "Inbox · Tóm tắt",
+        "specs": [
+          ["Ai", "Mọi thành viên"],
+          ["Màn hình", "Tóm tắt · Task của tôi · Lịch"],
+          ["Kết quả", "Thứ tự ưu tiên của hôm nay"]
+        ],
+        "hots": [
+          {
+            "t": "Tóm tắt buổi sáng",
+            "b": "Việc quá hạn lên đầu, kèm dự án và số ngày trễ. Không phải lục lại từng dự án để biết mình đang nợ việc gì."
+          },
+          {
+            "t": "Đặt lịch làm việc",
+            "b": "Kéo task thành khối giờ trên lịch cá nhân. Lịch làm việc không làm thay đổi ngày bắt đầu, kết thúc của task."
+          }
+        ]
+      },
+      {
+        "n": "02",
+        "time": "09:00",
+        "short": "Cuộc họp",
+        "title": "Biên bản viết ngay trong trang cuộc họp.",
+        "desc": "Ghi biên bản bằng cùng trình soạn thảo với Tài liệu. Thời lượng và người dự được ghi lại; biên bản tìm lại được như mọi tài liệu khác.",
+        "screen": "Cuộc họp · Danh sách",
+        "specs": [
+          ["Ai", "Người chủ trì, thư ký"],
+          ["Chứng từ", "Biên bản họp"],
+          ["Kết quả", "Quyết định có nơi lưu"]
+        ],
+        "hots": [
+          {
+            "t": "Gõ / để chèn",
+            "b": "Tiêu đề, danh sách, bảng, ảnh — chèn bằng lệnh gạch chéo. Gõ @ để nhắc đồng nghiệp ngay trong biên bản."
+          },
+          {
+            "t": "Họp video ngay trong Office",
+            "b": "Vào cuộc gọi video từ trang cuộc họp; người tham dự được ghi nhận tự động. Họp trực tiếp thì thêm cuộc họp offline để vẫn có biên bản."
+          }
+        ]
+      },
+      {
+        "n": "03",
+        "time": "10:00",
+        "short": "Dự án",
+        "title": "Dự án Delivery đi theo phase và hạn nghiệm thu.",
+        "desc": "Phase, bước và đầu việc trên cùng một Gantt. Mốc nghiệm thu nằm trên trục; trễ một ngày là cả đội thấy.",
+        "screen": "Dự án · Gantt theo phase",
+        "specs": [
+          ["Ai", "Trưởng dự án"],
+          ["Màn hình", "Gantt · Tài liệu dự án"],
+          ["Kết quả", "Biết phase nào chậm, vì sao"]
+        ],
+        "hots": [
+          {
+            "t": "Phase, bước, đầu việc",
+            "b": "Ba tầng trên cùng một Gantt, gập mở từng phase. Hạn nghiệm thu là một mốc riêng, có cảnh báo khi trễ."
+          },
+          {
+            "t": "Ba loại dự án",
+            "b": "Delivery theo phase cho dự án giao khách, Phát triển theo kanban, Chung cho việc vận hành — mỗi loại có cách nhìn riêng."
+          }
+        ]
+      },
+      {
+        "n": "04",
+        "time": "13:30",
+        "short": "Task",
+        "title": "Mô tả và prompt cho AI trong cùng một task.",
+        "desc": "Việc có yếu tố code mang thêm trường cho dev và khối Prompt cho coding agent. Kanban có cột Review để việc AI làm luôn qua mắt người.",
+        "screen": "Dự án phát triển · Kanban",
+        "specs": [
+          ["Ai", "Dev, PM"],
+          ["Màn hình", "Kanban · Chi tiết task"],
+          ["Kết quả", "Giao việc cho người và AI như nhau"]
+        ],
+        "hots": [
+          {
+            "t": "Prompt cho coding agent",
+            "b": "Viết yêu cầu một lần: người đọc được, agent chạy được. Dán ảnh, đính kèm tệp đến 25 MB."
+          },
+          {
+            "t": "Cột Review",
+            "b": "Chưa làm, Đang làm, Review, Xong — việc AI làm dừng ở Review để người kiểm tra trước khi xong."
+          }
+        ]
+      },
+      {
+        "n": "05",
+        "time": "15:00",
+        "short": "Trao đổi",
+        "title": "Nhắn tin theo nhóm — và hỏi Pan.",
+        "desc": "Nhóm và nhắn riêng nằm cạnh công việc. Pan, trợ lý AI, ở ngay trong danh sách trò chuyện như một đồng nghiệp.",
+        "screen": "Trao đổi",
+        "specs": [
+          ["Ai", "Cả đội"],
+          ["Màn hình", "Nhóm · Nhắn riêng · Pan"],
+          ["Kết quả", "Ít chuyển ứng dụng hơn"]
+        ],
+        "hots": [
+          {
+            "t": "Pan — trợ lý AI",
+            "b": "Hỏi bằng tiếng Việt về việc của bạn, dự án, tài liệu. Pan còn soạn sẵn task từ tin nhắn — task chỉ được tạo khi bạn xác nhận."
+          },
+          {
+            "t": "Nhóm và nhắn riêng",
+            "b": "Trả lời trích dẫn, thả cảm xúc, đính kèm — đủ để không phải mở thêm một ứng dụng chat khác."
+          }
+        ]
+      },
+      {
+        "n": "06",
+        "time": "16:30",
+        "short": "Tài liệu",
+        "title": "Tài liệu của cả đội, gắn thẻ theo chủ đề.",
+        "desc": "Mỗi lúc một người sửa, bình luận ngay trên từng đoạn, có lịch sử phiên bản, xuất Word và PDF. Thẻ chủ đề tối đa 3 cấp để tìm lại theo cây.",
+        "screen": "Tài liệu · Cây chủ đề",
+        "specs": [
+          ["Ai", "Cả đội"],
+          ["Màn hình", "Tài liệu · Đính kèm"],
+          ["Kết quả", "Một nơi cho tri thức của đội"]
+        ],
+        "hots": [
+          {
+            "t": "Thẻ chủ đề 3 cấp",
+            "b": "Duyệt theo cây: /internal, rồi /internal/product… Thẻ là đường dẫn, không phải danh sách phẳng."
+          },
+          {
+            "t": "Đính kèm tập trung",
+            "b": "Tệp từ task, trao đổi, tài liệu về chung một kho, có xem trước cho ảnh, PDF và video."
+          }
+        ]
+      },
+      {
+        "n": "07",
+        "time": "17:30",
+        "short": "Mua hàng",
+        "title": "Xin mua, duyệt, hoàn ứng, quyết toán — không qua email.",
+        "desc": "Mỗi đề nghị đi qua các trạng thái rõ ràng: chờ duyệt, chờ mua, chờ hoàn ứng, chờ quyết toán, được ghi nhận — hoặc bị trả lại để sửa.",
+        "screen": "Tài chính · Đề nghị mua hàng",
+        "specs": [
+          ["Ai", "Người đề nghị, quản lý, kế toán"],
+          ["Chứng từ", "Đề nghị mua hàng"],
+          ["Kết quả", "Biết tiền đang ở bước nào"]
+        ],
+        "hots": [
+          {
+            "t": "Trạng thái rõ ràng",
+            "b": "Không còn “gửi chưa nhỉ?” — ai cũng thấy đề nghị đang ở bước nào và đang chờ ai."
+          },
+          {
+            "t": "Hóa đơn và chứng từ chuyển khoản",
+            "b": "Gắn hóa đơn VAT và chứng từ chuyển khoản ngay trên đề nghị; phải có ít nhất một trong hai mới đánh dấu đã mua được."
+          }
+        ]
+      }
+    ],
+    "apps": {
+      "inbox": {
+        "crumb": "Inbox",
+        "title": "Inbox",
+        "chips": [],
+        "tabs": ["*Tóm tắt", "Task của tôi", "Lịch"],
+        "callout": "3 việc quá hạn · 1 việc đến hạn ngày mai · 18 thông báo chưa đọc",
+        "head": ["Việc", "Dự án", "Hạn", "Trạng thái"],
+        "rows": [
+          [
+            "Tích hợp điều khiển UI",
+            "Pantheus Office",
+            "num:04/10",
+            "bad:Quá hạn"
+          ],
+          [
+            "Cập nhật theo yêu cầu khách",
+            "Dự án nội bộ",
+            "num:05/10",
+            "bad:Quá hạn"
+          ],
+          [
+            "Chốt nghiệm thu",
+            "Triển khai ERP — Khách hàng A",
+            "num:08/10",
+            "bad:Quá hạn"
+          ],
+          [
+            "Review spec phiếu xuất",
+            "Pantheus Production",
+            "num:10/10",
+            "warn:Ngày mai"
+          ]
+        ]
+      },
+      "meet": {
+        "crumb": "Cuộc họp",
+        "title": "Cuộc họp",
+        "chips": [{ "t": "11 cuộc họp", "c": "mute" }],
+        "tabs": ["*Danh sách", "Lịch"],
+        "callout": "",
+        "head": ["Cuộc họp", "Bắt đầu", "Thời lượng", "r:Người dự", "Biên bản"],
+        "rows": [
+          ["Daily 10/10", "num:10/10 09:00", "—", "num:5", "mute:Sắp diễn ra"],
+          [
+            "Demo khách hàng",
+            "num:09/10 16:30",
+            "45 phút",
+            "num:3",
+            "warn:Nháp"
+          ],
+          [
+            "Catchup 07/10",
+            "num:07/10 15:04",
+            "2 giờ 41 phút",
+            "num:2",
+            "ok:Đã có"
+          ],
+          [
+            "Weekly Meeting 04/10",
+            "num:04/10 13:00",
+            "1 giờ 8 phút",
+            "num:4",
+            "ok:Đã có"
+          ]
+        ]
+      },
+      "proj": {
+        "crumb": "Dự án › Triển khai ERP — Khách hàng A",
+        "title": "Triển khai ERP — Khách hàng A",
+        "chips": [
+          { "t": "Delivery", "c": "info" },
+          { "t": "Trễ hạn 1 ngày", "c": "bad" }
+        ],
+        "tabs": ["*Công việc", "Timeline", "Tài liệu"],
+        "callout": "9/12 đầu việc · 2/4 phase đã nghiệm thu",
+        "head": ["Phase / bước", "Bắt đầu", "Kết thúc", "Tiến độ"],
+        "rows": [
+          ["1 · Khảo sát sơ bộ", "num:01/10", "num:01/10", "ok:Đã nghiệm thu"],
+          [
+            "2 · Kế hoạch và hợp đồng",
+            "num:01/10",
+            "num:01/10",
+            "ok:Đã nghiệm thu"
+          ],
+          [
+            "3 · Triển khai phase 1",
+            "num:29/09",
+            "num:09/10",
+            "warn:Đang chạy"
+          ],
+          ["   └ Nghiệm thu", "num:29/09", "num:08/10", "bad:Trễ hạn"],
+          ["4 · Bàn giao", "num:12/10", "num:16/10", "mute:Chưa làm"]
+        ]
+      },
+      "task": {
+        "crumb": "Dự án › Pantheus Office",
+        "title": "Pantheus Office",
+        "chips": [{ "t": "Phát triển", "c": "info" }],
+        "tabs": ["*Bảng", "Danh sách"],
+        "callout": "10 đang mở · 1 trễ hạn",
+        "head": ["Task", "Loại", "Trạng thái", "Ưu tiên"],
+        "rows": [
+          ["Tích hợp điều khiển UI", "Tính năng mới", "mute:Chưa làm", "Cao"],
+          ["Fix finding của Code Reviewer", "Vấn đề", "warn:Đang làm", "Khẩn"],
+          [
+            "Redesign Delivery theo feedback",
+            "Cải tiến",
+            "info:Review",
+            "Thường"
+          ],
+          ["Optimize UX tính năng project", "Cải tiến", "ok:Xong", "Thường"]
+        ]
+      },
+      "chat": {
+        "crumb": "Trao đổi",
+        "title": "Trao đổi",
+        "chips": [],
+        "tabs": ["*Tất cả", "Nhóm", "Nhắn riêng"],
+        "callout": "",
+        "head": ["Kênh", "Tin cuối", "Lúc", "r:Chưa đọc"],
+        "rows": [
+          [
+            "code:λ Pan · AI",
+            "Đây là 3 việc quá hạn của bạn hôm nay…",
+            "num:08:31",
+            "num:—"
+          ],
+          ["# Core", "Bản 1.4 đã lên môi trường thử", "num:10:12", "num:2"],
+          [
+            "# Finance & Accounting",
+            "Đã duyệt đề nghị VPS",
+            "Hôm qua",
+            "num:—"
+          ],
+          ["Nhắn riêng · Huy", "Mai demo lúc mấy giờ?", "Hôm qua", "num:1"]
+        ]
+      },
+      "docs": {
+        "crumb": "Tài liệu",
+        "title": "Tài liệu",
+        "chips": [{ "t": "16 tài liệu", "c": "mute" }],
+        "tabs": ["*Cây chủ đề", "Tất cả"],
+        "callout": "/external · 6 tài liệu    /internal · 10 tài liệu",
+        "head": ["Tên", "Chủ đề", "Người sửa", "Sửa lúc", "r:Bình luận"],
+        "rows": [
+          [
+            "Quy trình Digital Office",
+            "code:/internal/product",
+            "Lan",
+            "Hôm qua",
+            "num:1"
+          ],
+          [
+            "Phân tích đối thủ",
+            "code:/internal/research",
+            "Huy",
+            "Hôm qua",
+            "num:—"
+          ],
+          [
+            "Biên bản họp 04/10",
+            "code:/internal/meeting",
+            "Lan",
+            "num:04/10",
+            "num:2"
+          ],
+          [
+            "Yêu cầu khách hàng A",
+            "code:/external/client",
+            "Huy",
+            "num:02/10",
+            "num:—"
+          ]
+        ]
+      },
+      "pr": {
+        "crumb": "Tài chính & kế toán › Đề nghị mua hàng",
+        "title": "Đề nghị mua hàng",
+        "chips": [],
+        "tabs": ["*Tất cả", "Của tôi"],
+        "callout": "",
+        "head": ["Món", "Trạng thái", "Người đề nghị", "r:Giá"],
+        "rows": [
+          [
+            "Gia hạn công cụ AI · 10/2026",
+            "info:Chờ mua",
+            "Lan",
+            "num:6.009.000 VND"
+          ],
+          ["VPS 3 tháng", "warn:Chờ duyệt", "Huy", "num:670.700 VND"],
+          ["Màn hình 27 inch", "info:Chờ hoàn ứng", "Lan", "num:5.290.000 VND"],
+          ["Ổ cứng SSD 500 GB", "bad:Bị trả lại", "Lan", "num:1.390.000 VND"],
+          ["Tên miền 1 năm", "ok:Được ghi nhận", "Huy", "num:1.075.000 VND"]
+        ]
+      }
+    },
+    "nav": [
+      {
+        "g": "CÔNG VIỆC",
+        "items": [
+          { "t": "Inbox", "on": ["inbox"] },
+          { "t": "Dự án", "on": ["proj", "task"] }
+        ]
+      },
+      {
+        "g": "MỌI NGƯỜI",
+        "items": [
+          { "t": "Trao đổi", "on": ["chat"] },
+          { "t": "Cuộc họp", "on": ["meet"] }
+        ]
+      },
+      {
+        "g": "THƯ VIỆN",
+        "items": [{ "t": "Tài liệu", "on": ["docs"] }, { "t": "Đính kèm" }]
+      },
+      {
+        "g": "TÀI CHÍNH & KẾ TOÁN",
+        "items": [{ "t": "Đề nghị mua hàng", "on": ["pr"] }]
+      }
+    ],
+    "plan": {
+      "accounting": "KẾ TOÁN",
+      "chat": "TRAO ĐỔI",
+      "desks": "BÀN LÀM VIỆC",
+      "dev": "PHÁT TRIỂN",
+      "docs": "TÀI LIỆU",
+      "entrance": "LỐI VÀO",
+      "meeting": "PHÒNG HỌP",
+      "projects": "DỰ ÁN"
+    },
+    "brand": {
+      "kbd": "Tìm kiếm… Ctrl K"
+    },
+    "tour": {
+      "eyebrow": "Hành trình",
+      "title": "Một ngày với Pantheus Office.",
+      "body": "Đi theo đường chấm từ lúc mở máy đến lúc tan làm. Bấm số trên bản vẽ để nhảy tới khu vực, bấm dấu + để xem chi tiết.",
+      "tabs": "Các chặng trong ngày",
+      "route": "Đường chấm: lộ trình trong ngày",
+      "start": "Bắt đầu ngày làm việc",
+      "end": "Về tổng quan",
+      "screenEyebrow": "Trong phần mềm",
+      "screenNote": "Màn hình bên dưới đổi theo chặng bạn chọn ở trên. Dữ liệu là minh họa.",
+      "tags": {
+        "run": "Đang chạy",
+        "soon": "Sắp có",
+        "plan": "Kế hoạch"
+      }
+    },
+    "cards": {
+      "eyebrow": "Chi tiết nhỏ",
+      "title": "Những thao tác nhỏ, làm hàng trăm lần mỗi tuần.",
+      "items": [
+        {
+          "t": "Ctrl K để tìm mọi thứ",
+          "b": "Task, cuộc họp, tài liệu, tệp, đề nghị mua hàng và thành viên — một ô tìm kiếm, không cần nhớ nằm ở menu nào."
+        },
+        {
+          "t": "Biết có việc mới mà không cần mở lại",
+          "b": "Số tin chưa đọc hiện ngay trên tiêu đề tab trình duyệt, và thông báo đẩy về điện thoại."
+        },
+        {
+          "t": "Đặt lịch làm việc",
+          "b": "Biến task thành khối giờ trên lịch cá nhân, không làm thay đổi hạn của task."
+        },
+        {
+          "t": "Biên bản là tài liệu",
+          "b": "Ghi họp bằng cùng trình soạn thảo, gõ / để chèn, @ để nhắc. Tìm lại như mọi tài liệu khác."
+        },
+        {
+          "t": "Ba loại dự án",
+          "b": "Delivery theo phase và nghiệm thu, Phát triển theo kanban, Chung cho việc vận hành."
+        },
+        {
+          "t": "Prompt cho AI trong task",
+          "b": "Việc có yếu tố code mang theo khối prompt cho coding agent — viết một lần, người và máy cùng đọc."
+        }
+      ]
+    },
+    "dogfood": {
+      "eyebrow": "Chính chúng tôi dùng",
+      "title": "Pantheus được xây trên Pantheus Office.",
+      "body": "Các dự án của Pantheus — từ ERP cho nhà máy đến chính Office — được quản lý trên Office. Chỗ nào vướng tay chúng tôi hôm nay thường được sửa ngay trong tuần.",
+      "stats": [
+        { "k": "Delivery", "v": "3", "l": "dự án giao khách theo phase" },
+        { "k": "Phát triển", "v": "4", "l": "sản phẩm theo kanban" },
+        { "k": "Chung", "v": "3", "l": "luồng vận hành" }
+      ],
+      "note": "Số dự án đang chạy trong Office của Pantheus · 10/2026"
+    },
+    "closing": {
+      "heading": "Đưa cả ngày làm việc của đội bạn về một nơi.",
+      "lead": "Bắt đầu với một nhóm, một dự án. Chúng tôi ngồi cùng đội bạn tuần đầu tiên.",
+      "primary": "Dùng thử Office",
+      "secondary": "Xem Pantheus Production"
+    }
+  },
+  "Production": {
+    "meta": {
+      "title": "Pantheus Production — ERP cho nhà máy vừa và nhỏ",
+      "description": "Định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm trên một dòng dữ liệu. Đang triển khai tại một nhà máy xe điện."
+    },
+    "hero": {
+      "eyebrow": "Pantheus Production · Sheet 03/03",
+      "title": "Từ vật tư về cổng đến thành phẩm nhập kho — <acc>một dòng dữ liệu</acc>.",
+      "lead": "ERP cho nhà máy vừa và nhỏ tại Việt Nam: định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm. Đang triển khai tại một nhà máy xe điện — và được xây thêm nghiệp vụ mỗi tuần.",
+      "primary": "Đặt lịch tư vấn",
+      "secondary": "Đi theo dòng vật tư",
+      "facts": [
+        { "k": "Trạng thái", "v": "Đang triển khai tại nhà máy xe điện" },
+        { "k": "Triển khai", "v": "Máy chủ riêng của nhà máy" },
+        { "k": "Chứng từ", "v": "Duyệt, lưu vết, in A4" },
+        { "k": "Làm quen", "v": "Hướng dẫn trên màn hình thật" }
+      ]
+    },
+    "stops": [
+      {
+        "n": "00",
+        "place": "Toàn nhà máy",
+        "short": "Tổng quan",
+        "title": "Một nhà máy, một dòng dữ liệu.",
+        "desc": "Đường chấm là dòng vật tư: từ xe hàng ở cổng, qua kho, lên dây chuyền, thành sản phẩm. Mỗi bước sinh ra một chứng từ — phần mềm đi theo đúng các bước đó.",
+        "screen": "Tổng quan — việc cần xử lý hôm nay",
+        "specs": [
+          ["Chặng", "7 khu vực"],
+          ["Triển khai", "Máy chủ riêng của nhà máy"],
+          ["Đang triển khai", "Nhà máy xe điện"]
+        ],
+        "hots": [
+          {
+            "t": "Tổng quan điều hành",
+            "b": "Màn hình đầu ngày: phiếu chờ duyệt, lệnh hôm nay thiếu vật tư, vật tư cần mua. Mỗi ô bấm vào là tới đúng danh sách cần xử lý."
+          }
+        ]
+      },
+      {
+        "n": "01",
+        "place": "Phòng kỹ thuật",
+        "short": "Định mức",
+        "title": "Định mức có phiên bản, theo từng màu.",
+        "desc": "Khai báo vật tư, màu và định mức (BOM) cho từng sản phẩm. Cụm như yên xe có định mức riêng. Mỗi thay đổi đi qua bản nháp — bản đang áp dụng không bị sửa đè.",
+        "screen": "Sản phẩm & định mức",
+        "specs": [
+          ["Ai", "Kỹ thuật, quản trị dữ liệu"],
+          ["Chứng từ", "Định mức v1 · v2 (nháp)"],
+          ["Kết quả", "Nhu cầu vật tư đúng theo từng màu"]
+        ],
+        "hots": [
+          {
+            "t": "Phiên bản định mức",
+            "b": "Sửa trên bản nháp, kích hoạt khi đã sẵn sàng. Lịch sử thay đổi được giữ lại; tải Excel bất cứ lúc nào."
+          },
+          {
+            "t": "Định mức theo màu",
+            "b": "Mỗi màu của sản phẩm có danh sách vật tư riêng. Cụm như yên xe là một sản phẩm có định mức của chính nó."
+          }
+        ]
+      },
+      {
+        "n": "02",
+        "place": "Phòng kế hoạch",
+        "short": "Dự trù",
+        "title": "Từ sản lượng tuần đến danh sách vật tư cần mua.",
+        "desc": "Nhập sản lượng dự kiến của tuần. Hệ thống nhân định mức, trừ tồn kho và hàng đang về, ra ngay vật tư cần mua.",
+        "screen": "Kế hoạch sản xuất · Dự trù tuần",
+        "specs": [
+          ["Ai", "Kế hoạch, mua hàng"],
+          ["Chứng từ", "Dự trù tuần"],
+          ["Kết quả", "Danh sách cần mua, sẵn để đặt"]
+        ],
+        "hots": [
+          {
+            "t": "Tính thiếu một chạm",
+            "b": "Bấm “Tính thiếu đủ”: không VLOOKUP, không chờ ai chốt số. Từ kết quả tạo thẳng đơn mua theo dự trù."
+          },
+          {
+            "t": "Tra cứu năng lực",
+            "b": "Xem với tồn kho hiện tại làm được bao nhiêu sản phẩm, vật tư nào đang chặn — trước khi chốt kế hoạch."
+          }
+        ]
+      },
+      {
+        "n": "03",
+        "place": "Cổng nhận hàng",
+        "short": "Mua hàng",
+        "title": "Đơn mua theo nhà cung cấp, nhận hàng gắn đơn.",
+        "desc": "Từ danh sách cần mua, tách đơn cho từng nhà cung cấp. Xe hàng tới, thủ kho lập phiếu nhập gắn đơn — đơn tự biết đã nhận bao nhiêu, còn chờ bao nhiêu.",
+        "screen": "Đơn mua hàng",
+        "specs": [
+          ["Ai", "Mua hàng, thủ kho"],
+          ["Chứng từ", "Đơn mua hàng (DMH) · Phiếu nhập kho (PNK)"],
+          ["Kết quả", "Hàng về biết ngay của đơn nào"]
+        ],
+        "hots": [
+          {
+            "t": "Một đơn, nhiều lần nhận",
+            "b": "Nhận từng phần qua nhiều phiếu nhập; đơn hiện tiến độ đã nhận trên đã đặt."
+          },
+          {
+            "t": "Duyệt và nhận hàng tách bạch",
+            "b": "Duyệt đơn và nhận hàng là hai trạng thái riêng. Nhận hàng có ba mức: chưa nhận, đang nhận, đã nhận đủ — không còn một cột “tình trạng” ôm tất cả."
+          }
+        ]
+      },
+      {
+        "n": "04",
+        "place": "Kho vật tư",
+        "short": "Kho",
+        "title": "Tồn kho là sổ cái, không phải ô nhập tay.",
+        "desc": "Mọi con số tồn đều suy ra từ phiếu nhập, phiếu xuất, phiếu kiểm kê đã duyệt. Lệch số thì kiểm kê và duyệt điều chỉnh — có dấu vết.",
+        "screen": "Tồn kho",
+        "specs": [
+          ["Ai", "Thủ kho, quản lý kho"],
+          ["Chứng từ", "Phiếu nhập · Phiếu xuất · Phiếu kiểm kê"],
+          ["Kết quả", "Tồn đúng, truy được vì sao"]
+        ],
+        "hots": [
+          {
+            "t": "Duyệt rồi mới ghi sổ",
+            "b": "Nháp, chờ duyệt, đã duyệt: chỉ phiếu đã duyệt mới làm thay đổi tồn. Duyệt nhầm thì quản lý hủy, ghi lý do, hệ thống ghi đảo biến động."
+          },
+          {
+            "t": "Kiểm kê",
+            "b": "Tạo phiếu kiểm kê, nhập số đếm thực tế, duyệt để điều chỉnh tồn. Lọc nhanh vật tư dưới tối thiểu hoặc đang âm."
+          }
+        ]
+      },
+      {
+        "n": "05",
+        "place": "Dây chuyền",
+        "short": "Lệnh sản xuất",
+        "title": "Một lệnh sản xuất, tự sinh phiếu xuất vật tư.",
+        "desc": "Điều hành lập lệnh theo ngày; hệ thống tính vật tư theo định mức và sinh phiếu xuất cấp phát. Thủ kho chỉ việc soạn hàng và duyệt.",
+        "screen": "Lệnh sản xuất ngày",
+        "specs": [
+          ["Ai", "Điều hành sản xuất, thủ kho"],
+          ["Chứng từ", "Lệnh sản xuất ngày · Phiếu xuất"],
+          ["Kết quả", "Cấp đúng, đủ, đúng lúc"]
+        ],
+        "hots": [
+          {
+            "t": "Sinh phiếu xuất",
+            "b": "Một nút “Sinh phiếu xuất”: vật tư và số lượng điền sẵn từ định mức của từng dòng lệnh."
+          },
+          {
+            "t": "Theo dõi theo dòng",
+            "b": "Mỗi dòng lệnh biết phiếu xuất của mình đang nháp, chờ duyệt hay đã duyệt — và đã nhập thành phẩm chưa."
+          }
+        ]
+      },
+      {
+        "n": "06",
+        "place": "Kho thành phẩm",
+        "short": "Thành phẩm",
+        "title": "Thành phẩm nhập kho từ lệnh sản xuất.",
+        "desc": "Sản phẩm hoàn thành được nhập kho bằng phiếu nhập thành phẩm gắn với lệnh. Tồn thành phẩm theo mã và màu, truy được tới từng phiếu.",
+        "screen": "Tồn thành phẩm",
+        "specs": [
+          ["Ai", "Thủ kho thành phẩm"],
+          ["Chứng từ", "Phiếu nhập thành phẩm"],
+          ["Kết quả", "Biết chính xác bao nhiêu xe đang trong kho"]
+        ],
+        "hots": [
+          {
+            "t": "Tồn thành phẩm",
+            "b": "Tồn theo mã, màu, đơn vị — tính từ các phiếu đã duyệt."
+          },
+          {
+            "t": "Sổ biến động",
+            "b": "Bấm đúp vào một dòng để mở sổ biến động: từng phiếu nhập, phiếu xuất đã làm thay đổi tồn của mã đó."
+          }
+        ]
+      },
+      {
+        "n": "07",
+        "place": "Bảo hành",
+        "short": "Bảo hành",
+        "title": "Bảo hành tra theo số VIN.",
+        "desc": "Khách hoặc đại lý tra cứu bảo hành bằng số VIN; lỗi được ghi nhận theo vật tư và nhà cung cấp. Phần này đang ở dạng kế hoạch.",
+        "screen": "Bảo hành · Tra cứu (bản phác)",
+        "specs": [
+          ["Ai", "Kỹ thuật viên, đại lý"],
+          ["Chứng từ", "Phiếu bảo hành"],
+          ["Kết quả", "Biết nhà cung cấp nào gây lỗi"]
+        ],
+        "hots": [
+          {
+            "t": "Cổng tra cứu công khai",
+            "b": "Một trang công khai: nhập số VIN là thấy hạn bảo hành — không cần gọi tổng đài."
+          },
+          {
+            "t": "Lỗi vật tư theo nhà cung cấp",
+            "b": "Gom lỗi theo vật tư và nhà cung cấp, làm căn cứ đổi trả và chọn nhà cung cấp."
+          }
+        ]
+      }
+    ],
+    "apps": {
+      "home": {
+        "crumb": "Tổng quan",
+        "title": "Tổng quan",
+        "chips": [],
+        "tabs": ["*Hôm nay 09/10", "Mua hàng", "Tuần này"],
+        "callout": "Cần xử lý: duyệt 4 phiếu nhập · duyệt 2 phiếu xuất · 1 lệnh hôm nay thiếu vật tư · mua 2 vật tư",
+        "head": ["Sản phẩm", "r:Kế hoạch", "r:Đã nhập", "Việc kế tiếp"],
+        "rows": [
+          ["Xe máy điện E1 · Đỏ đô", "num:8", "num:10", "ok:Nhập vượt +2"],
+          [
+            "Xe máy điện E1 · Đen nhám",
+            "num:6",
+            "num:—",
+            "warn:Chờ duyệt phiếu xuất"
+          ],
+          [
+            "Xe đạp điện S2 · Trắng",
+            "num:12",
+            "num:—",
+            "mute:Gửi duyệt phiếu xuất"
+          ],
+          ["Cụm yên xe E1", "num:20", "num:—", "mute:Sinh phiếu xuất"]
+        ]
+      },
+      "bom": {
+        "crumb": "Danh mục › Sản phẩm & định mức",
+        "title": "Xe máy điện E1",
+        "chips": [
+          { "t": "SPXE-E1", "c": "mute" },
+          { "t": "Đang dùng", "c": "ok" }
+        ],
+        "tabs": ["*Bảng dòng", "Màu", "Lịch sử"],
+        "callout": "v1 đang áp dụng · v2 bản nháp · Cụm yên xe E1 có định mức riêng",
+        "head": ["r:STT", "Vật tư", "Màu", "r:SL", "ĐVT"],
+        "rows": [
+          ["num:1", "Khung sườn E1", "Đỏ đô", "num:1", "bộ"],
+          ["num:2", "Cụm yên xe E1", "—", "num:1", "cụm"],
+          ["num:3", "Cụm phanh đĩa trước", "—", "num:1", "bộ"],
+          ["num:4", "Ốc M6×20", "—", "num:8", "con"],
+          ["num:5", "Ốp thân E1", "Đỏ đô", "num:1", "bộ"]
+        ]
+      },
+      "plan": {
+        "crumb": "Sản xuất › Kế hoạch sản xuất",
+        "title": "Dự trù tuần 41",
+        "chips": [{ "t": "05/10 – 11/10", "c": "mute" }],
+        "tabs": ["*Dự trù tuần", "Tra cứu năng lực"],
+        "callout": "Đã tính thiếu lúc 08:12 · 2 vật tư cần mua",
+        "head": [
+          "Vật tư",
+          "r:Cần",
+          "r:Tồn",
+          "r:Thiếu",
+          "r:Đang về",
+          "r:Cần mua"
+        ],
+        "rows": [
+          [
+            "Cụm phanh đĩa trước",
+            "num:60",
+            "num:28",
+            "neg:32",
+            "num:20",
+            "neg:12"
+          ],
+          ["Yên xe E1 · đen", "num:18", "num:10", "neg:8", "num:0", "neg:8"],
+          ["Ốc M6×20", "num:480", "num:520", "num:0", "num:0", "num:0"],
+          ["Khung sườn E1", "num:48", "num:30", "neg:18", "num:30", "num:0"]
+        ]
+      },
+      "po": {
+        "crumb": "Mua hàng › Đơn mua hàng",
+        "title": "DMH-2610-0045",
+        "chips": [
+          { "t": "Đã duyệt", "c": "ok" },
+          { "t": "Đang nhận", "c": "warn" }
+        ],
+        "tabs": ["*Dòng vật tư", "Phiếu nhập tham chiếu", "Lịch sử"],
+        "callout": "Đã nhận đủ 1/2 dòng",
+        "head": ["Mã vật tư", "Tên vật tư", "r:Đặt", "r:Đã nhận", "r:Còn chờ"],
+        "rows": [
+          ["code:LK-0006", "Ốc M6×20", "num:500", "num:500", "num:0"],
+          ["code:PH-0112", "Cụm phanh đĩa trước", "num:20", "num:0", "num:20"]
+        ]
+      },
+      "stock": {
+        "crumb": "Kho › Tồn kho",
+        "title": "Tồn kho",
+        "chips": [],
+        "tabs": ["*Tồn hiện tại", "Kiểm kê"],
+        "callout": "Kho sản xuất · 1 vật tư dưới tối thiểu",
+        "head": ["Mã vật tư", "Tên", "Kho", "ĐVT", "r:Tồn", "r:Tối thiểu"],
+        "rows": [
+          [
+            "code:PH-0112",
+            "Cụm phanh đĩa trước",
+            "Kho sản xuất",
+            "bộ",
+            "neg:28",
+            "num:40"
+          ],
+          [
+            "code:LK-0006",
+            "Ốc M6×20",
+            "Kho sản xuất",
+            "con",
+            "num:520",
+            "num:300"
+          ],
+          [
+            "code:YE-0203",
+            "Yên xe E1 · đen",
+            "Kho sản xuất",
+            "cái",
+            "num:10",
+            "num:10"
+          ],
+          [
+            "code:KH-0187",
+            "Khung sườn E1",
+            "Kho sản xuất",
+            "bộ",
+            "num:30",
+            "num:10"
+          ]
+        ]
+      },
+      "mo": {
+        "crumb": "Sản xuất › Lệnh sản xuất ngày",
+        "title": "Lệnh sản xuất ngày 09/10/2026",
+        "chips": [{ "t": "4 dòng", "c": "info" }],
+        "tabs": ["*Lệnh", "Lịch sử"],
+        "callout": "Tồn trong kho sản xuất tính theo thời điểm hiện tại — duyệt phiếu sẽ kiểm tra lại tồn.",
+        "head": ["Sản phẩm", "Màu", "r:SL", "Phiếu xuất", "Trạng thái"],
+        "rows": [
+          [
+            "Xe máy điện E1",
+            "Đỏ đô",
+            "num:10",
+            "code:PXK-2610-0228",
+            "ok:Đã duyệt"
+          ],
+          [
+            "Xe máy điện E1",
+            "Đen nhám",
+            "num:6",
+            "code:PXK-2610-0229",
+            "warn:Chờ duyệt"
+          ],
+          [
+            "Xe đạp điện S2",
+            "Trắng",
+            "num:12",
+            "code:PXK-2610-0230",
+            "mute:Nháp"
+          ],
+          ["Cụm yên xe E1", "—", "num:20", "—", "mute:Chưa sinh"]
+        ]
+      },
+      "fg": {
+        "crumb": "Thành phẩm › Tồn thành phẩm",
+        "title": "Tồn thành phẩm",
+        "chips": [],
+        "tabs": ["*Tồn hiện tại", "Sổ biến động"],
+        "callout": "Tính theo phiếu đã duyệt · bấm đúp vào một dòng để mở sổ biến động",
+        "head": ["Mã thành phẩm", "Tên thành phẩm", "Màu", "ĐVT", "r:Tồn"],
+        "rows": [
+          ["code:XE-E1-RED", "Xe máy điện E1", "Đỏ đô", "chiếc", "num:15"],
+          ["code:XE-E1-BLK", "Xe máy điện E1", "Đen nhám", "chiếc", "num:9"],
+          ["code:XE-S2-WHT", "Xe đạp điện S2", "Trắng", "chiếc", "num:22"],
+          ["code:CY-E1", "Cụm yên xe E1", "—", "cụm", "num:40"]
+        ]
+      },
+      "war": {
+        "crumb": "Bảo hành › Tra cứu",
+        "title": "Tra cứu bảo hành",
+        "chips": [{ "t": "Kế hoạch", "c": "mute" }],
+        "tabs": ["*Theo VIN", "Lỗi vật tư"],
+        "callout": "Bản phác — nhập số VIN hoặc quét mã vạch trên khung xe",
+        "head": ["Số VIN", "Sản phẩm", "Ngày bán", "Hết hạn", "Trạng thái"],
+        "rows": [
+          [
+            "code:RLV1E1······0458",
+            "Xe máy điện E1 · Đỏ đô",
+            "num:12/06/2026",
+            "num:12/06/2028",
+            "ok:Còn bảo hành"
+          ],
+          [
+            "code:RLV1S2······0112",
+            "Xe đạp điện S2 · Trắng",
+            "num:03/02/2025",
+            "num:03/02/2026",
+            "mute:Hết hạn"
+          ]
+        ]
+      }
+    },
+    "nav": [
+      {
+        "g": "TỔNG QUAN",
+        "items": [{ "t": "Tổng quan", "on": ["home"] }, { "t": "Hướng dẫn" }]
+      },
+      {
+        "g": "SẢN XUẤT",
+        "items": [
+          { "t": "Kế hoạch sản xuất", "on": ["plan"] },
+          { "t": "Lệnh sản xuất ngày", "on": ["mo"] }
+        ]
+      },
+      {
+        "g": "KHO",
+        "items": [
+          { "t": "Phiếu nhập" },
+          { "t": "Phiếu xuất" },
+          { "t": "Phiếu kiểm kê" },
+          { "t": "Tồn kho", "on": ["stock"] }
+        ]
+      },
+      {
+        "g": "MUA HÀNG",
+        "items": [
+          { "t": "Nhà cung cấp" },
+          { "t": "Đơn mua hàng", "on": ["po"] },
+          { "t": "Lỗi vật tư", "soon": "kế hoạch" }
+        ]
+      },
+      {
+        "g": "DANH MỤC",
+        "items": [
+          { "t": "Vật tư" },
+          { "t": "Sản phẩm & định mức", "on": ["bom"] },
+          { "t": "Cài đặt danh mục" }
+        ]
+      },
+      {
+        "g": "THÀNH PHẨM",
+        "items": [
+          { "t": "Tồn thành phẩm", "on": ["fg"] },
+          { "t": "Bảo hành", "on": ["war"], "soon": "kế hoạch" }
+        ]
+      },
+      {
+        "g": "HỆ THỐNG",
+        "items": [{ "t": "Báo cáo", "soon": "kế hoạch" }]
+      }
+    ],
+    "plan": {
+      "count": "KIỂM ĐẾM",
+      "engineering": "KỸ THUẬT",
+      "finished": "KHO THÀNH PHẨM",
+      "issue": "CẤP PHÁT",
+      "line": "DÂY CHUYỀN LẮP RÁP",
+      "materials": "KHO VẬT TƯ",
+      "operations": "ĐIỀU HÀNH",
+      "planning": "KẾ HOẠCH · MUA HÀNG",
+      "qc": "QC",
+      "receiving": "NHẬN HÀNG",
+      "truck": "XE HÀNG",
+      "warranty": "BẢO HÀNH"
+    },
+    "brand": {
+      "name": "Nhà máy của bạn",
+      "kbd": "Đang xem: Điều hành sản xuất"
+    },
+    "tour": {
+      "eyebrow": "Hành trình",
+      "title": "Đi theo dòng vật tư.",
+      "body": "Mỗi bước vật lý trong nhà máy sinh ra một chứng từ — phần mềm đi theo đúng các bước đó. Bấm số để tới khu vực, bấm + để xem chi tiết.",
+      "tabs": "Các chặng của dòng vật tư",
+      "route": "Đường chấm: dòng vật tư",
+      "start": "Bắt đầu từ định mức",
+      "end": "Về toàn cảnh",
+      "screenEyebrow": "Trong phần mềm",
+      "screenNote": "Màn hình bên dưới đổi theo chặng bạn chọn ở trên. Dữ liệu là minh họa; tên và logo là của nhà máy bạn.",
+      "tags": {
+        "run": "Đã có",
+        "soon": "Sắp có",
+        "plan": "Kế hoạch"
+      }
+    },
+    "cards": {
+      "eyebrow": "Dành cho người vận hành",
+      "title": "Thủ kho không cần đọc tài liệu hướng dẫn 80 trang.",
+      "items": [
+        {
+          "t": "Hướng dẫn trên màn hình thật",
+          "b": "Kịch bản theo việc cần làm — lệnh sản xuất và phiếu xuất, dự trù và đơn mua, kiểm kê — chạy từng bước ngay trên màn hình đang dùng."
+        },
+        {
+          "t": "Xem như một vai trò khác",
+          "b": "Quản trị viên xem hệ thống đúng như điều hành sản xuất hay thủ kho đang thấy — hỗ trợ mà không phải đoán."
+        },
+        {
+          "t": "Phản hồi từ mọi màn hình",
+          "b": "Nút “Gửi phản hồi” ở góc màn hình. Góp ý đúng lúc, đúng chỗ đang vướng — và được sửa trong vòng lặp kế tiếp."
+        },
+        {
+          "t": "Chứng từ có lịch sử",
+          "b": "Mỗi phiếu ghi ai tạo, ai duyệt hoặc từ chối, lúc nào. Duyệt nhầm thì quản lý hủy, ghi lý do, hệ thống ghi đảo — không sửa đè."
+        },
+        {
+          "t": "In A4 theo mẫu",
+          "b": "Phiếu nhập, phiếu xuất, đơn mua in khổ A4 để ký tay khi quy trình của bạn vẫn cần chữ ký."
+        },
+        {
+          "t": "Mang tên nhà máy bạn",
+          "b": "Phần mềm mang tên và logo của nhà máy. Pantheus chỉ xuất hiện ở một dòng “Powered by”."
+        }
+      ]
+    },
+    "deploy": {
+      "eyebrow": "Chạy trên dữ liệu của bạn",
+      "title": "Máy chủ riêng cho nhà máy. Dữ liệu nằm trong tay bạn.",
+      "items": [
+        {
+          "k": "Máy chủ",
+          "t": "Riêng cho nhà máy",
+          "b": "Mỗi pháp nhân một cơ sở dữ liệu riêng. Thiết kế để chạy trong mạng nội bộ của nhà máy."
+        },
+        {
+          "k": "Cập nhật",
+          "t": "Đóng gói sẵn",
+          "b": "Bản cập nhật được build và kiểm thử trước; máy chủ chỉ việc chạy."
+        },
+        {
+          "k": "Sao lưu",
+          "t": "Hằng ngày",
+          "b": "Sao lưu tự động mỗi ngày, giữ lại 30 ngày gần nhất."
+        },
+        {
+          "k": "Dữ liệu",
+          "t": "Tải Excel",
+          "b": "Tải danh sách ra Excel bất cứ lúc nào — dữ liệu không bị khóa trong phần mềm."
+        },
+        {
+          "k": "Sửa đồng thời",
+          "t": "Không ghi đè",
+          "b": "Hai người cùng sửa một phiếu thì người lưu sau được báo — không âm thầm ghi đè."
+        },
+        {
+          "k": "Truy cập",
+          "t": "Trình duyệt",
+          "b": "Dùng trên máy tính và điện thoại qua trình duyệt, cài được như ứng dụng."
+        }
+      ]
+    },
+    "roadmap": {
+      "eyebrow": "Đang xây tiếp",
+      "title": "Lộ trình mở, cập nhật theo nhà máy thật.",
+      "body": "Thứ tự ưu tiên do điểm nghẽn của khách hàng quyết định, không do danh sách tính năng.",
+      "items": [
+        {
+          "t": "Triển khai tại nhà máy",
+          "b": "Đưa hệ thống vào vận hành hằng ngày tại nhà máy xe điện đầu tiên, cùng đội kho và điều hành sản xuất.",
+          "tag": "Sắp có",
+          "tone": "info"
+        },
+        {
+          "t": "Mã vạch & VIN",
+          "b": "In tem, quét khi nhập kho thành phẩm; từ một số VIN mở ra lệnh sản xuất của chiếc xe đó.",
+          "tag": "Kế hoạch",
+          "tone": "mute"
+        },
+        {
+          "t": "Bảo hành theo VIN",
+          "b": "Cổng tra cứu công khai, phiếu bảo hành, linh kiện thay thế trừ thẳng vào kho.",
+          "tag": "Kế hoạch",
+          "tone": "mute"
+        },
+        {
+          "t": "Lỗi vật tư · nhà cung cấp",
+          "b": "Gom lỗi theo vật tư và nhà cung cấp, làm căn cứ đổi trả và đánh giá.",
+          "tag": "Kế hoạch",
+          "tone": "mute"
+        },
+        {
+          "t": "Báo cáo quản trị",
+          "b": "Nhập–xuất–tồn theo kỳ, sản lượng theo lệnh, vật tư tiêu hao so với định mức.",
+          "tag": "Kế hoạch",
+          "tone": "mute"
+        },
+        {
+          "t": "Hỏi nhà máy bằng AI",
+          "b": "Hỏi bằng tiếng Việt: tuần này cần mua gì, nhà cung cấp nào gây lỗi nhiều nhất.",
+          "tag": "Kế hoạch",
+          "tone": "mute"
+        }
+      ]
+    },
+    "closing": {
+      "heading": "Bắt đầu từ điểm nghẽn tốn kém nhất của nhà máy bạn.",
+      "lead": "Một buổi đi dọc dòng vật tư cùng đội của bạn. Sau đó chúng tôi đề xuất phần nào làm trước, phần nào chưa cần.",
+      "primary": "Đặt lịch tư vấn",
+      "secondary": "Xem Pantheus Office"
+    }
   }
 }
