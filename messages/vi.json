@@ -33,14 +33,14 @@
     "hero": {
       "eyebrow": "Nền tảng cho mọi vận hành.",
       "title": "Doanh nghiệp của bạn là <acc>độc nhất</acc>. Phần mềm cũng nên như thế.",
-      "lead": "Pantheus xây phần mềm theo đúng luồng vận hành của từng doanh nghiệp — rồi đóng gói những gì đã chạy tốt thành sản phẩm. Phát triển cùng AI, cải tiến theo phản hồi mỗi tuần.",
+      "lead": "Pantheus xây phần mềm theo đúng cách từng doanh nghiệp đang vận hành, rồi đóng gói phần nào chạy tốt thành sản phẩm. Chúng tôi làm cùng AI và cập nhật phần mềm hằng tuần theo phản hồi của người dùng.",
       "primary": "Đặt lịch tư vấn",
       "secondary": "Xem 2 sản phẩm"
     },
     "sheets": {
       "office": {
         "top": "Sheet 02 · Văn phòng",
-        "desc": "Task, dự án, cuộc họp, tài liệu và trao đổi — một luồng cho cả ngày làm việc của văn phòng.",
+        "desc": "Task, dự án, cuộc họp, tài liệu và trao đổi nằm chung một luồng, xuyên suốt ngày làm việc ở văn phòng.",
         "status": "Đang chạy",
         "route": "Hành trình 1 ngày · 7 chặng"
       },
@@ -56,11 +56,11 @@
     "problem": {
       "title": "Phần mềm lớn bắt bạn đổi cách làm. Excel thì không theo kịp.",
       "quote": "“Ngay bây giờ tôi sản xuất được bao nhiêu sản phẩm?”",
-      "body": "Với Excel, câu hỏi đó mất hàng giờ — và đáp án đã lỗi thời khi đến tay bạn. Với phần mềm đóng gói, bạn phải uốn quy trình theo màn hình của người khác. Pantheus đi con đường thứ ba: phần mềm được vẽ theo luồng việc thật của bạn."
+      "body": "Với Excel, câu hỏi đó mất hàng giờ, và khi có đáp án thì số liệu đã cũ. Dùng phần mềm đóng gói thì bạn phải uốn quy trình cho vừa màn hình của người khác. Pantheus làm phần mềm theo đúng cách công việc đang chạy ở chỗ bạn."
     },
     "approach": {
       "eyebrow": "Từ dịch vụ đến sản phẩm",
-      "title": "Bắt đầu bằng may đo. Lớn lên thành sản phẩm.",
+      "title": "Bắt đầu từ may đo, dần thành sản phẩm.",
       "group": "Ba bước của phương pháp",
       "gets": "Bạn nhận được",
       "prev": "Bước trước",
@@ -70,8 +70,8 @@
           "n": "01",
           "t": "May đo",
           "d": "Phần mềm riêng cho từng doanh nghiệp",
-          "title": "Bắt đầu từ cách bạn thực sự vận hành.",
-          "body": "Chúng tôi đi theo dòng công việc thật — từ lúc vật tư về cổng đến lúc chứng từ lên sổ. Mỗi sự kiện được hỏi đủ sáu câu: ai làm, khi nào, dữ liệu gì, trạng thái đổi ra sao, chứng từ nào, ngoại lệ là gì.",
+          "title": "Bắt đầu từ cách bạn đang làm mỗi ngày.",
+          "body": "Chúng tôi đi theo công việc thật, từ lúc vật tư về tới cổng đến lúc chứng từ lên sổ. Với mỗi sự kiện, chúng tôi hỏi đủ sáu câu: ai làm, khi nào, dùng dữ liệu gì, trạng thái đổi ra sao, ghi vào chứng từ nào và có ngoại lệ gì.",
           "get": [
             "Phần mềm theo đúng luồng vận hành của bạn",
             "Triển khai trên hạ tầng của bạn, dữ liệu thuộc về bạn",
@@ -82,11 +82,11 @@
           "n": "02",
           "t": "Lặp nhanh",
           "d": "Phản hồi hôm nay, cập nhật trong tuần",
-          "title": "Vòng phản hồi tính bằng ngày, không phải quý.",
-          "body": "Người dùng bấm “Gửi phản hồi” ngay trên màn hình đang dùng. Chúng tôi viết spec, AI viết mã, kỹ sư giữ kiến trúc và kiểm thử. Chi phí thay đổi đủ thấp để nói “có” thường xuyên hơn.",
+          "title": "Vòng phản hồi chỉ tính bằng ngày.",
+          "body": "Người dùng bấm “Gửi phản hồi” ngay trên màn hình đang mở. Chúng tôi viết spec, AI viết mã, còn kỹ sư chịu trách nhiệm về kiến trúc và kiểm thử. Mỗi thay đổi tốn ít công, nên chúng tôi nhận làm được nhiều yêu cầu hơn.",
           "get": [
             "Nút phản hồi trên mọi màn hình",
-            "Bản cập nhật nhỏ, đều đặn — không chờ “phiên bản lớn”",
+            "Cập nhật nhỏ và đều, không phải chờ một bản lớn",
             "Thay đổi quy trình không còn là dự án nửa năm"
           ]
         },
@@ -94,11 +94,11 @@
           "n": "03",
           "t": "Sản phẩm hóa",
           "d": "Cái gì chạy tốt trở thành sản phẩm",
-          "title": "Cái gì chạy tốt, trở thành sản phẩm.",
-          "body": "Những gì chạy tốt ở các lần triển khai đầu được đóng gói thành Pantheus Office và Pantheus Production. Khách hàng sau bắt đầu từ một nền đã chạy thực tế — phần còn lại vẫn được may đo.",
+          "title": "Phần nào chạy tốt sẽ thành sản phẩm.",
+          "body": "Phần nào chạy tốt ở những lần triển khai đầu tiên được đóng gói thành Pantheus Office và Pantheus Production. Khách hàng đến sau bắt đầu từ một nền đã chạy thật, còn phần riêng của họ vẫn được may đo.",
           "get": [
             "Triển khai nhanh hơn trên nền đã chạy thực tế",
-            "UX được mài qua phản hồi hằng tuần",
+            "UX được chỉnh mỗi tuần theo phản hồi của người dùng",
             "Phần riêng của bạn vẫn là của bạn"
           ]
         }
@@ -156,15 +156,15 @@
     },
     "products": {
       "eyebrow": "Sản phẩm",
-      "title": "Hai sản phẩm, cùng một cách nghĩ: đi theo luồng việc.",
+      "title": "Hai sản phẩm, cùng một cách làm: đi theo luồng việc.",
       "office": {
         "top": "Sheet 02 · Cho đội văn phòng",
-        "desc": "Phần mềm quản lý công việc với UX được mài theo từng thao tác hằng ngày. Chúng tôi dùng chính nó để xây Pantheus.",
+        "desc": "Phần mềm quản lý công việc, thiết kế quanh những thao tác lặp lại mỗi ngày. Chính đội Pantheus cũng làm việc trên nó.",
         "feat": [
           "Inbox tóm tắt: quá hạn, đến hạn, thông báo chưa đọc",
           "Dự án Delivery theo phase và hạn nghiệm thu, hoặc kanban cho đội phát triển",
           "Biên bản họp và tài liệu dùng chung một trình soạn thảo",
-          "Pan — trợ lý AI ngay trong khung trao đổi"
+          "Pan, trợ lý AI nằm ngay trong khung trao đổi"
         ],
         "link": "Đi qua một ngày làm việc",
         "inbox": {
@@ -211,12 +211,12 @@
       },
       "production": {
         "top": "Sheet 03 · Cho nhà máy",
-        "desc": "ERP cho nhà máy vừa và nhỏ tại Việt Nam. Đang triển khai tại một nhà máy xe điện, và tiếp tục được xây thêm nghiệp vụ mỗi tuần.",
+        "desc": "ERP cho nhà máy vừa và nhỏ tại Việt Nam. Hệ thống đang triển khai tại một nhà máy xe điện, mỗi tuần có thêm nghiệp vụ mới.",
         "feat": [
           "Định mức (BOM) có phiên bản, theo từng màu; cụm như yên xe có định mức riêng",
           "Dự trù tuần: tính vật tư thiếu, tạo đơn mua theo nhà cung cấp",
           "Lệnh sản xuất ngày tự sinh phiếu xuất cấp vật tư",
-          "Tồn kho suy ra từ chứng từ đã duyệt — không có ô nhập tay"
+          "Tồn kho tính từ chứng từ đã duyệt, không ai gõ tay số tồn"
         ],
         "link": "Đi theo dòng vật tư"
       }
@@ -228,34 +228,34 @@
         {
           "label": "Tối ưu cho bạn",
           "title": "Quy trình của bạn là bản thiết kế.",
-          "body": "Không ép doanh nghiệp chạy theo phần mềm. Phần mềm được vẽ theo nhu cầu và cách bạn vận hành."
+          "body": "Doanh nghiệp không phải chạy theo phần mềm. Chúng tôi thiết kế phần mềm theo nhu cầu và cách bạn vận hành."
         },
         {
           "label": "Chạy trên dữ liệu của bạn",
-          "title": "Dữ liệu của bạn là vô giá.",
-          "body": "Máy chủ riêng, thiết kế để chạy trong mạng nội bộ nhà máy. Toàn quyền kiểm soát dữ liệu."
+          "title": "Bạn nắm toàn quyền dữ liệu.",
+          "body": "Bạn có máy chủ riêng, thiết kế để chạy ngay trong mạng nội bộ của nhà máy."
         },
         {
-          "label": "Kết quả, không phải tính năng",
+          "label": "Đo bằng kết quả",
           "title": "Mỗi tính năng gắn với một con số bạn quan tâm.",
-          "body": "Bắt đầu từ điểm nghẽn: thất thoát tồn kho, ngừng sản xuất, vốn lưu động. Không tác động đến con số nào thì không xây."
+          "body": "Chúng tôi bắt đầu từ điểm nghẽn như thất thoát tồn kho, dây chuyền phải dừng hay vốn lưu động. Tính năng không làm thay đổi con số nào thì chúng tôi không làm."
         },
         {
           "label": "Dành cho người vận hành",
           "title": "Đủ đơn giản để ai cũng dùng được.",
-          "body": "Phần lớn dự án ERP thất bại ở khâu áp dụng. Hướng dẫn chạy ngay trên màn hình thật: đào tạo tối thiểu, dữ liệu sạch từ ngày đầu."
+          "body": "Phần lớn dự án ERP thất bại vì nhân viên không chịu dùng. Hướng dẫn chạy ngay trên màn hình thật, nên đào tạo ít mà dữ liệu vẫn sạch từ ngày đầu."
         },
         {
           "label": "Phát triển cùng AI",
           "title": "Sẵn sàng thay đổi khi bạn thay đổi.",
-          "body": "AI giúp chúng tôi viết mã nhanh hơn; kỹ sư giữ kiến trúc và chất lượng. Thay đổi quy trình không còn là dự án nửa năm."
+          "body": "AI giúp chúng tôi viết mã nhanh hơn, còn kỹ sư chịu trách nhiệm về kiến trúc và chất lượng. Thay đổi quy trình không còn là dự án kéo dài nửa năm."
         }
       ]
     },
     "ai": {
       "eyebrow": "AI trong sản phẩm",
-      "title": "Hỏi bằng ngôn ngữ thường ngày. Nhận câu trả lời thật.",
-      "body": "AI đọc chính dữ liệu vận hành của bạn — chứng từ, kế hoạch, công việc — thay vì bắt bạn đọc dashboard. Pan đã có trong Pantheus Office; hỏi nhà máy bằng AI nằm trong lộ trình của Production.",
+      "title": "Hỏi như nói chuyện, trả lời từ chính dữ liệu của bạn.",
+      "body": "AI đọc dữ liệu vận hành của bạn như chứng từ, kế hoạch, công việc, để bạn khỏi phải lục dashboard. Pan đã có trong Pantheus Office. Hỏi nhà máy bằng AI nằm trong lộ trình của Production.",
       "group": "Câu hỏi mẫu",
       "who": "Pan · trợ lý AI",
       "sample": "Minh họa",
@@ -305,21 +305,21 @@
       "steps": [
         {
           "t": "Thấu hiểu",
-          "b": "Đi theo dòng công việc thật, phỏng vấn từng vai trò, xác định điểm nghẽn tốn kém nhất."
+          "b": "Chúng tôi đi theo công việc thật, nói chuyện với từng vai trò và tìm ra điểm nghẽn tốn kém nhất."
         },
         {
           "t": "Xây dựng",
-          "b": "Triển khai hệ thống giải quyết điểm nghẽn đó trên nền sản phẩm sẵn có, may đo phần riêng của bạn."
+          "b": "Giải quyết điểm nghẽn đó trước, trên nền sản phẩm có sẵn, và may đo những phần riêng của bạn."
         },
         {
           "t": "Mở rộng",
-          "b": "Thêm nghiệp vụ khi bạn lớn lên — theo nhịp và điều kiện của bạn, không theo lộ trình của nhà cung cấp."
+          "b": "Thêm nghiệp vụ khi doanh nghiệp lớn lên, theo nhịp do bạn quyết định."
         }
       ]
     },
     "closing": {
-      "heading": "Cùng xây hệ thống mà doanh nghiệp của bạn xứng đáng có.",
-      "lead": "Không khuôn mẫu. Không ràng buộc. Bắt đầu bằng một buổi đi xem cách bạn đang vận hành.",
+      "heading": "Cùng làm một phần mềm vừa với cách bạn vận hành.",
+      "lead": "Bước đầu là một buổi chúng tôi đến xem bạn đang vận hành ra sao. Không có khuôn mẫu áp sẵn, và bạn không bị ràng buộc.",
       "primary": "Đặt lịch tư vấn",
       "secondary": "Xem Pantheus Office"
     }
@@ -327,12 +327,12 @@
   "Office": {
     "meta": {
       "title": "Pantheus Office — Một ngày làm việc, một luồng",
-      "description": "Task, dự án, cuộc họp, tài liệu, trao đổi và đề nghị mua hàng trong cùng một nơi, kèm Pan — trợ lý AI."
+      "description": "Task, dự án, cuộc họp, tài liệu, trao đổi và đề nghị mua hàng trong cùng một nơi, kèm trợ lý AI Pan."
     },
     "hero": {
       "eyebrow": "Pantheus Office · Sheet 02/03",
       "title": "Một ngày làm việc, một <acc>luồng</acc>.",
-      "lead": "Task, dự án, cuộc họp, tài liệu và trao đổi trong cùng một nơi. Mỗi màn hình được mài theo thao tác hằng ngày — không phải cho buổi demo.",
+      "lead": "Task, dự án, cuộc họp, tài liệu và trao đổi trong cùng một nơi. Từng màn hình được thiết kế quanh những thao tác mọi người làm nhiều lần mỗi ngày.",
       "primary": "Dùng thử Office",
       "secondary": "Đi qua một ngày",
       "facts": [
@@ -348,8 +348,8 @@
         "time": "Cả ngày",
         "short": "Tổng quan",
         "title": "Một văn phòng, một luồng việc.",
-        "desc": "Bấm vào từng khu vực, hoặc đi theo thứ tự — từ lúc mở máy buổi sáng đến lúc chốt đề nghị mua hàng cuối ngày.",
-        "screen": "Inbox — nơi mỗi ngày bắt đầu",
+        "desc": "Bấm vào từng khu vực, hoặc đi lần lượt từ lúc mở máy buổi sáng đến lúc chốt đề nghị mua hàng cuối ngày.",
+        "screen": "Inbox, nơi mỗi ngày bắt đầu",
         "specs": [
           ["Chặng", "7 khu vực"],
           ["Dành cho", "Đội văn phòng, đội dự án"],
@@ -372,11 +372,11 @@
         "hots": [
           {
             "t": "Tóm tắt buổi sáng",
-            "b": "Việc quá hạn lên đầu, kèm dự án và số ngày trễ. Không phải lục lại từng dự án để biết mình đang nợ việc gì."
+            "b": "Việc quá hạn nằm trên cùng, kèm tên dự án và số ngày trễ, nên bạn khỏi phải lục từng dự án xem mình còn nợ việc gì."
           },
           {
             "t": "Đặt lịch làm việc",
-            "b": "Kéo task thành khối giờ trên lịch cá nhân. Lịch làm việc không làm thay đổi ngày bắt đầu, kết thúc của task."
+            "b": "Kéo task vào lịch cá nhân thành một khối giờ. Việc xếp lịch không đụng tới ngày bắt đầu hay ngày kết thúc của task."
           }
         ]
       },
@@ -385,7 +385,7 @@
         "time": "09:00",
         "short": "Cuộc họp",
         "title": "Biên bản viết ngay trong trang cuộc họp.",
-        "desc": "Ghi biên bản bằng cùng trình soạn thảo với Tài liệu. Thời lượng và người dự được ghi lại; biên bản tìm lại được như mọi tài liệu khác.",
+        "desc": "Ghi biên bản bằng chính trình soạn thảo của Tài liệu. Office tự lưu thời lượng và danh sách người dự, còn biên bản thì tìm lại được như mọi tài liệu khác.",
         "screen": "Cuộc họp · Danh sách",
         "specs": [
           ["Ai", "Người chủ trì, thư ký"],
@@ -395,11 +395,11 @@
         "hots": [
           {
             "t": "Gõ / để chèn",
-            "b": "Tiêu đề, danh sách, bảng, ảnh — chèn bằng lệnh gạch chéo. Gõ @ để nhắc đồng nghiệp ngay trong biên bản."
+            "b": "Chèn tiêu đề, danh sách, bảng, ảnh bằng lệnh gạch chéo. Gõ @ để nhắc tên đồng nghiệp ngay trong biên bản."
           },
           {
             "t": "Họp video ngay trong Office",
-            "b": "Vào cuộc gọi video từ trang cuộc họp; người tham dự được ghi nhận tự động. Họp trực tiếp thì thêm cuộc họp offline để vẫn có biên bản."
+            "b": "Vào cuộc gọi video từ trang cuộc họp, Office tự ghi nhận ai đã tham dự. Họp trực tiếp thì tạo một cuộc họp offline để vẫn có biên bản."
           }
         ]
       },
@@ -422,7 +422,7 @@
           },
           {
             "t": "Ba loại dự án",
-            "b": "Delivery theo phase cho dự án giao khách, Phát triển theo kanban, Chung cho việc vận hành — mỗi loại có cách nhìn riêng."
+            "b": "Delivery theo phase cho dự án giao khách, Phát triển theo kanban, Chung cho việc vận hành. Mỗi loại có cách hiển thị riêng."
           }
         ]
       },
@@ -431,7 +431,7 @@
         "time": "13:30",
         "short": "Task",
         "title": "Mô tả và prompt cho AI trong cùng một task.",
-        "desc": "Việc có yếu tố code mang thêm trường cho dev và khối Prompt cho coding agent. Kanban có cột Review để việc AI làm luôn qua mắt người.",
+        "desc": "Việc liên quan đến code có thêm trường cho dev và khối Prompt cho coding agent. Trên kanban có cột Review để người kiểm tra lại việc AI làm.",
         "screen": "Dự án phát triển · Kanban",
         "specs": [
           ["Ai", "Dev, PM"],
@@ -441,11 +441,11 @@
         "hots": [
           {
             "t": "Prompt cho coding agent",
-            "b": "Viết yêu cầu một lần: người đọc được, agent chạy được. Dán ảnh, đính kèm tệp đến 25 MB."
+            "b": "Viết yêu cầu một lần, người đọc hiểu mà agent cũng chạy được. Có thể dán ảnh và đính kèm tệp đến 25 MB."
           },
           {
             "t": "Cột Review",
-            "b": "Chưa làm, Đang làm, Review, Xong — việc AI làm dừng ở Review để người kiểm tra trước khi xong."
+            "b": "Bảng có bốn cột: Chưa làm, Đang làm, Review, Xong. Việc AI làm sẽ dừng ở Review cho đến khi có người kiểm tra."
           }
         ]
       },
@@ -453,7 +453,7 @@
         "n": "05",
         "time": "15:00",
         "short": "Trao đổi",
-        "title": "Nhắn tin theo nhóm — và hỏi Pan.",
+        "title": "Nhắn tin với đội, hoặc hỏi Pan.",
         "desc": "Nhóm và nhắn riêng nằm cạnh công việc. Pan, trợ lý AI, ở ngay trong danh sách trò chuyện như một đồng nghiệp.",
         "screen": "Trao đổi",
         "specs": [
@@ -463,12 +463,12 @@
         ],
         "hots": [
           {
-            "t": "Pan — trợ lý AI",
-            "b": "Hỏi bằng tiếng Việt về việc của bạn, dự án, tài liệu. Pan còn soạn sẵn task từ tin nhắn — task chỉ được tạo khi bạn xác nhận."
+            "t": "Pan, trợ lý AI",
+            "b": "Hỏi Pan bằng tiếng Việt về việc của bạn, dự án hay tài liệu. Pan còn soạn sẵn task từ tin nhắn, nhưng chỉ tạo khi bạn xác nhận."
           },
           {
             "t": "Nhóm và nhắn riêng",
-            "b": "Trả lời trích dẫn, thả cảm xúc, đính kèm — đủ để không phải mở thêm một ứng dụng chat khác."
+            "b": "Có trả lời trích dẫn, thả cảm xúc, đính kèm tệp, đủ để bạn không cần thêm ứng dụng chat nào khác."
           }
         ]
       },
@@ -477,7 +477,7 @@
         "time": "16:30",
         "short": "Tài liệu",
         "title": "Tài liệu của cả đội, gắn thẻ theo chủ đề.",
-        "desc": "Mỗi lúc một người sửa, bình luận ngay trên từng đoạn, có lịch sử phiên bản, xuất Word và PDF. Thẻ chủ đề tối đa 3 cấp để tìm lại theo cây.",
+        "desc": "Mỗi lúc chỉ một người sửa, ai cũng bình luận được trên từng đoạn, có lịch sử phiên bản và xuất ra Word, PDF. Thẻ chủ đề có tối đa 3 cấp để duyệt theo dạng cây.",
         "screen": "Tài liệu · Cây chủ đề",
         "specs": [
           ["Ai", "Cả đội"],
@@ -487,7 +487,7 @@
         "hots": [
           {
             "t": "Thẻ chủ đề 3 cấp",
-            "b": "Duyệt theo cây: /internal, rồi /internal/product… Thẻ là đường dẫn, không phải danh sách phẳng."
+            "b": "Duyệt theo cây, từ /internal xuống /internal/product… Mỗi thẻ là một đường dẫn."
           },
           {
             "t": "Đính kèm tập trung",
@@ -499,8 +499,8 @@
         "n": "07",
         "time": "17:30",
         "short": "Mua hàng",
-        "title": "Xin mua, duyệt, hoàn ứng, quyết toán — không qua email.",
-        "desc": "Mỗi đề nghị đi qua các trạng thái rõ ràng: chờ duyệt, chờ mua, chờ hoàn ứng, chờ quyết toán, được ghi nhận — hoặc bị trả lại để sửa.",
+        "title": "Xin mua, duyệt, hoàn ứng, quyết toán mà không cần email.",
+        "desc": "Mỗi đề nghị đi qua các trạng thái rõ ràng: chờ duyệt, chờ mua, chờ hoàn ứng, chờ quyết toán, được ghi nhận. Đề nghị cũng có thể bị trả lại để sửa.",
         "screen": "Tài chính · Đề nghị mua hàng",
         "specs": [
           ["Ai", "Người đề nghị, quản lý, kế toán"],
@@ -510,7 +510,7 @@
         "hots": [
           {
             "t": "Trạng thái rõ ràng",
-            "b": "Không còn “gửi chưa nhỉ?” — ai cũng thấy đề nghị đang ở bước nào và đang chờ ai."
+            "b": "Ai cũng thấy đề nghị đang ở bước nào và đang chờ ai, khỏi phải hỏi nhau “gửi chưa nhỉ?”"
           },
           {
             "t": "Hóa đơn và chứng từ chuyển khoản",
@@ -775,7 +775,7 @@
       "items": [
         {
           "t": "Ctrl K để tìm mọi thứ",
-          "b": "Task, cuộc họp, tài liệu, tệp, đề nghị mua hàng và thành viên — một ô tìm kiếm, không cần nhớ nằm ở menu nào."
+          "b": "Một ô tìm kiếm cho task, cuộc họp, tài liệu, tệp, đề nghị mua hàng và thành viên, khỏi phải nhớ thứ gì nằm ở menu nào."
         },
         {
           "t": "Biết có việc mới mà không cần mở lại",
@@ -795,14 +795,14 @@
         },
         {
           "t": "Prompt cho AI trong task",
-          "b": "Việc có yếu tố code mang theo khối prompt cho coding agent — viết một lần, người và máy cùng đọc."
+          "b": "Việc liên quan đến code có khối prompt cho coding agent. Viết một lần, cả người lẫn agent đều đọc được."
         }
       ]
     },
     "dogfood": {
       "eyebrow": "Chính chúng tôi dùng",
       "title": "Pantheus được xây trên Pantheus Office.",
-      "body": "Các dự án của Pantheus — từ ERP cho nhà máy đến chính Office — được quản lý trên Office. Chỗ nào vướng tay chúng tôi hôm nay thường được sửa ngay trong tuần.",
+      "body": "Các dự án của Pantheus, từ ERP cho nhà máy đến chính Office, đều được quản lý trên Office. Hôm nay vướng chỗ nào thì thường trong tuần đã có bản sửa.",
       "stats": [
         { "k": "Delivery", "v": "3", "l": "dự án giao khách theo phase" },
         { "k": "Phát triển", "v": "4", "l": "sản phẩm theo kanban" },
@@ -824,8 +824,8 @@
     },
     "hero": {
       "eyebrow": "Pantheus Production · Sheet 03/03",
-      "title": "Từ vật tư về cổng đến thành phẩm nhập kho — <acc>một dòng dữ liệu</acc>.",
-      "lead": "ERP cho nhà máy vừa và nhỏ tại Việt Nam: định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm. Đang triển khai tại một nhà máy xe điện — và được xây thêm nghiệp vụ mỗi tuần.",
+      "title": "<acc>Một dòng dữ liệu</acc> từ lúc vật tư về cổng đến khi thành phẩm nhập kho.",
+      "lead": "ERP cho nhà máy vừa và nhỏ tại Việt Nam: định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm. Hiện đang triển khai tại một nhà máy xe điện và được bổ sung nghiệp vụ hằng tuần.",
       "primary": "Đặt lịch tư vấn",
       "secondary": "Đi theo dòng vật tư",
       "facts": [
@@ -841,8 +841,8 @@
         "place": "Toàn nhà máy",
         "short": "Tổng quan",
         "title": "Một nhà máy, một dòng dữ liệu.",
-        "desc": "Đường chấm là dòng vật tư: từ xe hàng ở cổng, qua kho, lên dây chuyền, thành sản phẩm. Mỗi bước sinh ra một chứng từ — phần mềm đi theo đúng các bước đó.",
-        "screen": "Tổng quan — việc cần xử lý hôm nay",
+        "desc": "Đường chấm là dòng vật tư: từ xe hàng ở cổng, qua kho, lên dây chuyền rồi thành sản phẩm. Mỗi chặng là một bước trong dòng đó, có chứng từ riêng.",
+        "screen": "Tổng quan: việc cần xử lý hôm nay",
         "specs": [
           ["Chặng", "7 khu vực"],
           ["Triển khai", "Máy chủ riêng của nhà máy"],
@@ -860,7 +860,7 @@
         "place": "Phòng kỹ thuật",
         "short": "Định mức",
         "title": "Định mức có phiên bản, theo từng màu.",
-        "desc": "Khai báo vật tư, màu và định mức (BOM) cho từng sản phẩm. Cụm như yên xe có định mức riêng. Mỗi thay đổi đi qua bản nháp — bản đang áp dụng không bị sửa đè.",
+        "desc": "Khai báo vật tư, màu và định mức (BOM) cho từng sản phẩm. Cụm như yên xe có định mức riêng. Mọi thay đổi đều làm trên bản nháp, nên bản đang áp dụng không bao giờ bị sửa đè.",
         "screen": "Sản phẩm & định mức",
         "specs": [
           ["Ai", "Kỹ thuật, quản trị dữ liệu"],
@@ -893,11 +893,11 @@
         "hots": [
           {
             "t": "Tính thiếu một chạm",
-            "b": "Bấm “Tính thiếu đủ”: không VLOOKUP, không chờ ai chốt số. Từ kết quả tạo thẳng đơn mua theo dự trù."
+            "b": "Bấm “Tính thiếu đủ” là có số, không cần VLOOKUP hay chờ ai chốt. Từ kết quả tạo thẳng đơn mua theo dự trù."
           },
           {
             "t": "Tra cứu năng lực",
-            "b": "Xem với tồn kho hiện tại làm được bao nhiêu sản phẩm, vật tư nào đang chặn — trước khi chốt kế hoạch."
+            "b": "Trước khi chốt kế hoạch, xem tồn kho hiện tại đủ làm bao nhiêu sản phẩm và vật tư nào đang chặn."
           }
         ]
       },
@@ -906,7 +906,7 @@
         "place": "Cổng nhận hàng",
         "short": "Mua hàng",
         "title": "Đơn mua theo nhà cung cấp, nhận hàng gắn đơn.",
-        "desc": "Từ danh sách cần mua, tách đơn cho từng nhà cung cấp. Xe hàng tới, thủ kho lập phiếu nhập gắn đơn — đơn tự biết đã nhận bao nhiêu, còn chờ bao nhiêu.",
+        "desc": "Từ danh sách cần mua, tách đơn cho từng nhà cung cấp. Xe hàng tới, thủ kho lập phiếu nhập gắn với đơn, và đơn tự cập nhật đã nhận bao nhiêu, còn chờ bao nhiêu.",
         "screen": "Đơn mua hàng",
         "specs": [
           ["Ai", "Mua hàng, thủ kho"],
@@ -920,7 +920,7 @@
           },
           {
             "t": "Duyệt và nhận hàng tách bạch",
-            "b": "Duyệt đơn và nhận hàng là hai trạng thái riêng. Nhận hàng có ba mức: chưa nhận, đang nhận, đã nhận đủ — không còn một cột “tình trạng” ôm tất cả."
+            "b": "Duyệt đơn và nhận hàng được theo dõi bằng hai trạng thái riêng. Riêng nhận hàng có ba mức: chưa nhận, đang nhận và đã nhận đủ."
           }
         ]
       },
@@ -929,7 +929,7 @@
         "place": "Kho vật tư",
         "short": "Kho",
         "title": "Tồn kho là sổ cái, không phải ô nhập tay.",
-        "desc": "Mọi con số tồn đều suy ra từ phiếu nhập, phiếu xuất, phiếu kiểm kê đã duyệt. Lệch số thì kiểm kê và duyệt điều chỉnh — có dấu vết.",
+        "desc": "Mọi con số tồn đều suy ra từ phiếu nhập, phiếu xuất, phiếu kiểm kê đã duyệt. Khi số lệch, bạn kiểm kê rồi duyệt điều chỉnh, và hệ thống lưu vết lại.",
         "screen": "Tồn kho",
         "specs": [
           ["Ai", "Thủ kho, quản lý kho"],
@@ -939,7 +939,7 @@
         "hots": [
           {
             "t": "Duyệt rồi mới ghi sổ",
-            "b": "Nháp, chờ duyệt, đã duyệt: chỉ phiếu đã duyệt mới làm thay đổi tồn. Duyệt nhầm thì quản lý hủy, ghi lý do, hệ thống ghi đảo biến động."
+            "b": "Phiếu đi từ nháp, chờ duyệt đến đã duyệt, và chỉ phiếu đã duyệt mới làm thay đổi tồn. Lỡ duyệt nhầm thì quản lý hủy kèm lý do, hệ thống tự ghi đảo biến động."
           },
           {
             "t": "Kiểm kê",
@@ -962,11 +962,11 @@
         "hots": [
           {
             "t": "Sinh phiếu xuất",
-            "b": "Một nút “Sinh phiếu xuất”: vật tư và số lượng điền sẵn từ định mức của từng dòng lệnh."
+            "b": "Bấm nút “Sinh phiếu xuất” là vật tư và số lượng được điền sẵn theo định mức của từng dòng lệnh."
           },
           {
             "t": "Theo dõi theo dòng",
-            "b": "Mỗi dòng lệnh biết phiếu xuất của mình đang nháp, chờ duyệt hay đã duyệt — và đã nhập thành phẩm chưa."
+            "b": "Mỗi dòng lệnh biết phiếu xuất của mình đang nháp, chờ duyệt hay đã duyệt, và đã nhập thành phẩm hay chưa."
           }
         ]
       },
@@ -985,7 +985,7 @@
         "hots": [
           {
             "t": "Tồn thành phẩm",
-            "b": "Tồn theo mã, màu, đơn vị — tính từ các phiếu đã duyệt."
+            "b": "Tồn theo mã, màu và đơn vị, tính từ các phiếu đã duyệt."
           },
           {
             "t": "Sổ biến động",
@@ -1008,7 +1008,7 @@
         "hots": [
           {
             "t": "Cổng tra cứu công khai",
-            "b": "Một trang công khai: nhập số VIN là thấy hạn bảo hành — không cần gọi tổng đài."
+            "b": "Trang công khai: nhập số VIN là thấy hạn bảo hành, khỏi gọi tổng đài."
           },
           {
             "t": "Lỗi vật tư theo nhà cung cấp",
@@ -1286,7 +1286,7 @@
     "tour": {
       "eyebrow": "Hành trình",
       "title": "Đi theo dòng vật tư.",
-      "body": "Mỗi bước vật lý trong nhà máy sinh ra một chứng từ — phần mềm đi theo đúng các bước đó. Bấm số để tới khu vực, bấm + để xem chi tiết.",
+      "body": "Mỗi bước trong nhà máy đều sinh ra một chứng từ, và phần mềm đi theo đúng các bước đó. Bấm số để tới khu vực, bấm + để xem chi tiết.",
       "tabs": "Các chặng của dòng vật tư",
       "route": "Đường chấm: dòng vật tư",
       "start": "Bắt đầu từ định mức",
@@ -1305,19 +1305,19 @@
       "items": [
         {
           "t": "Hướng dẫn trên màn hình thật",
-          "b": "Kịch bản theo việc cần làm — lệnh sản xuất và phiếu xuất, dự trù và đơn mua, kiểm kê — chạy từng bước ngay trên màn hình đang dùng."
+          "b": "Mỗi việc có một kịch bản hướng dẫn riêng, như lệnh sản xuất và phiếu xuất, dự trù và đơn mua, hay kiểm kê. Kịch bản chạy từng bước ngay trên màn hình bạn đang dùng."
         },
         {
           "t": "Xem như một vai trò khác",
-          "b": "Quản trị viên xem hệ thống đúng như điều hành sản xuất hay thủ kho đang thấy — hỗ trợ mà không phải đoán."
+          "b": "Quản trị viên xem được hệ thống y như điều hành sản xuất hay thủ kho đang thấy, nên hỗ trợ không phải đoán mò."
         },
         {
           "t": "Phản hồi từ mọi màn hình",
-          "b": "Nút “Gửi phản hồi” ở góc màn hình. Góp ý đúng lúc, đúng chỗ đang vướng — và được sửa trong vòng lặp kế tiếp."
+          "b": "Nút “Gửi phản hồi” nằm ở góc màn hình. Vướng ở đâu thì góp ý ngay ở đó, và chỗ đó được sửa trong bản cập nhật kế tiếp."
         },
         {
           "t": "Chứng từ có lịch sử",
-          "b": "Mỗi phiếu ghi ai tạo, ai duyệt hoặc từ chối, lúc nào. Duyệt nhầm thì quản lý hủy, ghi lý do, hệ thống ghi đảo — không sửa đè."
+          "b": "Mỗi phiếu ghi lại ai tạo, ai duyệt hoặc từ chối, vào lúc nào. Lỡ duyệt nhầm thì quản lý hủy kèm lý do, hệ thống ghi đảo, không sửa đè lên bản gốc."
         },
         {
           "t": "In A4 theo mẫu",
@@ -1351,12 +1351,12 @@
         {
           "k": "Dữ liệu",
           "t": "Tải Excel",
-          "b": "Tải danh sách ra Excel bất cứ lúc nào — dữ liệu không bị khóa trong phần mềm."
+          "b": "Danh sách nào cũng tải ra Excel được, bất cứ lúc nào, nên dữ liệu không bị nhốt trong phần mềm."
         },
         {
           "k": "Sửa đồng thời",
           "t": "Không ghi đè",
-          "b": "Hai người cùng sửa một phiếu thì người lưu sau được báo — không âm thầm ghi đè."
+          "b": "Hai người cùng sửa một phiếu thì người lưu sau sẽ nhận cảnh báo, thay vì âm thầm ghi đè lên bản của người kia."
         },
         {
           "k": "Truy cập",
@@ -1368,7 +1368,7 @@
     "roadmap": {
       "eyebrow": "Đang xây tiếp",
       "title": "Lộ trình mở, cập nhật theo nhà máy thật.",
-      "body": "Thứ tự ưu tiên do điểm nghẽn của khách hàng quyết định, không do danh sách tính năng.",
+      "body": "Điểm nghẽn của khách hàng quyết định chúng tôi làm gì trước.",
       "items": [
         {
           "t": "Triển khai tại nhà máy",

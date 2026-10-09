@@ -33,14 +33,14 @@
     "hero": {
       "eyebrow": "The foundation for every operation.",
       "title": "Your business is <acc>one of a kind</acc>. Your software should be too.",
-      "lead": "Pantheus builds software around the way each business actually runs — then packages what works into products. Built with AI, improved on weekly feedback.",
+      "lead": "Pantheus builds software around the way each business actually runs, then turns what works into products. We build with AI and update the software every week from user feedback.",
       "primary": "Book a consultation",
       "secondary": "See both products"
     },
     "sheets": {
       "office": {
         "top": "Sheet 02 · Office",
-        "desc": "Tasks, projects, meetings, documents and chat — one flow for the whole office day.",
+        "desc": "Tasks, projects, meetings, documents and chat, in one flow through the office day.",
         "status": "Live",
         "route": "One day · 7 stops"
       },
@@ -56,7 +56,7 @@
     "problem": {
       "title": "Big software makes you change how you work. Spreadsheets can't keep up.",
       "quote": "“How many units can we build right now?”",
-      "body": "With spreadsheets, that question takes hours — and the answer is stale by the time it reaches you. With packaged software, you bend your process to fit someone else's screens. Pantheus takes a third path: software drawn from the way your work actually flows."
+      "body": "With spreadsheets, that question takes hours, and the answer is stale by the time it reaches you. Packaged software makes you bend your process to fit someone else's screens. Pantheus builds the software from the way your work already flows."
     },
     "approach": {
       "eyebrow": "From service to product",
@@ -70,10 +70,10 @@
           "n": "01",
           "t": "Tailored",
           "d": "Software built for one business",
-          "title": "Start from how you actually operate.",
-          "body": "We follow the real flow of work — from the moment materials arrive at the gate to the moment a document hits the ledger. Every event gets the same six questions: who does it, when, what data, how the status changes, which document, and what the exceptions are.",
+          "title": "We start from how you work today.",
+          "body": "We follow the work as it really happens, from the moment materials arrive at the gate to the moment a document is posted to the ledger. For every event we ask the same six questions: who does it, when, with what data, how the status changes, which document records it, and what the exceptions are.",
           "get": [
-            "Software that follows your actual workflow",
+            "Software that fits the way you already work",
             "Runs on your infrastructure; your data stays yours",
             "We start with your most expensive bottleneck"
           ]
@@ -82,11 +82,11 @@
           "n": "02",
           "t": "Fast loops",
           "d": "Feedback today, an update this week",
-          "title": "A feedback loop measured in days, not quarters.",
-          "body": "People press “Send feedback” on the screen they're using. We write the spec, AI writes the code, engineers own the architecture and the tests. Change becomes cheap enough to say “yes” more often.",
+          "title": "A feedback loop measured in days.",
+          "body": "Users press “Send feedback” on the screen they're using. We write the spec, AI writes the code, and our engineers own the architecture and the tests. That keeps each change cheap, so we can say yes to more of them.",
           "get": [
             "A feedback button on every screen",
-            "Small, steady updates — no waiting for a “big release”",
+            "Small, regular updates instead of one big release",
             "Changing a process is no longer a six-month project"
           ]
         },
@@ -95,10 +95,10 @@
           "t": "Productized",
           "d": "What works becomes a product",
           "title": "What works becomes a product.",
-          "body": "What worked well in the first deployments is packaged into Pantheus Office and Pantheus Production. Later customers start from a base that already runs in production — and everything else is still tailored.",
+          "body": "The parts that worked well in the first deployments are packaged into Pantheus Office and Pantheus Production. New customers start from a base that already runs in production, and we still tailor everything specific to them.",
           "get": [
             "Faster rollout on a proven base",
-            "UX refined through weekly feedback",
+            "Screens improved every week from user feedback",
             "What's specific to you stays yours"
           ]
         }
@@ -156,15 +156,15 @@
     },
     "products": {
       "eyebrow": "Products",
-      "title": "Two products, one way of thinking: follow the work.",
+      "title": "Two products, built the same way: by following the work.",
       "office": {
         "top": "Sheet 02 · For office teams",
-        "desc": "Work management software whose UX is honed on everyday actions. We use it to build Pantheus itself.",
+        "desc": "Work management software designed around the actions people repeat every day. We run Pantheus itself on it.",
         "feat": [
           "An inbox overview: overdue, due soon and unread notifications",
           "Delivery projects by phase and sign-off date, or kanban for development teams",
           "Meeting minutes and documents share one editor",
-          "Pan — an AI assistant right inside chat"
+          "Pan, an AI assistant inside chat"
         ],
         "link": "Walk through a workday",
         "inbox": {
@@ -205,12 +205,12 @@
       },
       "production": {
         "top": "Sheet 03 · For factories",
-        "desc": "ERP for small and mid-sized factories in Vietnam. Rolling out at an electric vehicle factory, with new workflows added every week.",
+        "desc": "ERP for small and mid-sized factories in Vietnam. It is rolling out at an electric vehicle factory, and we add new workflows every week.",
         "feat": [
           "Versioned bills of materials per colour; sub-assemblies like the seat have their own",
           "Weekly material planning: calculate shortfalls, raise purchase orders per supplier",
           "Daily production orders generate material issue slips automatically",
-          "Stock is derived from approved documents — no hand-typed numbers"
+          "Stock is calculated from approved documents, so nobody types a stock figure by hand"
         ],
         "link": "Follow the material flow"
       }
@@ -222,34 +222,34 @@
         {
           "label": "Optimized for you",
           "title": "Your process is the blueprint.",
-          "body": "We don't force your business to run the software's way. The software is drawn from your needs and the way you operate."
+          "body": "Your business shouldn't have to run the software's way. We design the software around what you need and how you operate."
         },
         {
           "label": "Runs on your data",
-          "title": "Your data is priceless.",
-          "body": "A dedicated server, designed to run on the factory's local network. You keep full control of your data."
+          "title": "Your data stays under your control.",
+          "body": "You get a dedicated server, designed to run on the factory's local network."
         },
         {
-          "label": "Outcomes, not features",
+          "label": "Measured by outcomes",
           "title": "Every feature is tied to a number you care about.",
           "body": "We start from the bottleneck: inventory loss, line stoppages, working capital. If it doesn't move a number, we don't build it."
         },
         {
           "label": "Built for operators",
           "title": "Simple enough for everyone to use.",
-          "body": "Most ERP projects fail at adoption. Guides run on the real screens: minimal training, clean data from day one."
+          "body": "Most ERP projects fail because people don't adopt them. Our guides run on the real screens, so training stays short and the data is clean from day one."
         },
         {
           "label": "Built with AI",
           "title": "Ready to change when you do.",
-          "body": "AI helps us write code faster; engineers own the architecture and the quality. Changing a process is no longer a six-month project."
+          "body": "AI helps us write code faster, and our engineers stay responsible for the architecture and the quality. Changing a process is no longer a six-month project."
         }
       ]
     },
     "ai": {
       "eyebrow": "AI in the product",
-      "title": "Ask in plain language. Get real answers.",
-      "body": "AI reads your own operating data — documents, plans, tasks — instead of making you read dashboards. Pan is live in Pantheus Office; asking the factory in plain language is on the Production roadmap.",
+      "title": "Ask in plain language, get answers from your own data.",
+      "body": "The AI reads your operating data, such as documents, plans and tasks, so you don't have to dig through dashboards. Pan is live in Pantheus Office. Asking the factory questions in plain language is on the Production roadmap.",
       "group": "Sample questions",
       "who": "Pan · AI assistant",
       "sample": "Illustration",
@@ -299,21 +299,21 @@
       "steps": [
         {
           "t": "Understand",
-          "b": "Walk the real flow of work, interview every role, and find the most expensive bottleneck."
+          "b": "We follow the work as it happens, talk to every role, and find the most expensive bottleneck."
         },
         {
           "t": "Build",
-          "b": "Deploy a system that solves that bottleneck on top of an existing product, tailoring what's specific to you."
+          "b": "We solve that bottleneck first, on top of an existing product, and tailor the parts that are specific to you."
         },
         {
           "t": "Expand",
-          "b": "Add workflows as you grow — at your pace and on your terms, not on a vendor's roadmap."
+          "b": "We add workflows as you grow, at the pace you set."
         }
       ]
     },
     "closing": {
-      "heading": "Let's build the system your business deserves.",
-      "lead": "No templates. No lock-in. We start by coming to see how you operate today.",
+      "heading": "Let's build software that fits how you work.",
+      "lead": "We start with a visit to see how you operate today. There's no template to fit into and no lock-in.",
       "primary": "Book a consultation",
       "secondary": "See Pantheus Office"
     }
@@ -321,12 +321,12 @@
   "Office": {
     "meta": {
       "title": "Pantheus Office — One workday, one flow",
-      "description": "Tasks, projects, meetings, documents, chat and purchase requests in one place, with Pan — an AI assistant."
+      "description": "Tasks, projects, meetings, documents, chat and purchase requests in one place, plus Pan, an AI assistant."
     },
     "hero": {
       "eyebrow": "Pantheus Office · Sheet 02/03",
       "title": "One workday, one <acc>flow</acc>.",
-      "lead": "Tasks, projects, meetings, documents and chat in one place. Every screen is honed on everyday actions — not for the demo.",
+      "lead": "Tasks, projects, meetings, documents and chat in one place. Every screen is designed around the things people do many times a day.",
       "primary": "Try Office",
       "secondary": "Walk through a day",
       "facts": [
@@ -342,8 +342,8 @@
         "time": "All day",
         "short": "Overview",
         "title": "One office, one flow of work.",
-        "desc": "Click any area, or follow the route — from switching on in the morning to settling purchase requests at the end of the day.",
-        "screen": "Inbox — where every day starts",
+        "desc": "Click any area, or follow the route from switching on in the morning to settling purchase requests at the end of the day.",
+        "screen": "Inbox, where every day starts",
         "specs": [
           ["Stops", "7 areas"],
           ["For", "Office teams, project teams"],
@@ -366,7 +366,7 @@
         "hots": [
           {
             "t": "Morning overview",
-            "b": "Overdue work comes first, with its project and how many days late. No digging through projects to find what you owe."
+            "b": "Overdue work comes first, with its project and how many days late it is, so you don't have to dig through projects to find what you owe."
           },
           {
             "t": "Time blocking",
@@ -379,7 +379,7 @@
         "time": "09:00",
         "short": "Meetings",
         "title": "Minutes written right on the meeting page.",
-        "desc": "Take minutes in the same editor as Documents. Duration and attendance are recorded; minutes are searchable like any other document.",
+        "desc": "Take minutes in the same editor as Documents. Office records the duration and who attended, and you can search minutes like any other document.",
         "screen": "Meetings · List",
         "specs": [
           ["Who", "Chair, note-taker"],
@@ -389,11 +389,11 @@
         "hots": [
           {
             "t": "Type / to insert",
-            "b": "Headings, lists, tables, images — inserted with slash commands. Type @ to mention a colleague right in the minutes."
+            "b": "Insert headings, lists, tables and images with slash commands, and type @ to mention a colleague in the minutes."
           },
           {
             "t": "Video calls inside Office",
-            "b": "Join the video call from the meeting page; attendance is recorded automatically. Meeting in person? Add an offline meeting and still keep minutes."
+            "b": "Join the video call from the meeting page and attendance is recorded automatically. For in-person meetings, add an offline meeting and keep minutes the same way."
           }
         ]
       },
@@ -416,7 +416,7 @@
           },
           {
             "t": "Three project types",
-            "b": "Delivery by phase for client work, Development on kanban, General for running the business — each with its own view."
+            "b": "Delivery by phase for client work, Development on kanban, General for running the business. Each type has its own view."
           }
         ]
       },
@@ -425,7 +425,7 @@
         "time": "13:30",
         "short": "Tasks",
         "title": "The description and the AI prompt in one task.",
-        "desc": "Coding work carries extra fields for developers and a Prompt block for a coding agent. The kanban has a Review column so AI work always passes human eyes.",
+        "desc": "Coding work carries extra fields for developers and a Prompt block for a coding agent. The kanban has a Review column where a person checks what the AI did.",
         "screen": "Development project · Kanban",
         "specs": [
           ["Who", "Developers, PMs"],
@@ -435,11 +435,11 @@
         "hots": [
           {
             "t": "A prompt for the coding agent",
-            "b": "Write the request once: people can read it, an agent can run it. Paste images, attach files up to 25 MB."
+            "b": "Write the request once, in a form people can read and an agent can run. You can paste images and attach files up to 25 MB."
           },
           {
             "t": "The Review column",
-            "b": "To do, Doing, Review, Done — AI work stops at Review so a person checks it before it's done."
+            "b": "The board has four columns: To do, Doing, Review and Done. AI work stops at Review until a person has checked it."
           }
         ]
       },
@@ -447,7 +447,7 @@
         "n": "05",
         "time": "15:00",
         "short": "Chat",
-        "title": "Group chat — and ask Pan.",
+        "title": "Chat with the team, or ask Pan.",
         "desc": "Groups and direct messages sit next to the work. Pan, the AI assistant, lives in the conversation list like a colleague.",
         "screen": "Chat",
         "specs": [
@@ -457,12 +457,12 @@
         ],
         "hots": [
           {
-            "t": "Pan — AI assistant",
-            "b": "Ask about your work, projects and documents in Vietnamese or English. Pan also drafts tasks from messages — created only once you confirm."
+            "t": "Pan, the AI assistant",
+            "b": "Ask about your work, projects and documents in Vietnamese or English. Pan can also draft a task from a message, and the task is only created once you confirm it."
           },
           {
             "t": "Groups and direct messages",
-            "b": "Quoted replies, reactions, attachments — enough that you don't need another chat app."
+            "b": "Quoted replies, reactions and attachments cover enough that you won't need another chat app."
           }
         ]
       },
@@ -471,7 +471,7 @@
         "time": "16:30",
         "short": "Documents",
         "title": "The team's documents, tagged by topic.",
-        "desc": "One editor at a time, comments on each paragraph, version history, export to Word and PDF. Topic tags go up to 3 levels deep so you can browse them as a tree.",
+        "desc": "One person edits at a time. You can comment on each paragraph, see the version history and export to Word or PDF. Topic tags go up to three levels deep, so you can browse them as a tree.",
         "screen": "Documents · Tag tree",
         "specs": [
           ["Who", "The whole team"],
@@ -481,7 +481,7 @@
         "hots": [
           {
             "t": "Three-level topic tags",
-            "b": "Browse as a tree: /internal, then /internal/product… Tags are paths, not a flat list."
+            "b": "Browse as a tree: /internal, then /internal/product, and so on. Each tag is a path."
           },
           {
             "t": "All attachments in one place",
@@ -493,8 +493,8 @@
         "n": "07",
         "time": "17:30",
         "short": "Purchasing",
-        "title": "Request, approve, reimburse, settle — no email.",
-        "desc": "Every request moves through clear stages: awaiting approval, awaiting purchase, awaiting transfer, awaiting settlement, recognized — or sent back for changes.",
+        "title": "Request, approve, reimburse and settle, all without email.",
+        "desc": "Every request moves through clear stages: awaiting approval, awaiting purchase, awaiting transfer, awaiting settlement, recognized. A request can also be sent back for changes.",
         "screen": "Finance · Purchase requests",
         "specs": [
           ["Who", "Requester, manager, accountant"],
@@ -504,7 +504,7 @@
         "hots": [
           {
             "t": "Clear stages",
-            "b": "No more “did I send it?” — everyone sees which stage a request is at and who it's waiting on."
+            "b": "Everyone can see which stage a request is at and who it's waiting on, so nobody has to ask “did I send it?”"
           },
           {
             "t": "Invoice and proof of transfer",
@@ -768,7 +768,7 @@
       "items": [
         {
           "t": "Ctrl K to find anything",
-          "b": "Tasks, meetings, documents, files, purchase requests and members — one search box, no need to remember which menu."
+          "b": "One search box covers tasks, meetings, documents, files, purchase requests and members, so you don't need to remember which menu something lives in."
         },
         {
           "t": "Know there's something new without reopening",
@@ -788,14 +788,14 @@
         },
         {
           "t": "AI prompts inside tasks",
-          "b": "Coding work carries a prompt block for the coding agent — written once, read by people and machines alike."
+          "b": "Coding work carries a prompt block for the coding agent. You write it once, and both people and the agent can read it."
         }
       ]
     },
     "dogfood": {
       "eyebrow": "We use it ourselves",
       "title": "Pantheus is built on Pantheus Office.",
-      "body": "Pantheus's own projects — from the factory ERP to Office itself — are run in Office. What gets in our way today is usually fixed within the week.",
+      "body": "We run Pantheus's own projects in Office, from the factory ERP to Office itself. When something gets in our way, it is usually fixed within the week.",
       "stats": [
         { "k": "Delivery", "v": "3", "l": "client projects by phase" },
         { "k": "Development", "v": "4", "l": "products on kanban" },
@@ -817,8 +817,8 @@
     },
     "hero": {
       "eyebrow": "Pantheus Production · Sheet 03/03",
-      "title": "From materials at the gate to finished goods in stock — <acc>one flow of data</acc>.",
-      "lead": "ERP for small and mid-sized factories in Vietnam: bills of materials, planning, purchasing, inventory, production orders and finished goods. Rolling out at an electric vehicle factory — with new workflows added every week.",
+      "title": "<acc>One flow of data</acc> from materials at the gate to finished goods in stock.",
+      "lead": "ERP for small and mid-sized factories in Vietnam: bills of materials, planning, purchasing, inventory, production orders and finished goods. It is rolling out at an electric vehicle factory, and new workflows are added every week.",
       "primary": "Book a consultation",
       "secondary": "Follow the material flow",
       "facts": [
@@ -834,8 +834,8 @@
         "place": "Whole factory",
         "short": "Overview",
         "title": "One factory, one flow of data.",
-        "desc": "The dotted line is the material flow: from the truck at the gate, through the store, onto the line, into a finished product. Every step creates a document — and the software follows exactly those steps.",
-        "screen": "Overview — what needs handling today",
+        "desc": "The dotted line is the material flow: from the truck at the gate, through the store and onto the line, until it leaves as a finished product. Each stop is one step in that flow, with its own document.",
+        "screen": "Overview: what needs handling today",
         "specs": [
           ["Stops", "7 areas"],
           ["Deployment", "The factory's own server"],
@@ -853,7 +853,7 @@
         "place": "Engineering",
         "short": "BOM",
         "title": "Versioned bills of materials, per colour.",
-        "desc": "Set up materials, colours and the bill of materials (BOM) for each product. Sub-assemblies like the seat have their own BOM. Every change goes through a draft — the active version is never overwritten.",
+        "desc": "Set up materials, colours and the bill of materials (BOM) for each product. Sub-assemblies like the seat have their own BOM. Every change goes through a draft, so the active version is never overwritten.",
         "screen": "Products & BOMs",
         "specs": [
           ["Who", "Engineering, master data"],
@@ -886,11 +886,11 @@
         "hots": [
           {
             "t": "Shortfall in one click",
-            "b": "Press “Calculate shortfall”: no VLOOKUP, no waiting for someone to sign off the numbers. Raise purchase orders straight from the result."
+            "b": "Press “Calculate shortfall” and the numbers are ready, without VLOOKUPs or waiting for someone to sign them off. Raise purchase orders straight from the result."
           },
           {
             "t": "Capacity check",
-            "b": "See how many units current stock can build, and which material is the constraint — before locking in the plan."
+            "b": "Before locking in the plan, see how many units current stock can build and which material is holding you back."
           }
         ]
       },
@@ -899,7 +899,7 @@
         "place": "Receiving gate",
         "short": "Purchasing",
         "title": "Orders per supplier, receipts tied to the order.",
-        "desc": "Split the buy list into one order per supplier. When the truck arrives, the storekeeper creates a goods receipt against the order — the order knows how much has arrived and how much is still due.",
+        "desc": "Split the buy list into one order per supplier. When the truck arrives, the storekeeper creates a goods receipt against the order, and the order then shows how much has arrived and how much is still due.",
         "screen": "Purchase orders",
         "specs": [
           ["Who", "Purchasing, storekeeper"],
@@ -913,7 +913,7 @@
           },
           {
             "t": "Approval and receiving kept apart",
-            "b": "Approving an order and receiving it are separate statuses. Receiving has three levels: not received, receiving, fully received — no single “status” column doing everything."
+            "b": "Approving an order and receiving it are tracked as separate statuses. Receiving has three levels of its own: not received, receiving and fully received."
           }
         ]
       },
@@ -922,7 +922,7 @@
         "place": "Materials store",
         "short": "Inventory",
         "title": "Stock is a ledger, not a cell you type into.",
-        "desc": "Every stock figure is derived from approved receipts, issue slips and stock counts. When numbers drift, count and approve an adjustment — with a trail.",
+        "desc": "Every stock figure is derived from approved receipts, issue slips and stock counts. When the numbers drift, you count, approve an adjustment, and the change is logged.",
         "screen": "Inventory",
         "specs": [
           ["Who", "Storekeeper, store manager"],
@@ -932,7 +932,7 @@
         "hots": [
           {
             "t": "Approve, then post",
-            "b": "Draft, awaiting approval, approved: only approved slips change stock. Approved by mistake? A manager cancels it with a reason, and the system posts a reversing entry."
+            "b": "A slip goes from draft to awaiting approval to approved, and only approved slips change stock. If one is approved by mistake, a manager cancels it with a reason and the system posts a reversing entry."
           },
           {
             "t": "Stock counts",
@@ -955,11 +955,11 @@
         "hots": [
           {
             "t": "Generate issue slips",
-            "b": "One “Generate issue slip” button: materials and quantities pre-filled from each order line's BOM."
+            "b": "One “Generate issue slip” button fills in materials and quantities from each order line's BOM."
           },
           {
             "t": "Tracked per line",
-            "b": "Each order line knows whether its issue slip is draft, awaiting approval or approved — and whether finished goods have been received."
+            "b": "Each order line knows whether its issue slip is draft, awaiting approval or approved, and whether its finished goods have been received."
           }
         ]
       },
@@ -978,7 +978,7 @@
         "hots": [
           {
             "t": "Finished goods stock",
-            "b": "Stock by code, colour and unit — calculated from approved documents."
+            "b": "Stock by code, colour and unit, calculated from approved documents."
           },
           {
             "t": "Stock ledger",
@@ -1001,7 +1001,7 @@
         "hots": [
           {
             "t": "Public lookup page",
-            "b": "A public page: enter the VIN and see the warranty end date — no call centre needed."
+            "b": "A public page where entering the VIN shows the warranty end date, with no need to phone the call centre."
           },
           {
             "t": "Material defects by supplier",
@@ -1304,7 +1304,7 @@
     "tour": {
       "eyebrow": "The route",
       "title": "Follow the material flow.",
-      "body": "Every physical step in the factory creates a document — and the software follows exactly those steps. Click a number to jump to an area, click + for details.",
+      "body": "Every physical step in the factory creates a document, and the software follows those steps exactly. Click a number to jump to an area, or + for details.",
       "tabs": "Stops along the material flow",
       "route": "Dotted line: the material flow",
       "start": "Start from the BOM",
@@ -1323,19 +1323,19 @@
       "items": [
         {
           "t": "Guides on the real screens",
-          "b": "Walkthroughs by job — production orders and issue slips, planning and purchase orders, stock counts — that run step by step on the screen you're using."
+          "b": "Step-by-step walkthroughs for each job, such as production orders and issue slips, planning and purchase orders, or stock counts. They run on the screen you're already using."
         },
         {
           "t": "View as another role",
-          "b": "Admins see the system exactly as operations or a storekeeper sees it — support without guesswork."
+          "b": "Admins can see the system exactly as someone in operations or a storekeeper sees it, so they can help without guessing."
         },
         {
           "t": "Feedback from every screen",
-          "b": "A “Send feedback” button in the corner. Say it at the moment and in the place you got stuck — and see it fixed in the next loop."
+          "b": "There's a “Send feedback” button in the corner. Report a problem right where you got stuck, and see it fixed in the next update."
         },
         {
           "t": "Documents with history",
-          "b": "Every slip records who created it, who approved or rejected it, and when. Approved by mistake? A manager cancels it with a reason and the system posts a reversal — nothing is overwritten."
+          "b": "Every slip records who created it, who approved or rejected it, and when. If a slip is approved by mistake, a manager cancels it with a reason and the system posts a reversing entry, so nothing is overwritten."
         },
         {
           "t": "A4 print templates",
@@ -1369,12 +1369,12 @@
         {
           "k": "Data",
           "t": "Excel export",
-          "b": "Export any list to Excel at any time — your data is never locked inside the software."
+          "b": "Export any list to Excel at any time, so your data never gets stuck inside the software."
         },
         {
           "k": "Concurrent edits",
           "t": "No overwrites",
-          "b": "If two people edit the same slip, whoever saves second is warned — nothing is silently overwritten."
+          "b": "If two people edit the same slip, whoever saves second gets a warning instead of silently overwriting the first."
         },
         {
           "k": "Access",
@@ -1386,7 +1386,7 @@
     "roadmap": {
       "eyebrow": "Still building",
       "title": "An open roadmap, updated against a real factory.",
-      "body": "Priorities are set by our customers' bottlenecks, not by a feature list.",
+      "body": "Our customers' bottlenecks decide what we build next.",
       "items": [
         {
           "t": "Factory rollout",
