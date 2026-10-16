@@ -1,16 +1,22 @@
-import Eyebrow from "@/components/Eyebrow";
 import HeroFrame from "@/components/sections/HeroFrame";
+import { ProductLockup, type ProductKey } from "@/components/marks/ProductMark";
 
-/** Opening band of a product page: claim, two actions, and four key facts. */
+/**
+ * Opening band of a product page: the product's lockup and descriptor, then
+ * claim, two actions, and four key facts. The lockup name stays English; the
+ * descriptor carries the local wording (canon NAMING-CONTENT §1).
+ */
 export default function ProductHero({
-  eyebrow,
+  product,
+  descriptor,
   title,
   lead,
   primary,
   secondary,
   facts,
 }: {
-  eyebrow: string;
+  product: ProductKey;
+  descriptor: string;
   title: React.ReactNode;
   lead: string;
   primary: string;
@@ -20,7 +26,10 @@ export default function ProductHero({
   return (
     <HeroFrame className="pb-20">
       <div className="wrap pt-[104px] max-[900px]:pt-20">
-        <Eyebrow>{eyebrow}</Eyebrow>
+        <div className="phero-id">
+          <ProductLockup product={product} size={28} />
+          <span className="label">{descriptor}</span>
+        </div>
         <h1 className="h1 h1-sm mt-[26px] max-w-[980px]">{title}</h1>
         <p className="lead mt-[26px] max-w-[660px]">{lead}</p>
         <div className="mt-[34px] flex flex-wrap gap-3">

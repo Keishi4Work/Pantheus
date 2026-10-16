@@ -34,7 +34,8 @@ export default async function OfficePage({ params }: Props) {
     <>
       <main className="flex-1">
         <ProductHero
-          eyebrow={t("hero.eyebrow")}
+          product="office"
+          descriptor={t("hero.descriptor")}
           title={t.rich("hero.title", {
             acc: (c) => <span className="acc">{c}</span>,
           })}
@@ -50,7 +51,7 @@ export default async function OfficePage({ params }: Props) {
           nav={t.raw("nav")}
           plan={<OfficePlan l={t.raw("plan")} />}
           token="round"
-          brand={{ name: "Pantheus Office", dot: "", kbd: t("brand.kbd") }}
+          brand={{ product: "office", name: "Office", kbd: t("brand.kbd") }}
           text={t.raw("tour")}
           ui={{
             prev: common("prev"),

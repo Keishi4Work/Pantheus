@@ -38,7 +38,8 @@ export default async function ProductionPage({ params }: Props) {
     <>
       <main className="flex-1">
         <ProductHero
-          eyebrow={t("hero.eyebrow")}
+          product="production"
+          descriptor={t("hero.descriptor")}
           title={t.rich("hero.title", {
             acc: (c) => <span className="acc">{c}</span>,
           })}
@@ -56,9 +57,8 @@ export default async function ProductionPage({ params }: Props) {
           token="square"
           brand={{
             name: t("brand.name"),
-            dot: "bg-danger",
             kbd: t("brand.kbd"),
-            poweredBy: "Powered by Pantheus",
+            poweredBy: t("brand.poweredBy"),
           }}
           text={t.raw("tour")}
           ui={{

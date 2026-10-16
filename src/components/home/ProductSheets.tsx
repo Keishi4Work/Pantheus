@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { Chip, MockTable, MockTabs } from "@/components/tour/mock";
 import { PRODUCTION_APPS } from "@/components/tour/production";
 import type { MockApp } from "@/components/tour/stops";
+import { ProductLockup, type ProductKey } from "@/components/marks/ProductMark";
 
 type Inbox = {
   tabs: string[];
@@ -14,10 +15,11 @@ type Inbox = {
 };
 
 /**
- * The home page's product overview: one sheet per product, each a glimpse of
- * a real screen that opens the product's page, then a line for work outside
- * them. The production order screen comes from the product page's own copy,
- * so the two never drift apart.
+ * The home page's product overview. Released products get a sheet with a
+ * glimpse of a real screen that opens the product's page; products still to
+ * come get a quieter card with no link. Every product is introduced by its
+ * compact lockup (mark + name), never by the wordmark. The production order
+ * screen comes from the product page's own copy, so the two never drift apart.
  */
 export default async function ProductSheets() {
   const t = await getTranslations("Home.products");
@@ -31,9 +33,9 @@ export default async function ProductSheets() {
       <div className="sheets">
         <Sheet
           href="/office"
-          top={t("office.top")}
+          product="office"
           status={t("office.status")}
-          name="Pantheus Office"
+          tagline={t("office.tagline")}
           desc={t("office.desc")}
           link={t("office.link")}
         >
@@ -67,9 +69,9 @@ export default async function ProductSheets() {
 
         <Sheet
           href="/production"
-          top={t("production.top")}
+          product="production"
           status={t("production.status")}
-          name="Pantheus Production"
+          tagline={t("production.tagline")}
           desc={t("production.desc")}
           link={t("production.link")}
         >
@@ -92,6 +94,21 @@ export default async function ProductSheets() {
         </Sheet>
       </div>
 
+      <div className="soon">
+        {(["accounting", "crm"] as const).map((p) => (
+          <div key={p}>
+            <div className="sheet-top">
+              <ProductLockup product={p} size={22} />
+              <span className="badge">{t("soon")}</span>
+            </div>
+            <div>
+              <h3 className="soon-name">{t(`${p}.tagline`)}</h3>
+              <p className="body mt-1">{t(`${p}.desc`)}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
       <div className="sheets-more">
         <p className="body">{t("more.text")}</p>
         <a className="lnk" href="#contact">
@@ -104,31 +121,26 @@ export default async function ProductSheets() {
 
 function Sheet({
   href,
-  top,
+  product,
   status,
-  name,
+  tagline,
   desc,
   link,
   children,
 }: {
   href: string;
-  top: string;
+  product: ProductKey;
   status: string;
-  name: string;
+  tagline: string;
   desc: string;
   link: string;
   children: React.ReactNode;
 }) {
   return (
     <Link className="sheet" href={href}>
-      <div className="sheet-top mono">
-        <span>{top}</span>
-        <span>
-          <span className="acc" aria-hidden="true">
-            ●
-          </span>{" "}
-          {status}
-        </span>
+      <div className="sheet-top">
+        <ProductLockup product={product} size={22} />
+        <span className="badge badge-info">{status}</span>
       </div>
       <div className="sheet-shot" aria-hidden="true">
         <div className="app">
@@ -136,7 +148,7 @@ function Sheet({
         </div>
       </div>
       <div>
-        <h3 className="sheet-name">{name}</h3>
+        <h3 className="sheet-name">{tagline}</h3>
         <p className="body mt-1.5">{desc}</p>
       </div>
       <span className="sheet-go">

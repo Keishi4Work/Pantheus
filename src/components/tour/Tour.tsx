@@ -8,6 +8,8 @@ import {
   useSyncExternalStore,
 } from "react";
 import Eyebrow from "@/components/Eyebrow";
+import Mark from "@/components/marks/Mark";
+import ProductMark, { type ProductKey } from "@/components/marks/ProductMark";
 import { Chip, MockTable, MockTabs } from "./mock";
 import type { MockApp, NavGroup, Stop, Tag } from "./stops";
 
@@ -45,7 +47,15 @@ export default function Tour({
   /** Floor plan SVG content, drawn above the zone highlights. */
   plan: React.ReactNode;
   token: "round" | "square";
-  brand: { name: string; dot: string; kbd: string; poweredBy?: string };
+  /** `product` draws the Pantheus product mark; without it the mock is under
+   * a client's own brand (brand tier), shown as a plain logo stand-in, and
+   * Pantheus appears only as "Powered by" with the original λ mark. */
+  brand: {
+    product?: ProductKey;
+    name: string;
+    kbd: string;
+    poweredBy?: string;
+  };
   text: {
     eyebrow: string;
     title: string;
@@ -320,7 +330,11 @@ export default function Tour({
           <div className="app">
             <aside className="app-side">
               <div className="app-brand">
-                <span className={`app-dot ${brand.dot}`} aria-hidden="true" />
+                {brand.product ? (
+                  <ProductMark product={brand.product} size={16} />
+                ) : (
+                  <span className="app-logo" aria-hidden="true" />
+                )}
                 {brand.name}
               </div>
               {nav.map((g) => (
@@ -340,7 +354,10 @@ export default function Tour({
                 </div>
               ))}
               {brand.poweredBy && (
-                <div className="app-pw">{brand.poweredBy}</div>
+                <div className="app-pw">
+                  <Mark className="h-3 w-3" />
+                  {brand.poweredBy}
+                </div>
               )}
             </aside>
             <div className="app-main">

@@ -11,6 +11,7 @@
     "tagline": "Software designed around the way you operate.",
     "motto": "The foundation for every operation.",
     "products": "Products",
+    "soon": "Coming soon",
     "company": "Company",
     "approach": "Approach",
     "contact": "Contact"
@@ -28,7 +29,7 @@
   "Home": {
     "meta": {
       "title": "Pantheus — Software designed around the way you operate",
-      "description": "Pantheus designs software around the way each business runs, easy for every role and updated every week. Pantheus Office for office teams, Pantheus Production for factories."
+      "description": "Pantheus designs software around the way each business runs, easy for every role and updated every week. Pantheus Office for office teams, Pantheus Production for factories; Accounting and CRM are coming soon."
     },
     "hero": {
       "eyebrow": "The foundation for every operation.",
@@ -139,10 +140,11 @@
     },
     "products": {
       "eyebrow": "Products",
-      "title": "Starting with the office and the factory.",
+      "title": "Four products, one foundation.",
+      "soon": "Coming soon",
       "office": {
-        "top": "Sheet 02 · Office",
         "status": "Live",
+        "tagline": "Where the day's work comes together.",
         "desc": "The office team's whole day in one place: what comes first, who it's waiting on, what each meeting decided.",
         "link": "Walk through a workday",
         "inbox": {
@@ -182,10 +184,18 @@
         }
       },
       "production": {
-        "top": "Sheet 03 · Factory",
         "status": "Rolling out",
+        "tagline": "From bill of materials to finished goods.",
         "desc": "ERP for the factory: what to buy this week, what's really in stock, and how many units your materials can build.",
         "link": "Follow the material flow"
+      },
+      "accounting": {
+        "tagline": "Books that close clean.",
+        "desc": "Vouchers, ledgers, cash and reports under Circular 99/2025/TT-BTC."
+      },
+      "crm": {
+        "tagline": "Stay close to every client.",
+        "desc": "From the first hello to the repeat order."
       },
       "more": {
         "text": "Need software for another part of your operation? We design it around the way you already work.",
@@ -296,7 +306,7 @@
       "description": "Tasks, projects, meetings, documents, chat and purchase requests in one place, plus Pan, an AI assistant."
     },
     "hero": {
-      "eyebrow": "Pantheus Office · Sheet 02",
+      "descriptor": "Digital office",
       "title": "One workday, one <acc>flow</acc>.",
       "lead": "Tasks, projects, meetings, documents and chat in one place. Every screen is designed around the things people do many times a day.",
       "primary": "Try Office",
@@ -792,7 +802,7 @@
       "description": "Bills of materials, planning, purchasing, inventory, production orders and finished goods on one flow of data. Rolling out at an electric vehicle factory."
     },
     "hero": {
-      "eyebrow": "Pantheus Production · Sheet 03",
+      "descriptor": "Production management",
       "title": "<acc>One flow of data</acc> from materials at the gate to finished goods in stock.",
       "lead": "ERP for small and mid-sized factories in Vietnam: bills of materials, planning, purchasing, inventory, production orders and finished goods. It is rolling out at an electric vehicle factory, and new workflows are added every week.",
       "primary": "Book a consultation",
@@ -1275,7 +1285,8 @@
     },
     "brand": {
       "name": "Your factory",
-      "kbd": "Viewing as: Operations"
+      "kbd": "Viewing as: Operations",
+      "poweredBy": "Powered by Pantheus"
     },
     "tour": {
       "eyebrow": "The route",

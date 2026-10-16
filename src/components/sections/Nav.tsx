@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import Wordmark from "@/components/marks/Wordmark";
 import TripleBarMark from "@/components/marks/TripleBarMark";
+import ProductMark from "@/components/marks/ProductMark";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import {
   Sheet,
@@ -24,8 +25,8 @@ export default function Nav() {
   const pathname = usePathname();
 
   const pages = [
-    { href: "/office", label: "Office" },
-    { href: "/production", label: "Production" },
+    { href: "/office", label: "Office", product: "office" },
+    { href: "/production", label: "Production", product: "production" },
   ] as const;
   const approach = { pathname: "/", hash: "approach" };
 
@@ -45,8 +46,9 @@ export default function Nav() {
               key={p.href}
               href={p.href}
               aria-current={pathname === p.href ? "page" : undefined}
-              className="nav-link"
+              className="nav-link gap-2"
             >
+              <ProductMark product={p.product} size={16} />
               {p.label}
             </Link>
           ))}
@@ -78,9 +80,10 @@ export default function Nav() {
                     <Link
                       href={p.href}
                       aria-current={pathname === p.href ? "page" : undefined}
-                      className="border-b border-line py-4 text-xl font-semibold"
+                      className="flex items-center gap-3 border-b border-line py-4 text-xl font-semibold"
                     >
-                      Pantheus {p.label}
+                      <ProductMark product={p.product} size={20} />
+                      {p.label}
                     </Link>
                   </SheetClose>
                 ))}

@@ -11,6 +11,7 @@
     "tagline": "Phần mềm thiết kế riêng cho cách bạn vận hành.",
     "motto": "Nền tảng cho mọi vận hành.",
     "products": "Sản phẩm",
+    "soon": "Sắp ra mắt",
     "company": "Công ty",
     "approach": "Phương pháp",
     "contact": "Liên hệ"
@@ -28,7 +29,7 @@
   "Home": {
     "meta": {
       "title": "Pantheus — Phần mềm thiết kế riêng cho cách bạn vận hành",
-      "description": "Pantheus thiết kế phần mềm riêng theo cách từng doanh nghiệp vận hành, dễ dùng cho mọi vai trò và được cập nhật hằng tuần. Pantheus Office cho đội văn phòng, Pantheus Production cho nhà máy."
+      "description": "Pantheus thiết kế phần mềm riêng theo cách từng doanh nghiệp vận hành, dễ dùng cho mọi vai trò và được cập nhật hằng tuần. Pantheus Office cho đội văn phòng, Pantheus Production cho nhà máy; Accounting và CRM sắp ra mắt."
     },
     "hero": {
       "eyebrow": "Nền tảng cho mọi vận hành.",
@@ -139,10 +140,11 @@
     },
     "products": {
       "eyebrow": "Sản phẩm",
-      "title": "Bắt đầu từ văn phòng và nhà máy.",
+      "title": "Bốn sản phẩm, chung một nền móng.",
+      "soon": "Sắp ra mắt",
       "office": {
-        "top": "Sheet 02 · Văn phòng",
         "status": "Đang chạy",
+        "tagline": "Việc, người và tài liệu — một chỗ.",
         "desc": "Cả ngày làm việc của đội văn phòng ở một nơi: việc nào làm trước, đang chờ ai, cuộc họp đã chốt gì.",
         "link": "Đi qua một ngày làm việc",
         "inbox": {
@@ -188,10 +190,18 @@
         }
       },
       "production": {
-        "top": "Sheet 03 · Nhà máy",
         "status": "Đang triển khai",
+        "tagline": "Từ định mức đến thành phẩm.",
         "desc": "ERP cho nhà máy: tuần này cần mua gì, kho thật sự còn bao nhiêu, vật tư hiện có làm được bao nhiêu sản phẩm.",
         "link": "Đi theo dòng vật tư"
+      },
+      "accounting": {
+        "tagline": "Sổ khớp, khóa sổ đúng hạn.",
+        "desc": "Chứng từ, sổ sách, tiền mặt và báo cáo theo Thông tư 99/2025/TT-BTC."
+      },
+      "crm": {
+        "tagline": "Giữ mạch với khách hàng.",
+        "desc": "Từ lời chào đầu tiên đến đơn hàng lặp lại."
       },
       "more": {
         "text": "Cần phần mềm cho một mảng vận hành khác? Chúng tôi thiết kế riêng, bắt đầu từ cách bạn đang làm.",
@@ -302,7 +312,7 @@
       "description": "Task, dự án, cuộc họp, tài liệu, trao đổi và đề nghị mua hàng trong cùng một nơi, kèm trợ lý AI Pan."
     },
     "hero": {
-      "eyebrow": "Pantheus Office · Sheet 02",
+      "descriptor": "Văn phòng số",
       "title": "Một ngày làm việc, một <acc>luồng</acc>.",
       "lead": "Task, dự án, cuộc họp, tài liệu và trao đổi trong cùng một nơi. Từng màn hình được thiết kế quanh những thao tác mọi người làm nhiều lần mỗi ngày.",
       "primary": "Dùng thử Office",
@@ -799,7 +809,7 @@
       "description": "Định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm trên một dòng dữ liệu. Đang triển khai tại một nhà máy xe điện."
     },
     "hero": {
-      "eyebrow": "Pantheus Production · Sheet 03",
+      "descriptor": "Quản lý sản xuất",
       "title": "<acc>Một dòng dữ liệu</acc> từ lúc vật tư về cổng đến khi thành phẩm nhập kho.",
       "lead": "ERP cho nhà máy vừa và nhỏ tại Việt Nam: định mức, kế hoạch, mua hàng, kho, lệnh sản xuất và thành phẩm. Hiện đang triển khai tại một nhà máy xe điện và được bổ sung nghiệp vụ hằng tuần.",
       "primary": "Đặt lịch tư vấn",
@@ -1257,7 +1267,8 @@
     },
     "brand": {
       "name": "Nhà máy của bạn",
-      "kbd": "Đang xem: Điều hành sản xuất"
+      "kbd": "Đang xem: Điều hành sản xuất",
+      "poweredBy": "Vận hành bởi Pantheus"
     },
     "tour": {
       "eyebrow": "Hành trình",
@@ -1301,7 +1312,7 @@
         },
         {
           "t": "Mang tên nhà máy bạn",
-          "b": "Phần mềm mang tên và logo của nhà máy. Pantheus chỉ xuất hiện ở một dòng “Powered by”."
+          "b": "Phần mềm mang tên và logo của nhà máy. Pantheus chỉ xuất hiện ở một dòng “Vận hành bởi Pantheus”."
         }
       ]
     },

@@ -1,4 +1,4 @@
-import { Manrope, Geist_Mono } from "next/font/google";
+import { Manrope, JetBrains_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
@@ -13,9 +13,9 @@ const manrope = Manrope({
   display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
+  subsets: ["latin", "latin-ext", "vietnamese"],
   display: "swap",
 });
 
@@ -42,7 +42,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${manrope.variable} ${geistMono.variable} h-full`}
+      className={`${manrope.variable} ${jetbrainsMono.variable} h-full`}
     >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider messages={{ Nav: messages.Nav }}>

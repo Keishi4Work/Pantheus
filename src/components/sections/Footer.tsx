@@ -1,5 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import ProductMark from "@/components/marks/ProductMark";
+import { PRODUCT_NAMES } from "@/components/marks/product-marks";
 
 export default async function Footer() {
   const t = await getTranslations("Footer");
@@ -15,8 +17,20 @@ export default async function Footer() {
           </div>
           <nav aria-label={t("products")}>
             <div className="mono mb-2 text-ink-soft">{t("products")}</div>
-            <Link href="/office">Pantheus Office</Link>
-            <Link href="/production">Pantheus Production</Link>
+            <Link href="/office">
+              <ProductMark product="office" size={16} />
+              Office
+            </Link>
+            <Link href="/production">
+              <ProductMark product="production" size={16} />
+              Production
+            </Link>
+            {(["accounting", "crm"] as const).map((p) => (
+              <span key={p} className="foot-soon">
+                <ProductMark product={p} size={16} />
+                {PRODUCT_NAMES[p]} · {t("soon")}
+              </span>
+            ))}
           </nav>
           <nav aria-label={t("company")}>
             <div className="mono mb-2 text-ink-soft">{t("company")}</div>

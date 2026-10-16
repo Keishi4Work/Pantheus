@@ -102,7 +102,7 @@ export default async function Page({ params }: Props) {
 
         <section
           id="products"
-          className="py-[clamp(64px,11svh,110px)] max-[900px]:py-[84px]"
+          className="py-[clamp(56px,9svh,110px)] max-[900px]:py-[84px]"
         >
           <div className="wrap">
             <Eyebrow>{t("products.eyebrow")}</Eyebrow>
